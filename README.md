@@ -37,10 +37,17 @@ Este proyecto es una API RESTful desarrollada con **Spring Boot** que permite ge
 
 ## ENDPOINTS
 Para obtener marcas de coches
+
 /api/marcas/coches
+
 Para obtener marcas de motos
+
 /api/marcas/motos
+
 Para obtener los modelos de una marca de coche en especial
+
 /api/modelos/coches?marca=Kia
+
 Para obtener los modelos de una marca de moto en especial
+
 /api/modelos/motos?marca=Zontes
