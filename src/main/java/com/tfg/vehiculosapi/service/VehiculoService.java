@@ -298,42 +298,108 @@ public class VehiculoService {
 						"MT-09", "YZF-R9", "XSR900", "Tracer 7", "Tracer 9", "Tenere 700", "Tenere 900", "Niken",
 						"Niken GT"));
 		motos.put("Honda",
-				List.of("CB125R", "CBR125R", "CB125F", "CB300R", "CBR300R", "CB500F", "CBR500R", "CB500X", "CB650R",
-						"CBR650R", "NC750S", "NC750X", "CB750 Hornet", "CBR750R", "CB1000R", "CBR1000RR-R Fireblade",
-						"Africa Twin", "Gold Wing"));
+				List.of("CB500F", "CB500X", "CB650R", "CBR1000RR", "CBR600RR", "CBR500R", "CRF250L", "CRF450L", 
+				        "CRF110F", "CRF150R", "CRF250R", "CRF450R", "CRF450X", "Grom", "Africa Twin", "Rebel 500", 
+				        "Rebel 1100", "VFR800", "VFR1200F", "Shadow Phantom", "Shadow Aero", "Shadow Spirit", "CT125", 
+				        "CBR1000RR-R", "CBR250R", "CBR300R", "VTR1000", "NC750X", "NC750S", "CB1100", "CB125F", 
+				        "CB300R", "CB150R", "X-ADV", "Gold Wing", "Gold Wing Tour", "Monkey", "Super Cub C125", "CRF150L", 
+				        "CRF250X", "XR650L", "XR250", "XR400R", "XR500", "CB750", "CB650F", "NSS300 Forza", "Dax", 
+				        "CBR250RR", "CB300F", "VFR1200X", "VTR250", "CBR650F", "CB150F", "X-ADV 750", "CRF1000L", 
+				        "CB500R", "CB1000R", "VFR800X", "CRF1100L", "CBR600F4i", "CBR900RR", "TLR200", "TRX450R", 
+				        "TLR250", "CBR900RR FireBlade"));
+		
 		motos.put("Kawasaki",
-				List.of("Z125", "Ninja 125", "Z250", "Ninja 250", "Z400", "Ninja 400", "Z650", "Ninja 650", "Z900",
-						"Ninja ZX-6R", "Z1000", "Ninja ZX-10R", "Versys-X 300", "Versys 650", "Versys 1000", "Vulcan S",
-						"Vulcan 900", "Vulcan 1700"));
+				List.of("Ninja 400", "Ninja 650", "Ninja 1000SX", "Ninja ZX-6R", "Ninja ZX-10R", "Ninja ZX-14R", 
+				        "Versys 300", "Versys 650", "Versys 1000", "Z125 Pro", "Z400", "Z650", "Z900", "Z1000", 
+				        "Z1000 R", "Z900RS", "Z650RS", "W800", "Vulcan S", "Vulcan 900", "Vulcan 1700", "Vulcan 2000", 
+				        "KLR650", "KX65", "KX85", "KX100", "KX250", "KX450", "KLX110", "KLX140", "KLX230", 
+				        "KLX300R", "KLX450R", "Concours 14", "Mule Pro-FX", "Mule Pro-FXT", "Mule 4010 Trans4x4", 
+				        "Mule 600", "Mule 610", "Mule 4000", "Mule 4010", "Mule 3010", "Mule SX", "Mule 700", 
+				        "Mule Pro-DX", "Mule Pro-DXT", "Mule Pro-MX", "Mule Pro-MX EPS", "Ninja H2", "Ninja H2R", 
+				        "ZXR", "Z2", "Z3", "KLR250", "Z2R", "ZX-12R", "ZX-10RR", "ZX-9R", "Z900RS Cafe"));
 		motos.put("Ducati",
 				List.of("Monster", "Scrambler Icon", "Scrambler Nightshift", "Scrambler Desert Sled", "Panigale V2",
 						"Panigale V4", "Panigale V4 S", "Panigale V4 R", "SuperSport 950", "Streetfighter V2",
 						"Streetfighter V4", "Streetfighter V4 S", "Multistrada V2", "Multistrada V4",
 						"Multistrada V4 S", "Diavel 1260", "XDiavel"));
 		motos.put("KTM",
-				List.of("125 Duke", "RC 125", "200 Duke", "390 Duke", "RC 390", "690 Duke", "790 Duke", "890 Duke R",
-						"1290 Super Duke R", "1290 Super Duke GT", "390 Adventure", "790 Adventure", "890 Adventure",
-						"1290 Super Adventure S", "1290 Super Adventure R", "450 Rally", "Freeride E-XC"));
-		motos.put("Suzuki", List.of("GSX-8S", "V-Strom 800DE", "V-Strom 1050", "V-Strom 1050DE", "Avenis 125",
-				"Burgman Street 125EX"));
-		motos.put("BMW", List.of("F900R", "F850GS", "F750GS"));
+				List.of("125 Duke", "200 Duke", "250 Duke", "390 Duke", "690 Duke", "790 Duke", "890 Duke", "990 Duke", "1290 Super Duke",
+				        "RC 125", "RC 200", "RC 250", "RC 390", "RC 8C",
+				        "690 SMC R", "450 SMR", "450 SX-F", "250 SX", "250 SX-F", "125 SX", "150 SX", "300 SX",
+				        "250 EXC", "300 EXC", "350 EXC-F", "450 EXC-F", "500 EXC-F",
+				        "690 Enduro R", "790 Adventure", "890 Adventure", "1290 Super Adventure S", "1290 Super Adventure R",
+				        "Freeride E-XC", "Freeride 250 F", "Freeride 350",
+				        "Adventure 390", "Adventure 250", "Adventure 200",
+				        "125 EXC", "150 EXC", "250 EXC TPI", "300 EXC TPI", "450 EXC", "500 EXC", 
+				        "SMR 125", "SMR 250", "SMR 450", "SMR 690", "SX-E 5", "E-Speed",
+				        "Mini Adventure", "65 SX", "85 SX", "105 SX", "50 SX", "50 Mini", 
+				        "Enduro 350", "Enduro 450", "Enduro 500", "105 XC", "450 XC-F", "350 XC-F",
+				        "450 Rally", "690 Rally", "950 Rally", "450 EXC Rally", "1290 Super Rally"));
+		
+		motos.put("Suzuki", 
+				List.of("GSX-R1000", "GSX-R750", "GSX-R600", "GSX-S1000", "GSX-S750", "GSX250R", "Hayabusa", "Katana",
+				        "SV650", "SV650X", "V-Strom 1050", "V-Strom 650", "V-Strom 250", "DR650", "DR-Z400", "DR-Z125",
+				        "DR200", "RM-Z450", "RM-Z250", "RM85", "GSX1400", "GSX1250FA", "GSX650F", "GS500", "GSX250F",
+				        "Inazuma 250", "Bandit 1250", "Bandit 650", "Intruder 1800", "Intruder 1500", "Intruder 800",
+				        "Intruder 250", "Boulevard M109R", "Boulevard C50", "Boulevard S40", "Boulevard M50",
+				        "Marauder 250", "Marauder 800", "GN125", "GN250", "GZ150", "GZ250", "TU250X", "DR-BIG",
+				        "TS185", "TS250", "TS125", "TS90", "TS50", "GS450", "GS550", "GS750", "GS1000", "GS1100",
+				        "GS1150", "GS1200SS", "Burgman 200", "Burgman 400", "Burgman 650", "Burgman 125",
+				        "Access 125", "Avenis 125", "Lets", "Gixxer 250", "Gixxer 150", "Gixxer SF 250", "Gixxer SF 150",
+				        "Shogun", "Raider R150", "Smash 115", "Address 110", "Step 125", "AX100", "Fronte", "RE5",
+				        "X6 Hustler", "GT185", "GT250", "GT380", "GT500", "GT550", "GT750", "GSX1100S Katana",
+				        "GSX1100G", "GSX1100F", "GSF600", "GSF1200", "GR650", "RE5", "DR-Z70", "DR-Z110", "DR-Z400SM",
+				        "DR650SE", "VanVan 200", "VanVan 125", "GSX250R ABS", "GSX-S125", "RMX450Z", "GSX1300R Hayabusa"));
+		
+		motos.put("BMW", 
+				List.of("S1000RR", "S1000R", "S1000XR", "R1250GS", "R1250RT", "R1250R", "R1250RS", "R nineT", "R nineT Pure",
+				        "R nineT Scrambler", "R nineT Urban G/S", "G310R", "G310GS", "F750GS", "F850GS", "F850GS Adventure",
+				        "F900R", "F900XR", "K1600GT", "K1600GTL", "K1600B", "K1600 Grand America", "R18", "R18 Classic",
+				        "R18 B", "R18 Transcontinental", "C400X", "C400GT", "C650 Sport", "C650GT", "C Evolution",
+				        "R1200GS", "R1200RT", "R1200R", "R1200RS", "F800GS", "F800R", "F800GT", "F700GS", "F650GS",
+				        "K1300R", "K1300S", "K1200R", "K1200S", "K1200LT", "K1200GT", "R1100GS", "R1150GS", "R1100RT",
+				        "R1150RT", "R1100R", "R1150R", "R1100S", "R1150RS", "HP2 Enduro", "HP2 Sport", "HP4",
+				        "R80GS", "R90S", "R100RS", "R100RT", "R80RT", "R80ST", "R65", "R45", "K75", "K100", "K1100RS",
+				        "K1100LT", "K1", "R80G/S", "R1200C", "G450X", "F650", "F650CS", "F650ST", "F650 Funduro",
+				        "F650 Dakar", "G650GS", "G650 Xchallenge", "G650 Xmoto", "G650 Xcountry", "G310R", "G310GS",
+				        "CE 04", "F900R", "F900XR", "S1000XR", "R nineT Racer", "R nineT Scrambler", "R nineT Urban G/S",
+				        "R nineT Pure", "R nineT", "R18 B", "R18 Transcontinental", "R18 Classic", "R18", "C Evolution"));
+		
 		motos.put("Harley-Davidson",
-				List.of("Road Glide Limited", "Road King Special", "Low Rider ST", "Fat Bob 114", "Low Rider S",
-						"Sport Glide", "Street Bob 114", "Softail Standard", "Softail Heritage Classic 114",
-						"Fat Boy 114", "Ultra Limited"));
+				List.of("Sportster S", "Iron 883", "Iron 1200", "Forty-Eight", "Nightster", "Roadster", 
+				        "Softail Standard", "Street Bob", "Low Rider", "Low Rider S", "Fat Bob", "Fat Boy", 
+				        "Heritage Classic", "Deluxe", "Breakout", "Road King", "Road King Special", "Street Glide", 
+				        "Street Glide Special", "Road Glide", "Road Glide Special", "Road Glide Limited", "Electra Glide", 
+				        "Ultra Limited", "CVO Street Glide", "CVO Road Glide", "CVO Limited", "CVO Tri Glide", 
+				        "Tri Glide Ultra", "Freewheeler", "LiveWire", "Pan America", "Pan America Special", 
+				        "FXDR 114", "V-Rod", "Night Rod", "Street Rod", "Street 500", "Street 750", 
+				        "Dyna Super Glide", "Dyna Street Bob", "Dyna Fat Bob", "Dyna Wide Glide", 
+				        "Dyna Low Rider", "Dyna Switchback", "Super Glide", "Shovelhead", "Panhead", 
+				        "Knucklehead", "Evolution", "Twin Cam", "Revolution Max", "Electra Glide Standard", 
+				        "Road Glide Ultra", "Road Glide Custom", "Ultra Classic", "Heritage Springer", 
+				        "Softail Slim", "Cross Bones", "Rocker", "Rocker C", "Street Glide ST", "Road Glide ST", 
+				        "Sport Glide", "Night Train", "Wide Glide", "Street Bob 114", "Fat Boy 114", 
+				        "Low Rider ST", "Breakout 114", "Iron 883N", "Iron 1200N", "Forty-Eight Special"));
+		
 		motos.put("Triumph", List.of("Daytona 955i", "Legend TT", "Street Triple", "Speed Triple", "Sprint",
 				"Tiger 800", "Tiger 1050", "Tiger Explorer"));
+		
 		motos.put("Aprilia",
 				List.of("RS 660", "Tuono 660", "RSV4", "Tuono V4", "Tuareg 660", "Shiver 900", "Dorsoduro 900"));
+		
 		motos.put("Zongshen",
 				List.of("RX1", "RX3", "RX4", "RC3", "RZ3", "ZS 50 GY", "ZS 110-26", "ZS 125-2", "ZS 125-4",
 						"ZS 125 GY-Un", "ZS 125 ST ATV", "ZS 125 T-7", "ZS 125 T-8", "ZS 150 GY", "ZS 200 GY",
 						"ZS 250 GY-3", "ZS 125 T-30", "ZS 200 GS", "ZS 250 GS", "ZS 250-5", "Zx 200", "Z One S", "Z II",
 						"ZS125-67"));
+		
 		motos.put("Lexmoto", List.of("LXR 125", "LXS 125", "Isca 125", "ZSB 125", "Michigan 125", "Vendetta 250"));
+		
 		motos.put("Lifan", List.of("KPR 200", "KPT 200", "KP 150", "LF150-10S", "LF125-14F", "LF250GY-2"));
+		
 		motos.put("SYM",
 				List.of("Jet 14 125", "Symphony ST 125", "Cruisym 125", "Fiddle III 125", "NH-T 125", "Maxsym TL 500"));
+		
 		motos.put("Loncin", List.of("GP 150", "CR 9", "LX 650", "DS8", "Voge 500R", "Voge 500DS"));
 
 	}
