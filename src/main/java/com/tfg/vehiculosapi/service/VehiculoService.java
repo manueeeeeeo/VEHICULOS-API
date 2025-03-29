@@ -285,14 +285,19 @@ public class VehiculoService {
 		// Declaro todas las marcas de motos junto con sus modelos
 		motos.put("Zontes", List.of("G1-125", "G1-125 X", "U1-125", "GK125", "R310", "T310", "X310", "GK350", "Z2-350",
 				"Z3-350", "Z4-350", "V310", "M310", "E125", "C125", "E350", "Mantis 125", "Scrambler 125"));
+		
 		motos.put("CFMOTO", List.of("125NK", "300NK", "300SR", "650NK", "650MT", "650GT", "700CL-X Heritage",
 				"700CL-X Sport", "700CL-X Adventure", "800MT", "Papio 125", "300GT-E", "300CL-X"));
+		
 		motos.put("QJ Motor", List.of("SRK 125", "SRV 125", "SRK 250", "SRV 250", "SRK 350", "SRV 350", "SRT 500",
 				"SRK 500", "SRV 500", "SRT 700", "SRK 700", "SRV 700", "SRK 1000", "SRV 1000", "SRT 1000"));
+		
 		motos.put("Voge", List.of("125R", "125AC", "300R", "300AC", "300DS", "500R", "500AC", "500DS", "500DSX",
 				"650DS", "650DSX", "900DS", "900DSX", "SR4 Max", "SR1 125"));
+		
 		motos.put("Benelli", List.of("BN 125", "Leoncino 125", "302S", "Leoncino 500", "TRK 502", "502C", "752S",
 				"Leoncino 800", "TRK 702", "TRK 800", "Imperiale 400"));
+		
 		motos.put("Yamaha",
 				List.of("MT-125", "YZF-R125", "XSR125", "MT-03", "YZF-R3", "XSR300", "MT-07", "YZF-R7", "XSR700",
 						"MT-09", "YZF-R9", "XSR900", "Tracer 7", "Tracer 9", "Tenere 700", "Tenere 900", "Niken",
@@ -381,9 +386,6 @@ public class VehiculoService {
 				        "Sport Glide", "Night Train", "Wide Glide", "Street Bob 114", "Fat Boy 114", 
 				        "Low Rider ST", "Breakout 114", "Iron 883N", "Iron 1200N", "Forty-Eight Special"));
 		
-		motos.put("Triumph", List.of("Daytona 955i", "Legend TT", "Street Triple", "Speed Triple", "Sprint",
-				"Tiger 800", "Tiger 1050", "Tiger Explorer"));
-		
 		motos.put("Aprilia",
 				List.of("RS 660", "Tuono 660", "RSV4", "Tuono V4", "Tuareg 660", "Shiver 900", "Dorsoduro 900"));
 		
@@ -401,7 +403,105 @@ public class VehiculoService {
 				List.of("Jet 14 125", "Symphony ST 125", "Cruisym 125", "Fiddle III 125", "NH-T 125", "Maxsym TL 500"));
 		
 		motos.put("Loncin", List.of("GP 150", "CR 9", "LX 650", "DS8", "Voge 500R", "Voge 500DS"));
-
+		
+		motos.put("Zero", List.of("DSR/X 17.3 Black Forest 2025", "DSR/X 17.3 2025", "SR/S 17.3 2025", "SR/F 17.3 2025", 
+				"DSR 15.6 2025", "SR 15.6 2025", "FX 7.2 2025", "DS 14.4 2025", "S 14.4 2025", "FXE 7.2 2025", 
+				"XE 4.3 2025", "XB 2.4 2025"));
+		
+		motos.put("Vespa", List.of("GTS 125 FL24 E5+", "GTS 125 Super FL24 E5+", "GTS 125 Supersport FL24 E5+", "GTS 310 FL24 E5+", 
+				"GTS 310 Super FL24 E5+", "GTS 310 Supersport FL24 E5+", "Sprint S 50 FL 24", "Sprint S 125 FL 24", "Primavera 50 FL 24", 
+				"Primavera S 50 FL 24", "Primavera 50 4T RED FL 24", "Primavera 50 TECH FL 24", "Primavera 125 FL 24", 
+				"Primavera 125 S FL 24", "Primavera 125 RED FL 24", "Primavera 125 Batik FL 24", "Primavera 125 Tech FL 24", 
+				"Primavera Elettrica (L1)", "Sprint S Elettrica (L1)", "Primavera Elettrica RED (L1)", 
+				"Primavera Tech Elettrica FL 24 (L3)", "Primavera Tech RED Elettrica FL 24 (L3)", "GTV 300"));
+		
+		motos.put("Triumph", List.of( "Bonneville Bobber 2025", "Bonneville Bobber Icon Edition 2025", "Bonneville Bobber TFC 2025", 
+				"Bonneville Speedmaster 2025", "Bonneville Speedmaster Icon Edition 2025", "Bonneville T100 2025", 
+				"Bonneville T100 Blue Stealth 2024", "Bonneville T100 Chrome 2023", "Bonneville T100 Icon Edition 2025", 
+				"Bonneville T120 2025", "Bonneville T120 Black 2021-2024", "Bonneville T120 Icon Edition 2025", 
+				"Rocket 3 GT Evel Knievel 2025", "Rocket 3 R Evel Knievel 2025", "Scrambler 1200 X Icon Edition 2025", 
+				"Scrambler 1200 XE 2024", "Scrambler 1200 XE Icon Edition 2025", "Scrambler 400 X 2024", 
+				"Scrambler 900 2025", "Scrambler 900 Icon Edition 2025", "Speed 400 2024", "Speed Triple 1200 RR 2022-2024", 
+				"Speed Triple 1200 RR Breitling 2024", "Speed Triple 1200 RS 2021-2024", "Speed Triple 1200 RS 2025", 
+				"Speed Twin 1200 2025", "Speed Twin 1200 RS 2025", "Speed Twin 900 2023-2024", "Speed Twin 900 2025", 
+				"Street Triple 765 R/A2 2025", "Street Triple 765 RS 2025", "Tiger 1200 Rally Pro 2024", 
+				"Tiger 850 Sport 2025", "Tiger 900 GT 2024", "Tiger 900 GT Pro 2024", "Tiger 900 Rally Pro 2024", 
+				"Tiger Sport 660 2025", "Tiger Sport 800 2025", "Trident 660 2021-2024", "Trident 660 2025", 
+				"Daytona 660 2024", "Daytona 675", "Daytona 675 2013", "Daytona 675 ABS 2013", "Daytona 675 R", 
+				"Daytona 675 R 2013", "Daytona 675 SE", "Daytona 765 Moto2 Limited Edition", 
+				"Speed Triple 1200 RR Bond Edition 2023", "Street Triple 765 R 2023-2024", "Street Triple Moto2 2023" ));
+		
+		motos.put("Rieju", List.of( "MRT 50 SM Trophy 2025", "Nuuk Urban 6 2022", "Tango 125/Scrambler 2022-2024", 
+				"Blast Urban 50 2018", "Bye Bike 2018-2020", "Century 125 2018-2021", "City Line 125", "City Line 300", 
+				"E-City 125 2022", "Marathon 125 Pro 2022", "MR 300 Pro 2024", "MR Racing 300 2024", "MRT 50 2025", 
+				"MRT 50 Pro 2025", "Marathon Pro 250 2010", "Marathon Pro 450 2010", "MR 250 Racing/Pro 2022", 
+				"MR 250 Racing/Pro 2023", "MR 300 Racing/Pro 2021", "MR 300 Racing/Pro 2022", "MR 300 Racing/Pro 2023", 
+				"MR Ranger 200 2023", "MR Ranger 300 2023", "MRT 125 AC 2016-2017", "MRT 50 2010-2017", 
+				"MRT 50 2022", "MRT 50 Pro 2010-2017", "MRT 50 Pro 2022", "MRT 50/Pro/Replica 2018-2021", 
+				"Aventura 500", "Aventura 125", "RS3 NKD 50", "RS3 50", "Strada 125", "Marathon 50", "Marathon 74", 
+				"Sprint", "P3A", "TT", "Automatic KS", "Drac", "RR 50", "RS1", "RS2" ));
+		
+		motos.put("Piaggio", null);
+		
+		motos.put("Peugeot", null);
+		
+		motos.put("Montesa", null);
+		
+		motos.put("MITT", null);
+		
+		motos.put("Mondial", null);
+		
+		motos.put("Malaguti", null);
+		
+		motos.put("Macbor", null);
+		
+		motos.put("MH", null);
+		
+		motos.put("Mash", null);
+		
+		motos.put("Lambretta", null);
+		
+		motos.put("Keeway", null);
+		
+		motos.put("Kymco", null);
+		
+		motos.put("Indian", null);
+		
+		motos.put("Husqvarna", null);
+		
+		motos.put("Gas Gas", null);
+		
+		motos.put("Hanway", null);
+		
+		motos.put("Fantic", null);
+		
+		motos.put("Derbi", null);
+		
+		motos.put("Brixton", null);
+		
+		motos.put("Daelim", null);
+		
+		motos.put("Bimota", null);
+		
+		motos.put("Benelli", null);
+		
+		motos.put("Can-Am", null);
+		
+		motos.put("Hyosung", null);
+		
+		motos.put("Moto Guzzi", null);
+		
+		motos.put("MV Agusta", null);
+		
+		motos.put("Moto Morini", null);
+		
+		motos.put("Royal Enfield", null);
+		
+		motos.put("Qooder", null);
+		
+		motos.put("SYM", null);
+		
+		motos.put("UM Motorcycles", null);
 	}
 
 	// Método para obtener todas las marcas de los coches
