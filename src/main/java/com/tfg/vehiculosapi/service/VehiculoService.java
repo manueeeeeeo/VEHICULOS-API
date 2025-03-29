@@ -459,23 +459,25 @@ public class VehiculoService {
 		
 		motos.put("Mash", null);
 		
-		motos.put("Lambretta", null);
+		motos.put("Lambretta", List.of("G350", "LN 125"));
 		
 		motos.put("Keeway", null);
 		
 		motos.put("Kymco", null);
 		
-		motos.put("Indian", null);
+		motos.put("Indian", List.of("Chief", "Chieftain", "FTR 1200", "Roadmaster", "Scout", "Springfield"));
 		
-		motos.put("Husqvarna", null);
+		motos.put("Husqvarna", List.of("701 Enduro", "701 Supermoto", "Norden 901", "Svartpilen 125", "Svartpilen 401", "Svartpilen 701", 
+				"Svartpilen 801", "Vitpilen 401", "Vitpilen 701"));
 		
-		motos.put("Gas Gas", null);
+		motos.put("Gas Gas", List.of("EC300", "TXT 125 Pro", "TXT 125 R", "TXT 125 Racing", "TXT 250 Pro", "TXT 280 R", 
+				"TXT 300 Pro", "TXT 300 R"));
 		
-		motos.put("Hanway", null);
+		motos.put("Hanway", List.of("Flash 125", "Furious NK 125 S", "Raw 125", "Scrambler 125"));
 		
 		motos.put("Fantic", null);
 		
-		motos.put("Derbi", null);
+		motos.put("Derbi", List.of("Senda", "Terra Adventure 125", "Variant"));
 		
 		motos.put("Brixton", null);
 		
@@ -483,11 +485,13 @@ public class VehiculoService {
 		
 		motos.put("Bimota", null);
 		
-		motos.put("Benelli", null);
+		motos.put("Benelli", List.of("502C", "752 S", "BN 302", "BN600", "Imperiale", "Leoncino", 
+				"TNT 125", "TnT 899 S", "TRK 502", "TRK 702"));
 		
-		motos.put("Can-Am", null);
+		motos.put("Can-Am", List.of("Spyder F3"));
 		
-		motos.put("Hyosung", null);
+		motos.put("Hyosung", List.of("502C", "752 S", "BN 302", "BN600", "Imperiale", "Leoncino", 
+				"TNT 125", "TnT 899 S", "TRK 502", "TRK 702"));
 		
 		motos.put("Moto Guzzi", null);
 		
