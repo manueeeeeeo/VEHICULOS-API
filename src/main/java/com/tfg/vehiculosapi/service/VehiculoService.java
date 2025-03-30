@@ -475,15 +475,15 @@ public class VehiculoService {
 		
 		motos.put("Hanway", List.of("Flash 125", "Furious NK 125 S", "Raw 125", "Scrambler 125"));
 		
-		motos.put("Fantic", null);
+		motos.put("Fantic", List.of("Caballero"));
 		
 		motos.put("Derbi", List.of("Senda", "Terra Adventure 125", "Variant"));
 		
-		motos.put("Brixton", null);
+		motos.put("Brixton", List.of("BX 125", "Cromwell 1200", "Cromwell 1200 X", "Crossfire 125"));
 		
-		motos.put("Daelim", null);
+		motos.put("Daelim", List.of("Besbi 125", "Daystar 125 Fi", "Daystar 125 L Fi", "XQ"));
 		
-		motos.put("Bimota", null);
+		motos.put("Bimota", List.of("Tesi H2 R"));
 		
 		motos.put("Benelli", List.of("502C", "752 S", "BN 302", "BN600", "Imperiale", "Leoncino", 
 				"TNT 125", "TnT 899 S", "TRK 502", "TRK 702"));
@@ -493,13 +493,15 @@ public class VehiculoService {
 		motos.put("Hyosung", List.of("502C", "752 S", "BN 302", "BN600", "Imperiale", "Leoncino", 
 				"TNT 125", "TnT 899 S", "TRK 502", "TRK 702"));
 		
-		motos.put("Moto Guzzi", null);
+		motos.put("Moto Guzzi", List.of("Audace", "MGX-21", "Stelvio", "V100", "V7", "V7 II", "V7 Stone", "V85", "V9"));
 		
-		motos.put("MV Agusta", null);
+		motos.put("MV Agusta", List.of("800 Turismo Veloce", "Brutale 1090 R", "Brutale 800", "Dragster 800", "Enduro Veloce", "F3 675",
+				"F3 800 Ago", "F4 1000", "F4 R", "Superveloce", "Turismo Veloce 800"));
 		
-		motos.put("Moto Morini", null);
+		motos.put("Moto Morini", List.of("Corsaro 1200", "Rebello 1200", "Scrambler 1200", "X-Cape"));
 		
-		motos.put("Royal Enfield", null);
+		motos.put("Royal Enfield", List.of("Classic 350", "Continental GT", "Himalayan", "Interceptor 650", 
+				"Meteor 350", "SCRAM 411", "Super Meteor 650"));
 		
 		motos.put("Qooder", null);
 		
