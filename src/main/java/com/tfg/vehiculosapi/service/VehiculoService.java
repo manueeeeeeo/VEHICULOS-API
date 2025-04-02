@@ -551,11 +551,40 @@ public class VehiculoService {
 		motos.put("Gas Gas", List.of("EC300", "TXT 125 Pro", "TXT 125 R", "TXT 125 Racing", "TXT 250 Pro", "TXT 280 R", 
 				"TXT 300 Pro", "TXT 300 R"));
 		
-		motos.put("Hanway", List.of("Flash 125", "Furious NK 125 S", "Raw 125", "Scrambler 125"));
+		motos.put("Hanway",
+				List.of("Raw 50", "Raw 125", "Raw Café 125", "Raw Café Racer 50", "Raw Café Racer 125", 
+						"Raw SR 125", "Muscle 125", "Scrambler 125", "Scrambler 50", "Tourer 125", 
+						"Street 50", "Street 125", "Black Café 125", "Black Café 50", "SC 125", 
+						"SC 50", "Raw SR Chrome 125", "Raw SR Chrome 50", "Venture 125", "Venture 50", 
+						"G15 Adventure 125", "G15 Scrambler 125", "G15 Urban 125", "G15 Adventure 50", 
+						"Scrambler 125 Furious", "Café Racer 125 Limited", "Raw Sport 125", 
+						"Raw Sport 50", "Flash 125", "Flash 50", "Furious 125", "Furious 50", 
+						"Vintage 125", "Vintage 50"));
 		
-		motos.put("Fantic", List.of("Caballero"));
+		motos.put("Fantic",
+				List.of("Caballero 50", "Caballero 125", "Caballero 200", "Caballero 250", "Caballero 500", 
+						"Caballero 500 Scrambler", "Caballero 500 Rally", "Caballero 500 Flat Track", 
+						"Caballero 500 Deluxe", "Caballero 500 Explorer", "Caballero 125 Scrambler", 
+						"Caballero 125 Rally", "Caballero 125 Flat Track", "Issimo 50", "Issimo 125", 
+						"TX 150", "TX 200", "TX 250", "TX 300", "XE 125", "XE 250", "XE 300", "XX 125", 
+						"XX 250", "XX 300", "Motard 50", "Motard 125", "E-Motard", "Performance 125", 
+						"Performance 250", "Performance 300", "Supermotard 50", "Supermotard 125", 
+						"Motorcross 50", "Motorcross 125", "Casa 50", "Casa 125", "TR 50", "TR 125", 
+						"TR 250", "TR 300", "K-Racer 125", "K-Racer 250", "K-Racer 500", "Caballero Rally 125", 
+						"Caballero Rally 500", "Enduro 50", "Enduro 125", "Enduro 250", "Enduro 300"));
 		
-		motos.put("Derbi", List.of("Senda", "Terra Adventure 125", "Variant"));
+		motos.put("Derbi",
+				List.of("Senda 50", "Senda Xtreme 50", "Senda DRD Racing 50", "Senda DRD Pro 50", 
+						"Senda Baja 50", "Senda SM 50", "Senda R 50", "Senda X-Treme SM", "Senda X-Treme R", 
+						"Senda DRD X-Treme", "Senda DRD Limited", "Senda DRD Evo", "Senda DRD Pro SM", 
+						"Senda DRD Pro R", "Senda DRD Racing SM", "Senda DRD Racing R", "Senda DRD Pro Limited", 
+						"Terra 125", "Terra Adventure 125", "Mulhacén 125", "Mulhacén Café 125", 
+						"Mulhacén Café 659", "GPR 50", "GPR 125", "GPR 50 Racing", "GPR 125 Racing", 
+						"GPR 50 Nude", "GPR 125 Nude", "Cross City 125", "Boulevard 125", "Variante 48", 
+						"Antorcha", "Rabasa", "Diablo", "Paddock 50", "Vamos 125", "Vamos 200", 
+						"Atlantis 50", "Atlantis 100", "Atlantis 125", "Atlantis Bullet", 
+						"Scooter 50", "GP1 50", "GP1 125", "GP1 250", "Sonar 50", "Sonar 125", 
+						"Predator 50", "Predator 100", "Variant", "Revolution 50", "Revolution 125"));
 		
 		motos.put("Brixton", List.of("BX 125", "Cromwell 1200", "Cromwell 1200 X", "Crossfire 125"));
 		
@@ -563,20 +592,55 @@ public class VehiculoService {
 		
 		motos.put("Bimota", List.of("Tesi H2 R"));
 		
-		motos.put("Benelli", List.of("502C", "752 S", "BN 302", "BN600", "Imperiale", "Leoncino", 
-				"TNT 125", "TnT 899 S", "TRK 502", "TRK 702"));
+		motos.put("Benelli",
+				List.of("Imperiale 400", "Leoncino 250", "Leoncino 500", "Leoncino 800", "Leoncino 800 Trail", 
+						"TRK 251", "TRK 502", "TRK 502 X", "TRK 702", "TRK 702 X", "TRK 800", 
+						"302R", "TNT 125", "TNT 135", "TNT 150", "TNT 300", "TNT 600", "TNT 899", 
+						"TNT 1130", "Tornado Naked Tre 899", "Tornado Naked Tre 1130", "Tornado 302", 
+						"Tornado 650", "Tornado 900", "Tornado Tre 900", "Tornado Tre 1130", "Quattro 500", 
+						"Sei 750", "Sei 900", "BN 125", "BN 251", "BN 302", "BN 600", "BN 600i", 
+						"BN 302 S", "BN 502", "Velvet 125", "Velvet 150", "Caffenero 150", "Caffenero 250", 
+						"Pepe 50", "Pepe 125", "Macis 125", "Macis 150", "Zenzero 350", "Citybike 125", 
+						"Citybike 250", "Mini Bike 50", "Motorella 50", "MotoBi 125", "Sprite 200", 
+						"Sprite 250", "Sprite 350", "Sport 250", "Sport 500", "Sport Special", 
+						"250 2C", "500 LS", "504 Sport", "654 Sport", "654 Tourer", "654 Racing", 
+						"750 Sei", "900 Sei", "Trek 1130", "Trek Amazonas 1130", "BX 250", "BX 500", 
+						"502 C", "502 Cruiser"));
 		
-		motos.put("Can-Am", List.of("Spyder F3"));
+		motos.put("Can-Am",
+				List.of("Ryker", "Ryker Rally Edition", "Spyder F3", "Spyder F3-S", "Spyder F3-T", "Spyder F3 Limited",
+						"Spyder RT", "Spyder RT Limited", "Spyder RS", "Spyder RS-S", "Spyder ST", "Spyder ST-S",
+						"Spyder ST Limited", "Spyder GS", "Outlander 450", "Outlander 570", "Outlander 650", 
+						"Outlander 850", "Outlander 1000", "Outlander X mr", "Outlander X xc", "Outlander MAX", 
+						"Renegade 570", "Renegade 850", "Renegade 1000", "Commander 700", "Commander 1000", 
+						"Defender HD5", "Defender HD8", "Defender HD10", "Maverick 1000R", "Maverick X3", 
+						"Maverick X3 Max", "Maverick Trail", "Maverick Sport", "DS 450", "DS 250", "DS 90", 
+						"DS 70", "Rally 175", "Rally 200", "MX2", "MX3", "ASE 250", "ASE 500", "ASE 800"));
 		
-		motos.put("Hyosung", List.of("502C", "752 S", "BN 302", "BN600", "Imperiale", "Leoncino", 
-				"TNT 125", "TnT 899 S", "TRK 502", "TRK 702"));
+		motos.put("Hyosung",
+				List.of("GT125", "GT125R", "GT250", "GT250R", "GT650", "GT650R", "GV125C", "GV125S", 
+						"GV250", "GV300S", "GV650", "GV700C", "ST7", "RT125D", "RT125 Karion", 
+						"RT125 SM", "Aquila 125", "Aquila 250", "Aquila 650", "Exiv 250", "Exiv 650", 
+						"Comet 125", "Comet 250", "Comet 650", "MS3-125", "MS3-250", "RX125", "RX250", 
+						"RX450", "RX650", "Mirage 250", "Mirage 650", "GV650 Pro", "Aquila GV250FI", 
+						"GD250N", "GD250R", "GT300R", "GV300DR", "GV650 Classic", "GT250 Naked", 
+						"GT650 Naked", "RX450SM", "RX450R"));
 		
 		motos.put("Moto Guzzi", List.of("Audace", "MGX-21", "Stelvio", "V100", "V7", "V7 II", "V7 Stone", "V85", "V9"));
 		
 		motos.put("MV Agusta", List.of("800 Turismo Veloce", "Brutale 1090 R", "Brutale 800", "Dragster 800", "Enduro Veloce", "F3 675",
 				"F3 800 Ago", "F4 1000", "F4 R", "Superveloce", "Turismo Veloce 800"));
 		
-		motos.put("Moto Morini", List.of("Corsaro 1200", "Rebello 1200", "Scrambler 1200", "X-Cape"));
+		motos.put("Moto Morini",
+				List.of("Corsaro 1200", "Corsaro 1200 Veloce", "Corsaro ZZ", "Corsaro ZT", 
+						"Seiemmezzo STR", "Seiemmezzo SCR", "Milano", "Super Scrambler", 
+						"X-Cape", "X-Cape 649", "X-Cape 650", "Granpasso 1200", "Scrambler 1200", 
+						"Rebello 1200 Giubileo", "3 1/2", "3 1/2 Sport", "500 Camel", 
+						"500 Excalibur", "500 Sei-V", "KJ 125", "KJ 200", "Corsarino", 
+						"Excalibur 350", "Excalibur 501", "New York 350", "New York 501", 
+						"125 H", "250 T", "350 K2", "350 Sport", "350 Turismo", "500 Turbo", 
+						"501 Camel", "501 Excalibur", "Granpasso R", "Corsaro Avio", 
+						"X-Cape Adventure", "X-Cape Rally"));
 		
 		motos.put("Royal Enfield", List.of("Classic 350", "Continental GT", "Himalayan", "Interceptor 650", 
 				"Meteor 350", "SCRAM 411", "Super Meteor 650"));
@@ -585,7 +649,16 @@ public class VehiculoService {
 		
 		motos.put("SYM", null);
 		
-		motos.put("UM Motorcycles", null);
+		motos.put("UM Motorcycles",
+				List.of("Renegade Commando", "Renegade Commando Classic", "Renegade Sport S", "Renegade Mojave", 
+						"Renegade Duty", "Renegade Duty Ace", "Renegade Vegas", "Renegade Freedom", 
+						"Renegade Commando Black Cat", "Renegade Thor", "Renegade Commando Classic 300", 
+						"Renegade Sport S 300", "Hypersport", "Nitrox", "Dirt Bike 150", "Dirt Bike 200", 
+						"Dirt Bike 250", "DSR 200", "DSR Adventure TT", "Xtreet 125", "Xtreet 150", 
+						"Xtreet R", "Xtreet RS", "Max 125", "Max 150", "Nitrox 125", "Nitrox 150", 
+						"Hypersport 125", "Hypersport 200", "Hypersport 250", "Xplorer 150", "Xplorer 250", 
+						"Xplorer 300", "Xplorer 400", "Renegade Commando 125", "Renegade Sport S 125", 
+						"Renegade Classic 125", "Renegade Vegas 125"));
 	}
 
 	// Método para obtener todas las marcas de los coches
