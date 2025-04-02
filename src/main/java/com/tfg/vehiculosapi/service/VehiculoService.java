@@ -586,7 +586,11 @@ public class VehiculoService {
 						"Scooter 50", "GP1 50", "GP1 125", "GP1 250", "Sonar 50", "Sonar 125", 
 						"Predator 50", "Predator 100", "Variant", "Revolution 50", "Revolution 125"));
 		
-		motos.put("Brixton", List.of("BX 125", "Cromwell 1200", "Cromwell 1200 X", "Crossfire 125"));
+		motos.put("Brixton",
+				List.of("Crossfire 125", "Crossfire 125 XS", "Crossfire 250", "Crossfire 500", "Crossfire 500 X", 
+						"Crossfire 500 XC", "Cromwell 125", "Cromwell 250", "Cromwell 500", 
+						"Felsberg 125", "Felsberg 250", "Felsberg 500", "Rayburn 125", 
+						"Sunray 125", "BX 125", "BX 125 R", "BX 125 X", "Glanville 250 X"));
 		
 		motos.put("Daelim", List.of("Besbi 125", "Daystar 125 Fi", "Daystar 125 L Fi", "XQ"));
 		
@@ -628,8 +632,20 @@ public class VehiculoService {
 		
 		motos.put("Moto Guzzi", List.of("Audace", "MGX-21", "Stelvio", "V100", "V7", "V7 II", "V7 Stone", "V85", "V9"));
 		
-		motos.put("MV Agusta", List.of("800 Turismo Veloce", "Brutale 1090 R", "Brutale 800", "Dragster 800", "Enduro Veloce", "F3 675",
-				"F3 800 Ago", "F4 1000", "F4 R", "Superveloce", "Turismo Veloce 800"));
+		motos.put("MV Agusta",
+				List.of("Brutale 675", "Brutale 800", "Brutale 800 RR", "Brutale 1000 RR", 
+						"Brutale 1000 Nürburgring", "Brutale Dragster 800", "Brutale Dragster 800 RR", 
+						"Brutale Dragster 800 RC", "Brutale Dragster 800 Rosso", "F3 675", "F3 800", 
+						"F3 800 RC", "F4", "F4 RR", "F4 RC", "Superveloce 800", "Superveloce 800 S", 
+						"Superveloce 800 Serie Oro", "Superveloce 800 Ago", "Superveloce 1000", 
+						"Rush 1000", "Turismo Veloce 800", "Turismo Veloce 800 Lusso", 
+						"Turismo Veloce 800 Lusso SCS", "Turismo Veloce 800 RC", "Turismo Veloce 800 Rosso", 
+						"Turismo Veloce 800 SCS", "Turismo Veloce 800 Rosso SCS", "Rapido Sport", 
+						"Rapido Lusso", "125 TR", "175 CSS", "350 B", "350 Sport", "350 Ipotesi", 
+						"750S", "750 Sport", "750 America", "750 S America", "750 Super America", 
+						"MV Agusta 500 Three", "Magni 861", "Magni 1200", "Rivale 800", "Rivale 800 RR", 
+						"RVS#1", "Stradale 800", "Cagiva Elefant 900 IE", "Cagiva Grand Canyon 900", 
+						"Dragster RC Shining Gold", "Brutale 1000 Serie Oro"));
 		
 		motos.put("Moto Morini",
 				List.of("Corsaro 1200", "Corsaro 1200 Veloce", "Corsaro ZZ", "Corsaro ZT", 
