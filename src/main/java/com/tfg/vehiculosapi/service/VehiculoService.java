@@ -592,9 +592,24 @@ public class VehiculoService {
 						"Felsberg 125", "Felsberg 250", "Felsberg 500", "Rayburn 125", 
 						"Sunray 125", "BX 125", "BX 125 R", "BX 125 X", "Glanville 250 X"));
 		
-		motos.put("Daelim", List.of("Besbi 125", "Daystar 125 Fi", "Daystar 125 L Fi", "XQ"));
+		motos.put("Daelim",
+				List.of("Daystar 125", "Daystar 250", "Daystar VL 125", "Roadwin 125", "Roadwin R 125", 
+						"Roadwin 250", "Roadwin 250R", "S1 125", "S2 125", "S3 125", "S3 250", 
+						"VJF 125", "VJF 250", "VJ 125", "B-Bone 125", "Besbi 125", "Citi Ace 110", 
+						"Dart 125", "Deluxe 125", "Freewing 250", "History 125", "NS 125", "NS 250", 
+						"Steezer 125", "Steezer 250", "VC 125", "VS 125", "XQ 125", "XQ 250", 
+						"Aquila 125", "Aquila 250", "Aquila GV 125", "Aquila GV 250", "V-Lux 125", 
+						"V-Lux 250", "V-Gran 125", "V-Gran 250", "Defcon 125", "Defcon 250", "Lynx 125"));
 		
-		motos.put("Bimota", List.of("Tesi H2 R"));
+		motos.put("Bimota",
+				List.of("HB1", "HB2", "HB3", "KB1", "KB2", "KB3", "KB4", "KB4 RC",
+						"SB2", "SB3", "SB4", "SB5", "SB6", "SB6R", "SB7", "SB8K", "SB8R", 
+						"SB8RS", "SB8K Santamonica", "DB1", "DB2", "DB3 Mantra", "DB4", "DB5", 
+						"DB5R", "DB6 Delirio", "DB7", "DB8", "DB9 Brivido", "DBX", "BB1 Supermono", 
+						"BB2", "BB3", "Tesi 1D", "Tesi 2D", "Tesi 3D", "Tesi H2", "YB3", "YB4", 
+						"YB4EI", "YB5", "YB6", "YB7", "YB8", "YB9", "YB10", "YB11", "YB12", 
+						"YB8 Furano", "YB8 Evoluzione", "YB11 Superleggera", "V-Due", "TESI H2 Carbon", 
+						"TESI H2 Traditional", "TESI H2 Carbono", "KB4 RC", "KB4", "TESI H2 Naked"));
 		
 		motos.put("Benelli",
 				List.of("Imperiale 400", "Leoncino 250", "Leoncino 500", "Leoncino 800", "Leoncino 800 Trail", 
@@ -630,7 +645,22 @@ public class VehiculoService {
 						"GD250N", "GD250R", "GT300R", "GV300DR", "GV650 Classic", "GT250 Naked", 
 						"GT650 Naked", "RX450SM", "RX450R"));
 		
-		motos.put("Moto Guzzi", List.of("Audace", "MGX-21", "Stelvio", "V100", "V7", "V7 II", "V7 Stone", "V85", "V9"));
+		motos.put("Moto Guzzi",
+				List.of("V7", "V7 III", "V7 Special", "V7 Stone", "V7 Rough", "V7 Racer", "V7 Classic",
+						"V7 II", "V7 II Stone", "V7 II Special", "V7 II Racer", "V7 III Stone", 
+						"V7 III Special", "V7 III Racer", "V7 III Rough", "V7 III Milano", "V7 Centenario", 
+						"V9 Bobber", "V9 Roamer", "V85 TT", "V85 TT Travel", "V85 TT Centenario", 
+						"V100 Mandello", "V100 Mandello S", "California 1400", "California Touring", 
+						"California Custom", "California Vintage", "California III", "California II", 
+						"California 1100", "California Stone", "California Special", "California EV", 
+						"Griso 1100", "Griso 1200", "Norge 1200", "Norge GT 8V", "Breva 750", 
+						"Breva 850", "Breva 1100", "Breva 1200", "Bellagio", "Stelvio 1200", "Stelvio NTX", 
+						"Le Mans", "Le Mans II", "Le Mans III", "Le Mans 850", "Le Mans 1000", 
+						"Daytona 1000", "Daytona RS", "Sport 1100", "Sport 1200", "850 T3", "850 Le Mans", 
+						"850 California", "V50", "V65", "V75", "850 GT", "Galletto", "Falcone", "Airone", 
+						"Zigolo", "Dingo", "Stornello", "Lodola", "Cardellino", "Nuovo Falcone", 
+						"Audace", "Eldorado", "MGX-21", "MGS-01", "Quota 1000", "Quota 1100", "Quota 650", 
+						"Quota 750", "TS", "V11 Le Mans", "V11 Sport", "V11 Rosso Mandello"));
 		
 		motos.put("MV Agusta",
 				List.of("Brutale 675", "Brutale 800", "Brutale 800 RR", "Brutale 1000 RR", 
@@ -663,7 +693,20 @@ public class VehiculoService {
 		
 		motos.put("Qooder", null);
 		
-		motos.put("SYM", null);
+		motos.put("SYM",
+				List.of("Jet 4", "Jet 4R", "Jet 14", "Jet 14 125", "Jet 14 150", "Jet 14 200", 
+						"Symphony", "Symphony S", "Symphony SR", "Symphony ST", "Symphony Cargo", 
+						"Cruisym 125", "Cruisym 150", "Cruisym 300", "Cruisym Alpha", "Maxsym 400", 
+						"Maxsym 500", "Maxsym TL 500", "Fiddle II", "Fiddle III", "Fiddle 125", 
+						"Fiddle 150", "Orbit II", "Orbit III", "Orbit 125", "Orbit 150", "NH-T 125", 
+						"NH-T 200", "NH-X 125", "NH-X 200", "Wolf 125", "Husky 125", "Magic 125", 
+						"Crox 125", "Crox 150", "Tonik 50", "Tonik 125", "Attila 125", "Duke 125", 
+						"VS 150", "Citycom 300i", "Citycom S 300i", "Joymax Z 300", "Joymax Z+", 
+						"Joymax 125", "Joymax 250", "Joymax 300", "Joyride 125", "Joyride 200", 
+						"Shark 125", "Shark 150", "Mask 125", "FNX 125", "Classic 125", "Bonus 110", 
+						"Star 125", "Allo 50", "Allo 100", "Mio 50", "Mio 100", "Mio 115", 
+						"Symba 100", "Orbit 50", "Jet 50", "Jet 100", "Jet SportX", "Jet SportX EVO", 
+						"Maxsym 600i", "QuadRaider 600", "QuadRaider 700"));
 		
 		motos.put("UM Motorcycles",
 				List.of("Renegade Commando", "Renegade Commando Classic", "Renegade Sport S", "Renegade Mojave", 
