@@ -504,15 +504,44 @@ public class VehiculoService {
 		
 		motos.put("Piaggio", null);
 		
-		motos.put("Peugeot", null);
+		motos.put("Peugeot",
+				List.of("Peugeot Django 50", "Peugeot Django 125", "Peugeot Django 150", "Peugeot Tweet 50", 
+						"Peugeot Tweet 100", "Peugeot Tweet 125", "Peugeot Citystar 50", "Peugeot Citystar 125", 
+						"Peugeot Citystar 200", "Peugeot Speedfight 50", "Peugeot Speedfight 100", "Peugeot Speedfight 125", 
+						"Peugeot Ludix 50", "Peugeot Ludix 100", "Peugeot Ludix 125", "Peugeot Vivacity 50", 
+						"Peugeot Vivacity 100", "Peugeot Vivacity 125", "Peugeot Satelis 125", "Peugeot Satelis 300", 
+						"Peugeot Metropolis 400", "Peugeot Metropolis 500", "Peugeot Kisbee 50", "Peugeot Kisbee 100", 
+						"Peugeot Kisbee 125", "Peugeot Tweet 50 4T", "Peugeot Traveller 50", "Peugeot Traveller 100", 
+						"Peugeot Traveller 125", "Peugeot Pulsion 125", "Peugeot Pulsion 300", "Peugeot Belville 125", 
+						"Peugeot Belville 200", "Peugeot XR7", "Peugeot XR8", "Peugeot RCX 50", "Peugeot RCX 100", 
+						"Peugeot RCX 125"));
 		
 		motos.put("Montesa", null);
 		
-		motos.put("MITT", null);
+		motos.put("MITT",
+				List.of("MITT 125 GPR", "MITT 125 RR", "MITT 125 GP", "MITT 125 X", "MITT 125 Scrambler", 
+						"MITT 125 Cafe Racer", "MITT 125 Cruiser", "MITT 150 GPR", "MITT 150 RR", 
+						"MITT 150 X", "MITT 150 GP", "MITT 300 GPR", "MITT 300 RR", "MITT 300 X", 
+						"MITT 300 GP", "MITT 500 GPR", "MITT 500 RR", "MITT 500 X", "MITT 500 GP", 
+						"MITT 650 X", "MITT 650 GP", "MITT 650 RR", "MITT 650 Scrambler", 
+						"MITT 650 Cruiser", "MITT 500 Cafe Racer", "MITT 125 Enduro", "MITT 250 Enduro", 
+						"MITT 500 Enduro", "MITT 125 Street Fighter", "MITT 150 Street Fighter", 
+						"MITT 300 Street Fighter", "MITT 500 Street Fighter"));
 		
 		motos.put("Mondial", null);
 		
-		motos.put("Malaguti", null);
+		motos.put("Malaguti",
+				List.of("Madison 125", "Madison 150", "Madison 250", "F12 50", "F12 100", 
+						"F15 125", "F15 150", "F15 250", "XTM 125", "XTM 200", 
+						"XTM 250", "XSM 125", "XSM 200", "XSM 250", "Fighter 50", 
+						"Fighter 100", "Fighter 125", "Fighter 150", "Fighter 250", 
+						"Zebra 50", "Zebra 125", "Zebra 150", "Zebra 200", "Crosser 50", 
+						"Raptor 125", "Raptor 250", "Raptor 500", "Raptor X", "Krypton 50", 
+						"Krypton 125", "Krypton 150", "Krypton 200", "Krypton 250", 
+						"Madison 400", "Phantom 50", "Phantom 125", "Phantom 150", 
+						"Phantom 250", "Malaguti 125", "Malaguti 150", "Malaguti 200", 
+						"Malaguti 250", "Reptile 125", "Reptile 150", "Reptile 250", 
+						"Reptile 500", "Spyder 125", "Spyder 150", "Spyder 200"));
 		
 		motos.put("Macbor", null);
 		
@@ -528,9 +557,35 @@ public class VehiculoService {
 						"Special 125", "Special 150", "Special 200", "V-Special 50", "V-Special 125", 
 						"V-Special 200", "X300", "G-Special 300"));
 		
-		motos.put("Keeway", null);
+		motos.put("Keeway",
+				List.of("RKF 125", "RKR 125", "K-Light 125", "K-Light 200", "Superlight 125", 
+						"Superlight 200", "Superlight 250", "Superlight Limited Edition", 
+						"TX 125", "TX 200", "TX 125 S", "TX 200 S", "TX 250", 
+						"RKS 125", "RKS 150", "RKS 200", "RKV 125", "RKV 200", 
+						"RKV Sport 125", "RKV Sport 200", "Blackster 250", "Cruiser 250", 
+						"Patagonian Eagle 250", "Patagonian 150", "Patagonian 200", "Patagonian 250", 
+						"Outlook 125", "Outlook 150", "Logik 125", "Logik 150", "Cityblade 125", 
+						"Cityblade 150", "Matrix 125", "F-Act 50", "F-Act Evo 50", "Pixel 50", 
+						"Zahara 125", "Zahara 150", "Vieste 125", "Vieste 300", "Blueshark R", 
+						"Blueshark Lite", "Blueshark GT", "Sixties 300i", "Silverblade 250", 
+						"Silverblade 300", "RY6 50", "RY8 50", "Leone 125", "X-Ray 125", 
+						"X-Ray 150", "X-BLADE 125", "X-BLADE 150", "Keeway Versilia 125", 
+						"Keeway Versilia 150", "Keeway SR 125", "Keeway SR 250"));
 		
-		motos.put("Kymco", null);
+		motos.put("Kymco",
+				List.of("Agility 50", "Agility 125", "Agility City 125", "Agility City 150", "Agility City 200", 
+						"Agility Plus 125", "Super Dink 125", "Super Dink 300", "Super Dink 350", "Grand Dink 125", 
+						"Grand Dink 300", "People 125", "People S 125", "People GT 300", "People One 125", 
+						"Downtown 125", "Downtown 300", "Downtown 350", "AK 550", "Xciting 250", 
+						"Xciting 300", "Xciting 400", "Xciting S 400", "Like 50", "Like 125", 
+						"Like 150", "Like 200", "Like 300", "Miler 125", "Vitality 50", 
+						"Dink 50", "Dink 125", "Dink 200", "Dink Street 125", "Dink Street 300", 
+						"Venox 250", "Pulsar 125", "Pulsar 150", "Pulsar 200", "Movie 125", 
+						"Bet&Win 150", "Bet&Win 250", "K-XCT 125", "K-XCT 300", "X-Town 125", 
+						"X-Town 300", "X-Town 400", "UXV 450", "MXU 300", "MXU 700", 
+						"Mongoose 90", "Mongoose 270", "Mongoose 700", "Maxxer 300", "Maxxer 450", 
+						"K-Pipe 125", "K-Pipe 50", "Filly 50", "Sento 50", "Sento 100", 
+						"Super 8 50", "Super 8 125", "Super 9 50", "Downtown 125i", "Downtown 350i"));
 		
 		motos.put("Indian",
 				List.of("Chief", "Chief Dark Horse", "Chief Bobber", "Chief Bobber Dark Horse", "Chieftain", 
@@ -545,11 +600,33 @@ public class VehiculoService {
 						"Silver Arrow", "Model O", "Model K", "Model C", "Model F", "Model O", "Roadster", 
 						"Indian Four", "Standard", "Prince"));
 		
-		motos.put("Husqvarna", List.of("701 Enduro", "701 Supermoto", "Norden 901", "Svartpilen 125", "Svartpilen 401", "Svartpilen 701", 
-				"Svartpilen 801", "Vitpilen 401", "Vitpilen 701"));
+		motos.put("Husqvarna",
+				List.of("Svartpilen 125", "Svartpilen 250", "Svartpilen 401", "Svartpilen 701", 
+						"Vitpilen 125", "Vitpilen 250", "Vitpilen 401", "Vitpilen 701", 
+						"Norden 901", "Norden 901 Expedition", "TE 150", "TE 250", "TE 300", 
+						"TE 310", "TE 350", "TE 450", "TE 510", "TE 610", "TE 630", 
+						"FE 250", "FE 350", "FE 450", "FE 501", "FE 701", 
+						"TC 50", "TC 65", "TC 85", "TC 125", "TC 250", "TC 450", 
+						"TX 125", "TX 300", "TXC 250", "TXC 310", "TXC 450", 
+						"FC 250", "FC 350", "FC 450", "FS 450", "SM 125", "SM 450", 
+						"SM 610", "SM 630", "701 Enduro", "701 Supermoto", "TR 650 Strada", 
+						"TR 650 Terra", "WR 125", "WR 250", "WR 300", "WR 360", 
+						"WR 430", "WR 500", "WR 125X", "WR 250X", "WR 300X", 
+						"CR 125", "CR 250", "CR 360", "CR 500"));
 		
-		motos.put("Gas Gas", List.of("EC300", "TXT 125 Pro", "TXT 125 R", "TXT 125 Racing", "TXT 250 Pro", "TXT 280 R", 
-				"TXT 300 Pro", "TXT 300 R"));
+		motos.put("Gas Gas",
+				List.of("TXT 80", "TXT 125", "TXT 250", "TXT 280", "TXT 300", 
+						"TXT Racing 125", "TXT Racing 250", "TXT Racing 280", "TXT Racing 300", 
+						"TXT GP 125", "TXT GP 250", "TXT GP 280", "TXT GP 300", 
+						"EC 125", "EC 200", "EC 250", "EC 300", "EC 350", 
+						"EC 450", "EC Ranger 200", "EC Ranger 300", 
+						"EC 250F", "EC 350F", "EC 300F", "EC 450F", 
+						"MC 125", "MC 250", "MC 450F", "MC 65", "MC 85", 
+						"MC 250F", "MC 350F", "MC-E 5", "MC-E 12", "MC-E 16", 
+						"SM 125", "SM 250", "SM 450", 
+						"XC 125", "XC 200", "XC 250", "XC 300", "XC 450", 
+						"XC 250F", "XC 350F", "XC 300F", "XC 450F", 
+						"TXE", "Contact 250", "Contact 280", "Contact 300"));
 		
 		motos.put("Hanway",
 				List.of("Raw 50", "Raw 125", "Raw Café 125", "Raw Café Racer 50", "Raw Café Racer 125", 
@@ -688,10 +765,21 @@ public class VehiculoService {
 						"501 Camel", "501 Excalibur", "Granpasso R", "Corsaro Avio", 
 						"X-Cape Adventure", "X-Cape Rally"));
 		
-		motos.put("Royal Enfield", List.of("Classic 350", "Continental GT", "Himalayan", "Interceptor 650", 
-				"Meteor 350", "SCRAM 411", "Super Meteor 650"));
+		motos.put("Royal Enfield",
+				List.of("Bullet 350", "Bullet 500", "Classic 350", "Classic 500", "Interceptor 650", 
+						"Continental GT 650", "Meteor 350", "Super Meteor 650", "Himalayan", 
+						"Scram 411", "Thunderbird 350", "Thunderbird 500", "Thunderbird X 350", 
+						"Thunderbird X 500", "Electra 350", "Electra 500", "Model G", "Model J", 
+						"Flying Flea", "Constellation", "Interceptor 750", "Meteor Minor", 
+						"Cyclone", "Lightning 535", "Explorer", "Machismo", "Silver Plus", 
+						"Mini Bullet", "Citybike", "Sherpa", "Crusader", "Crusader Sports", 
+						"Clipper", "Super Meteor 700", "Meteor 700", "Interceptor Mark 1", 
+						"Interceptor Mark 2", "Classic 500 Pegasus", "Bullet Trials Works Replica 500", 
+						"Bullet Trials Works Replica 350", "Himalayan BS6"));
 		
-		motos.put("Qooder", null);
+		motos.put("Qooder",
+				List.of("Qooder", "Qooder QV3", "Qooder QV4", "Qooder Qooder", "Qooder Oxygen", 
+						"Qooder e-Qooder", "Qooder XQooder", "Qooder Nuvion"));
 		
 		motos.put("SYM",
 				List.of("Jet 4", "Jet 4R", "Jet 14", "Jet 14 125", "Jet 14 150", "Jet 14 200", 
