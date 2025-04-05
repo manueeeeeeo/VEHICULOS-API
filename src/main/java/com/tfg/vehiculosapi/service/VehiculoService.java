@@ -502,7 +502,20 @@ public class VehiculoService {
 				"Aventura 500", "Aventura 125", "RS3 NKD 50", "RS3 50", "Strada 125", "Marathon 50", "Marathon 74", 
 				"Sprint", "P3A", "TT", "Automatic KS", "Drac", "RR 50", "RS1", "RS2" ));
 		
-		motos.put("Piaggio", null);
+		motos.put("Piaggio",
+				List.of("Vespa 50", "Vespa 125", "Vespa 150", "Vespa 200", "Vespa 300", 
+						"Vespa Sprint 50", "Vespa Sprint 125", "Vespa Sprint 150", "Vespa GTS 125", 
+						"Vespa GTS 300", "Vespa GTS 300 HPE", "Vespa Elettrica", "Liberty 50", 
+						"Liberty 125", "Liberty 150", "Liberty 200", "Piaggio Beverly 125", 
+						"Piaggio Beverly 300", "Piaggio Beverly 350", "Piaggio MP3 250", 
+						"Piaggio MP3 300", "Piaggio MP3 500", "Piaggio Zip 50", "Piaggio Zip 100", 
+						"Piaggio Fly 50", "Piaggio Fly 125", "Piaggio Fly 150", "Piaggio Medley 125", 
+						"Piaggio Medley 150", "Piaggio Medley 300", "Piaggio X10 125", "Piaggio X10 350", 
+						"Piaggio X10 500", "Piaggio BV350", "Piaggio BV500", "Piaggio Typhoon 50", 
+						"Piaggio Typhoon 125", "Piaggio Typhoon 150", "Piaggio Liberty S 50", "Piaggio Liberty S 125", 
+						"Piaggio Zip S 50", "Piaggio Zip S 100", "Piaggio TPH 50", "Piaggio TPH 125", 
+						"Piaggio Beverly SportTouring 300", "Piaggio Beverly 400", "Piaggio MP3 Yourban 300", 
+						"Piaggio MP3 Yourban 500", "Piaggio Biker 125", "Piaggio Fly 150 CC", "Piaggio Ape 50"));
 		
 		motos.put("Peugeot",
 				List.of("Peugeot Django 50", "Peugeot Django 125", "Peugeot Django 150", "Peugeot Tweet 50", 
@@ -516,7 +529,16 @@ public class VehiculoService {
 						"Peugeot Belville 200", "Peugeot XR7", "Peugeot XR8", "Peugeot RCX 50", "Peugeot RCX 100", 
 						"Peugeot RCX 125"));
 		
-		motos.put("Montesa", null);
+		motos.put("Montesa",
+				List.of("Cota 4RT", "Cota 301RR", "Cota 300RR", "Cota 260", "Cota 125", 
+						"Cota 4RT 260", "Cota 300", "Cota 200", "Cota 349", "Cota 348", 
+						"Cota 247", "Cota 247RR", "Cota 247 Mk1", "Cota 247 Mk2", "Cota 247 Mk3", 
+						"Cota 315R", "Cota 315", "Cota 350", "Cota 350RR", "Cota 280", 
+						"Cota 280RR", "Cota 175", "Cota 125RR", "Montesa 4RT 260", "Montesa 4RT 300", 
+						"Cota 4RT 125", "Montesa 315R", "Montesa 350", "Montesa 280", 
+						"Cota 300RR 4RT", "Cota 301RR 4RT", "Montesa 4RT Racing", "Montesa Cota 360", 
+						"Montesa Cota 247", "Montesa Cota 248", "Montesa 360", "Montesa 123", 
+						"Montesa 350 V1", "Montesa 350 V2"));
 		
 		motos.put("MITT",
 				List.of("MITT 125 GPR", "MITT 125 RR", "MITT 125 GP", "MITT 125 X", "MITT 125 Scrambler", 
@@ -528,7 +550,15 @@ public class VehiculoService {
 						"MITT 500 Enduro", "MITT 125 Street Fighter", "MITT 150 Street Fighter", 
 						"MITT 300 Street Fighter", "MITT 500 Street Fighter"));
 		
-		motos.put("Mondial", null);
+		motos.put("Mondial",
+				List.of("Mondial 50", "Mondial 125", "Mondial 200", "Mondial HPS 125", "Mondial HPS 300", 
+						"Mondial HPS 500", "Mondial SMX 125", "Mondial SMX 250", "Mondial SMX 500", 
+						"Mondial Sport 50", "Mondial Sport 125", "Mondial Cafe Racer 125", "Mondial Café Racer 250", 
+						"Mondial Pagani 125", "Mondial Pagani 200", "Mondial Pagani 300", "Mondial Torpedo 125", 
+						"Mondial Torpedo 150", "Mondial V2 125", "Mondial V2 250", "Mondial V2 300", 
+						"Mondial V2 500", "Mondial CR 125", "Mondial CR 250", "Mondial CR 500", 
+						"Mondial 125 Sport", "Mondial 250 Sport", "Mondial 500 Sport", "Mondial V2 Sport", 
+						"Mondial 50 E5", "Mondial 125 E5", "Mondial 250 E5", "Mondial 300 E5"));
 		
 		motos.put("Malaguti",
 				List.of("Madison 125", "Madison 150", "Madison 250", "F12 50", "F12 100", 
@@ -547,7 +577,16 @@ public class VehiculoService {
 		
 		motos.put("MH", null);
 		
-		motos.put("Mash", null);
+		motos.put("Mash",
+				List.of("Mash Seventy 50", "Mash Seventy 125", "Mash Seventy 250", "Mash Dirt 50", 
+						"Mash Dirt 125", "Mash Dirt 250", "Mash Five Hundred", "Mash Scrambler 50", 
+						"Mash Scrambler 125", "Mash Scrambler 250", "Mash Roadstar 125", "Mash Roadstar 250", 
+						"Mash Cafe Racer 125", "Mash Cafe Racer 250", "Mash X-Ride 125", "Mash X-Ride 250", 
+						"Mash Black Seven 125", "Mash Black Seven 250", "Mash Brat 125", "Mash Brat 250", 
+						"Mash Heritage 125", "Mash Heritage 250", "Mash TT40 125", "Mash TT40 250", 
+						"Mash Spirit 125", "Mash Spirit 250", "Mash Seventy 125 Limited Edition", 
+						"Mash Seventy 250 Limited Edition", "Mash 400", "Mash 650", "Mash 125 Enduro", 
+						"Mash 250 Enduro", "Mash 400 Scrambler", "Mash 650 Scrambler"));
 		
 		motos.put("Lambretta",
 				List.of("M", "A", "B", "C", "D", "LD", "E", "F", "J", "J50", "Li 125", "Li 150", "Li 175", 
