@@ -573,9 +573,25 @@ public class VehiculoService {
 						"Malaguti 250", "Reptile 125", "Reptile 150", "Reptile 250", 
 						"Reptile 500", "Spyder 125", "Spyder 150", "Spyder 200"));
 		
-		motos.put("Macbor", null);
+		motos.put("Macbor",
+				List.of("Macbor 50", "Macbor 125", "Macbor 250", "Macbor 500", "Macbor X-Ride 125", 
+						"Macbor X-Ride 250", "Macbor X-Ride 500", "Macbor Scrambler 125", "Macbor Scrambler 250", 
+						"Macbor Scrambler 500", "Macbor Cafe Racer 125", "Macbor Cafe Racer 250", 
+						"Macbor Cafe Racer 500", "Macbor Roadster 125", "Macbor Roadster 250", "Macbor Roadster 500", 
+						"Macbor Enduro 125", "Macbor Enduro 250", "Macbor Enduro 500", "Macbor Adventure 125", 
+						"Macbor Adventure 250", "Macbor Adventure 500", "Macbor Trail 125", "Macbor Trail 250", 
+						"Macbor Trail 500", "Macbor Custom 125", "Macbor Custom 250", "Macbor Custom 500", 
+						"Macbor Urban 125", "Macbor Urban 250", "Macbor Urban 500", "Macbor X-Trail 250", 
+						"Macbor X-Trail 500", "Macbor Supermoto 125", "Macbor Supermoto 250", "Macbor Supermoto 500"));
 		
-		motos.put("MH", null);
+		motos.put("MH",
+				List.of("MH 50", "MH 125", "MH 250", "MH 125 Enduro", "MH 125 Sport", "MH 125 Cafe Racer", 
+						"MH 125 Scrambler", "MH 250 Enduro", "MH 250 Sport", "MH 250 Scrambler", 
+						"MH 400", "MH 650", "MH 125 R", "MH 250 R", "MH 125 X", "MH 250 X", 
+						"MH 250 C", "MH 125 C", "MH 500", "MH 150", "MH 300", "MH 650 Cafe Racer", 
+						"MH 250 Cafe Racer", "MH 125 Cruiser", "MH 250 Cruiser", "MH Supermotard 125", 
+						"MH Supermotard 250", "MH Scrambler 125", "MH Scrambler 250", "MH Enduro 125", 
+						"MH Enduro 250", "MH Enduro 500"));
 		
 		motos.put("Mash",
 				List.of("Mash Seventy 50", "Mash Seventy 125", "Mash Seventy 250", "Mash Dirt 50", 
