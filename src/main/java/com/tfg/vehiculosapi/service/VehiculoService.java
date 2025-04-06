@@ -206,6 +206,64 @@ public class VehiculoService {
 						"Silver Ghost", "Phantom IV", "Silver Arrow", "Dawn Drophead", 
 						"Series I", "Series II", "Series III", "Silver Eagle", 
 						"Cloud II", "Cloud III"));
+		
+		coches.put("Abarth", null);
+		
+		coches.put("Alfa Romero", null);
+		
+		coches.put("Aston Martin", null);
+		
+		coches.put("Bentley", null);
+		
+		coches.put("Dacia", null);
+		
+		coches.put("Ds", null);
+		
+		coches.put("Fiat", null);
+		
+		coches.put("Honda", null);
+		
+		coches.put("Infiniti", null);
+		
+		coches.put("Isuzu", null);
+		
+		coches.put("Jaguar", null);
+		
+		coches.put("Jeep", null);
+		
+		coches.put("Lada", null);
+		
+		coches.put("Lancia", null);
+		
+		coches.put("Land Rover", null);
+		
+		coches.put("Lexus", null);
+		
+		coches.put("Maserati", null);
+		
+		coches.put("Mini", null);
+		
+		coches.put("Mitsubishi", null);
+		
+		coches.put("Morgan", null);
+		
+		coches.put("Opel", null);
+		
+		coches.put("Porsche", null);
+		
+		coches.put("Skoda", null);
+		
+		coches.put("Smart", null);
+		
+		coches.put("Ssangyong", null);
+		
+		coches.put("Subaru", null);
+		
+		coches.put("Suzuki", null);
+		
+		coches.put("Tata", null);
+		
+		coches.put("Volvo", null);
 
 		coches.put("Cadillac",
 				List.of("ATS", "CTS", "XTS", "STS", "DeVille", "Escalade", 
