@@ -292,11 +292,22 @@ public class VehiculoService {
 		motos.put("QJ Motor", List.of("SRK 125", "SRV 125", "SRK 250", "SRV 250", "SRK 350", "SRV 350", "SRT 500",
 				"SRK 500", "SRV 500", "SRT 700", "SRK 700", "SRV 700", "SRK 1000", "SRV 1000", "SRT 1000"));
 		
-		motos.put("Voge", List.of("125R", "125AC", "300R", "300AC", "300DS", "500R", "500AC", "500DS", "500DSX",
-				"650DS", "650DSX", "900DS", "900DSX", "SR4 Max", "SR1 125"));
+		motos.put("Voge",
+				List.of("300R", "300AC", "300ACX", "300DS", "300GY", 
+						"350AC", "500R", "500DS", "500AC", "500ACX", 
+						"525R", "525DSX", "650DS", "650DSX", 
+						"900DS", "900DSX", "SR1 ADV", "SR4 Max", 
+						"CU 525", "CU 300", "CU 125"));
 		
-		motos.put("Benelli", List.of("BN 125", "Leoncino 125", "302S", "Leoncino 500", "TRK 502", "502C", "752S",
-				"Leoncino 800", "TRK 702", "TRK 800", "Imperiale 400"));
+		motos.put("Benelli",
+				List.of("TNT 125", "TNT 135", "TNT 150", "TNT 300", "TNT 302S", "TNT 600", 
+						"TNT 899", "TNT 1130", "302R", "502C", "752S", "Leoncino 125", 
+						"Leoncino 250", "Leoncino 500", "Leoncino 500 Trail", "Leoncino 800", 
+						"Leoncino 800 Trail", "TRK 251", "TRK 502", "TRK 502 X", "TRK 702", 
+						"TRK 702 X", "TRK 800", "Imperiale 400", "Velvet 125", "Velvet 250", 
+						"Macis 125", "Caffè Nero 250", "Pepe 50", "Adiva", "BN 125", "BN 251", 
+						"BN 302", "BN 600", "Quattro 500", "Sport 250", "Cento", "900 Sei", 
+						"504 Sport", "654", "Minibike", "Velox"));
 		
 		motos.put("Yamaha",
 				List.of("YA-1", "YD-1", "YA-2", "YDS-1", "YDS-2", "YDS-3", "YS-1", "RD56", "RD48", "DT-1", "RT-1",
