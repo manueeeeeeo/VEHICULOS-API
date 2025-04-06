@@ -241,19 +241,38 @@ public class VehiculoService {
 		
 		coches.put("Maserati", null);
 		
-		coches.put("Mini", null);
+		motos.put("Mini",
+				List.of("Classic Mini", "Mini Cooper", "Mini Cooper S", "Mini One", "Mini Clubman", 
+						"Mini Convertible", "Mini Roadster", "Mini Coupe", "Mini Countryman", 
+						"Mini Paceman", "Mini Electric", "Aceman", "John Cooper Works"));
 		
 		coches.put("Mitsubishi", null);
 		
 		coches.put("Morgan", null);
 		
-		coches.put("Opel", null);
+		motos.put("Opel",
+				List.of("4 PS", "Kadett", "Olympia", "Kapitan", "Rekord", "Commodore", "Manta", "GT", 
+						"Ascona", "Monza", "Senator", "Corsa", "Astra", "Vectra", "Omega", 
+						"Tigra", "Agila", "Meriva", "Zafira", "Insignia", "Karl", 
+						"Adam", "Ampera", "Ampera-e", "Crossland", "Crossland X", 
+						"Grandland", "Grandland X", "Mokka", "Mokka X", "Combo", 
+						"Combo Life", "Combo-e Life", "Vivaro", "Vivaro-e", 
+						"Movano", "Movano-e", "Rocks-e", "Frontera", "Calibra"));
 		
-		coches.put("Porsche", null);
+		motos.put("Porsche",
+				List.of("356", "550 Spyder", "904 Carrera GTS", "911", "912", "914", "924", "928", 
+						"944", "959", "968", "Boxster", "Cayman", "Carrera GT", "Cayenne", 
+						"Panamera", "Macan", "918 Spyder", "Taycan", "718 Boxster", 
+						"718 Cayman", "911 GT3", "911 Turbo", "911 Carrera", "911 Targa", 
+						"Taycan Cross Turismo", "Taycan Sport Turismo", "Mission E", "Macan EV", 
+						"Cayenne Coupe", "Panamera Sport Turismo"));
 		
 		coches.put("Skoda", null);
 		
-		coches.put("Smart", null);
+		motos.put("Smart",
+				List.of("City-Coupe", "Fortwo", "Forfour", "Roadster", "Crossblade", 
+						"Fortwo Electric Drive", "Forfour Electric Drive", "EQ Fortwo", 
+						"EQ Forfour", "Hashtag 1", "Hashtag 3"));
 		
 		coches.put("Ssangyong", null);
 		
@@ -261,9 +280,19 @@ public class VehiculoService {
 		
 		coches.put("Suzuki", null);
 		
-		coches.put("Tata", null);
+		motos.put("Tata",
+				List.of("Telcoline", "Sierra", "Estate", "Sumo", "Indica", "Indigo", "Safari", 
+						"Nano", "Zest", "Bolt", "Tiago", "Tigor", "Altroz", "Punch", 
+						"Nexon", "Nexon EV", "Harrier", "Safari (2021)", "Hexa", 
+						"Aria", "Venture", "Winger", "Movus", "Ace", "Ace EV", 
+						"Intra", "Yodha", "Magic", "Xenon"));
 		
-		coches.put("Volvo", null);
+		motos.put("Volvo",
+				List.of("ÖV4", "PV36", "PV444", "PV544", "P1900", "Amazon", "140", "164", "240", 
+						"260", "340", "360", "440", "460", "480", "740", "760", "780", 
+						"850", "940", "960", "C30", "C70", "S40", "S60", "S70", "S80", 
+						"S90", "V40", "V50", "V60", "V70", "V90", "XC40", "XC60", "XC70", 
+						"XC90", "EX30", "EX90", "EM90", "V60 Cross Country", "V90 Cross Country"));
 
 		coches.put("Cadillac",
 				List.of("ATS", "CTS", "XTS", "STS", "DeVille", "Escalade", 
