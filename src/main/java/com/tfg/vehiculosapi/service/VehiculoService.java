@@ -207,15 +207,24 @@ public class VehiculoService {
 						"Series I", "Series II", "Series III", "Silver Eagle", 
 						"Cloud II", "Cloud III"));
 		
-		coches.put("Abarth", null);
+		coches.put("Abarth",
+				List.of("595", "595 Competizione", "595 Turismo", "695 Biposto", "695 Competizione", 
+						"695 Rivale", "124 Spider", "500", "500C", "500X", "Punto Evo Abarth", 
+						"Grande Punto Abarth", "500 Abarth", "500L", "500X Abarth"));
 		
 		coches.put("Alfa Romero", null);
 		
 		coches.put("Aston Martin", null);
 		
-		coches.put("Bentley", null);
+		coches.put("Bentley",
+				List.of("Blower 4½ Litre", "Continental GT", "Continental GT Speed", "Continental GT V8", 
+						"Flying Spur", "Flying Spur V8", "Mulsanne", "Mulsanne Speed", 
+						"Bentayga", "Bentayga Speed", "Bentayga Hybrid", "Arnage", "Brooklands", 
+						"Mark VI", "Turbo R", "Azure", "Continental Flying Spur", "Continental GT W12"));
 		
-		coches.put("Dacia", null);
+		coches.put("Dacia",
+				List.of("Logan", "Sandero", "Lodgy", "Dokker", "Spring", "Dokker Van", "Lodgy Stepway", 
+						"Sandero Stepway", "Logan MCV", "Logan Stepway", "Spring Electric", "Jogger"));
 		
 		coches.put("Ds", null);
 		
@@ -227,7 +236,9 @@ public class VehiculoService {
 		
 		coches.put("Isuzu", null);
 		
-		coches.put("Jaguar", null);
+		coches.put("Jaguar",
+				List.of("XE", "XF", "XJ", "F-Type", "F-Pace", "E-Pace", "I-Pace", "X-Type", "S-Type", 
+						"XK", "F-Type SVR", "XE SV Project 8", "I-Pace EV", "XJ220", "C-X75"));
 		
 		coches.put("Jeep", null);
 		
@@ -239,9 +250,13 @@ public class VehiculoService {
 		
 		coches.put("Lexus", null);
 		
-		coches.put("Maserati", null);
+		coches.put("Maserati",
+				List.of("A6 1500", "A6G 2000", "3500 GT", "Mistral", "Ghibli", "Indy", "Quattroporte", 
+						"Biturbo", "Shamal", "Spyder", "GranTurismo", "GranCabrio", "Quattroporte Ghibli", 
+						"Ghibli (2013)", "Levante", "Alfieri", "GranTurismo (2017)", "Quattroporte (2013)", 
+						"Ghibli Hybrid", "MC20", "Levante Trofeo", "Alfieri EV", "Grecale"));
 		
-		motos.put("Mini",
+		coches.put("Mini",
 				List.of("Classic Mini", "Mini Cooper", "Mini Cooper S", "Mini One", "Mini Clubman", 
 						"Mini Convertible", "Mini Roadster", "Mini Coupe", "Mini Countryman", 
 						"Mini Paceman", "Mini Electric", "Aceman", "John Cooper Works"));
@@ -250,7 +265,7 @@ public class VehiculoService {
 		
 		coches.put("Morgan", null);
 		
-		motos.put("Opel",
+		coches.put("Opel",
 				List.of("4 PS", "Kadett", "Olympia", "Kapitan", "Rekord", "Commodore", "Manta", "GT", 
 						"Ascona", "Monza", "Senator", "Corsa", "Astra", "Vectra", "Omega", 
 						"Tigra", "Agila", "Meriva", "Zafira", "Insignia", "Karl", 
@@ -259,7 +274,7 @@ public class VehiculoService {
 						"Combo Life", "Combo-e Life", "Vivaro", "Vivaro-e", 
 						"Movano", "Movano-e", "Rocks-e", "Frontera", "Calibra"));
 		
-		motos.put("Porsche",
+		coches.put("Porsche",
 				List.of("356", "550 Spyder", "904 Carrera GTS", "911", "912", "914", "924", "928", 
 						"944", "959", "968", "Boxster", "Cayman", "Carrera GT", "Cayenne", 
 						"Panamera", "Macan", "918 Spyder", "Taycan", "718 Boxster", 
@@ -269,7 +284,7 @@ public class VehiculoService {
 		
 		coches.put("Skoda", null);
 		
-		motos.put("Smart",
+		coches.put("Smart",
 				List.of("City-Coupe", "Fortwo", "Forfour", "Roadster", "Crossblade", 
 						"Fortwo Electric Drive", "Forfour Electric Drive", "EQ Fortwo", 
 						"EQ Forfour", "Hashtag 1", "Hashtag 3"));
@@ -280,14 +295,14 @@ public class VehiculoService {
 		
 		coches.put("Suzuki", null);
 		
-		motos.put("Tata",
+		coches.put("Tata",
 				List.of("Telcoline", "Sierra", "Estate", "Sumo", "Indica", "Indigo", "Safari", 
 						"Nano", "Zest", "Bolt", "Tiago", "Tigor", "Altroz", "Punch", 
 						"Nexon", "Nexon EV", "Harrier", "Safari (2021)", "Hexa", 
 						"Aria", "Venture", "Winger", "Movus", "Ace", "Ace EV", 
 						"Intra", "Yodha", "Magic", "Xenon"));
 		
-		motos.put("Volvo",
+		coches.put("Volvo",
 				List.of("ÖV4", "PV36", "PV444", "PV544", "P1900", "Amazon", "140", "164", "240", 
 						"260", "340", "360", "440", "460", "480", "740", "760", "780", 
 						"850", "940", "960", "C30", "C70", "S40", "S60", "S70", "S80", 
