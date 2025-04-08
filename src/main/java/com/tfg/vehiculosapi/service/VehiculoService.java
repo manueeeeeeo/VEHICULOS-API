@@ -226,7 +226,10 @@ public class VehiculoService {
 				List.of("Logan", "Sandero", "Lodgy", "Dokker", "Spring", "Dokker Van", "Lodgy Stepway", 
 						"Sandero Stepway", "Logan MCV", "Logan Stepway", "Spring Electric", "Jogger"));
 		
-		coches.put("Ds", null);
+		coches.put("DS",
+				List.of("3", "3 Crossback", "3 E-Tense", "4", "4 Crossback", "4 E-Tense", 
+						"5", "5 LS", "5 E-Tense", "7", "7 Crossback", "7 E-Tense", 
+						"E-Tense Performance", "E-Tense FE21", "X E-Tense"));
 		
 		coches.put("Fiat", null);
 		
@@ -234,21 +237,34 @@ public class VehiculoService {
 		
 		coches.put("Infiniti", null);
 		
-		coches.put("Isuzu", null);
+		coches.put("Isuzu",
+				List.of("Bellel", "Bellett", "Florian", "117 Coupé", "Gemini", "Piazza", "Aska", "Impulse", 
+						"Trooper", "Rodeo", "Axiom", "MU", "MU-X", "VehiCROSS", "D-Max", "Fargo", 
+						"Como", "Forward", "Elf", "Giga", "Bighorn", "Wizard", "Amigo"));
 		
 		coches.put("Jaguar",
 				List.of("XE", "XF", "XJ", "F-Type", "F-Pace", "E-Pace", "I-Pace", "X-Type", "S-Type", 
 						"XK", "F-Type SVR", "XE SV Project 8", "I-Pace EV", "XJ220", "C-X75"));
 		
-		coches.put("Jeep", null);
+		coches.put("Jeep",
+				List.of("Wrangler", "Cherokee", "Grand Cherokee", "Renegade", "Compass", "Gladiator", 
+						"Commander", "Patriot", "Liberty", "Wagoneer", "Grand Wagoneer", "Chrysler 300M Jeep", 
+						"Jeepster", "FC-150", "FC-170", "CJ-5", "CJ-7", "CJ-8 Scrambler"));
 		
 		coches.put("Lada", null);
 		
-		coches.put("Lancia", null);
+		coches.put("Lancia",
+				List.of("Lambda", "Augusta", "Ardea", "Aurelia", "Appia", "Flaminia", "Flavia", 
+						"Fulvia", "Beta", "Gamma", "Delta", "Prisma", "Thema", "Dedra", 
+						"Kappa", "Lybra", "Thesis", "Y", "Ypsilon", "Zeta", "Phedra", 
+						"Musa", "Voyager", "Delta Integrale", "Stratos", "Montecarlo", "Rally 037"));
 		
 		coches.put("Land Rover", null);
 		
-		coches.put("Lexus", null);
+		coches.put("Lexus",
+				List.of("IS", "ES", "GS", "LS", "RX", "NX", "UX", "GX", "LX", "RC", "LC", "LC Convertible", 
+						"RX L", "NX F Sport", "RX F Sport", "ES F Sport", "IS F", "LS F", "CT", "RC F", 
+						"RX Hybrid", "NX Hybrid", "ES Hybrid", "UX Hybrid", "LX 600", "GX 460", "LC 500h"));
 		
 		coches.put("Maserati",
 				List.of("A6 1500", "A6G 2000", "3500 GT", "Mistral", "Ghibli", "Indy", "Quattroporte", 
