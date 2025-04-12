@@ -231,11 +231,23 @@ public class VehiculoService {
 						"5", "5 LS", "5 E-Tense", "7", "7 Crossback", "7 E-Tense", 
 						"E-Tense Performance", "E-Tense FE21", "X E-Tense"));
 		
-		coches.put("Fiat", null);
+		coches.put("Fiat",
+				List.of("500", "500L", "500X", "Panda", "Punto", "Tipo", "Bravo", "Cinquecento", 
+						"Multipla", "Qubo", "Freemont", "Panda 4x4", "Punto Abarth", "Punto Evo", 
+						"Sedici", "Stilo", "Linea", "Barchetta", "500E", "Doblò", "Punto Classic", 
+						"Spider 124", "Croma", "Palio", "Panda Cross", "500L Living", "500L Trekking"));
 		
-		coches.put("Honda", null);
+		coches.put("Honda",
+				List.of("Civic", "Accord", "CR-V", "HR-V", "Pilot", "Fit", "Insight", "Clarity", 
+						"CR-Z", "Ridgeline", "Element", "Element EV", "Jazz", "Prelude", "Legend", 
+						"Odyssey", "Passport", "Urban", "Brio", "City", "Crosstour", "S660", 
+						"Z360", "N-Box", "N-WGN", "Acty", "Mobilio", "Stepwgn", "CR-V Hybrid", 
+						"Clarity Fuel Cell", "Civic Type R"));
 		
-		coches.put("Infiniti", null);
+		coches.put("Infiniti",
+				List.of("Q50", "Q60", "Q70", "QX50", "QX60", "QX70", "QX80", "JX35", "FX35", 
+						"FX50", "M35h", "M56", "G35", "G37", "EX35", "EX37", "J30", "Q30", 
+						"QX55", "QX30", "QX56", "QX56L"));
 		
 		coches.put("Isuzu",
 				List.of("Bellel", "Bellett", "Florian", "117 Coupé", "Gemini", "Piazza", "Aska", "Impulse", 
@@ -251,7 +263,10 @@ public class VehiculoService {
 						"Commander", "Patriot", "Liberty", "Wagoneer", "Grand Wagoneer", "Chrysler 300M Jeep", 
 						"Jeepster", "FC-150", "FC-170", "CJ-5", "CJ-7", "CJ-8 Scrambler"));
 		
-		coches.put("Lada", null);
+		coches.put("Lada",
+				List.of("Niva", "Granta", "Vesta", "XRay", "2101", "2103", "2106", "2107", "Samara", 
+						"Priora", "Largus", "Kalina", "4x4", "Niva Travel", "Vesta Cross", "XRay Cross", 
+						"Granta Cross", "Vesta SW", "Niva Legend"));
 		
 		coches.put("Lancia",
 				List.of("Lambda", "Augusta", "Ardea", "Aurelia", "Appia", "Flaminia", "Flavia", 
