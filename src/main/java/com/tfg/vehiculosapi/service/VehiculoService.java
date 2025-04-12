@@ -212,9 +212,15 @@ public class VehiculoService {
 						"695 Rivale", "124 Spider", "500", "500C", "500X", "Punto Evo Abarth", 
 						"Grande Punto Abarth", "500 Abarth", "500L", "500X Abarth"));
 		
-		coches.put("Alfa Romero", null);
+		coches.put("Alfa Romeo",
+				List.of("Giulia", "Giulietta", "Stelvio", "Tonale", "33 Stradale", "8C Competizione", 
+						"4C", "MiTo", "Brera", "Spider", "GT", "159", "156", "147", "145", "146", 
+						"75", "90", "Alfetta", "GTV", "Montreal", "Sud", "33", "164", "166"));
 		
-		coches.put("Aston Martin", null);
+		coches.put("Aston Martin",
+				List.of("DB5", "DB6", "DB7", "DB9", "DB11", "DB12", "DBS", "DBS Superleggera", 
+						"V8 Vantage", "V12 Vantage", "Vantage", "Vanquish", "Virage", "Lagonda", 
+						"Rapide", "Cygnet", "One-77", "Valkyrie", "Valhalla", "Victor", "Vulcan"));
 		
 		coches.put("Bentley",
 				List.of("Blower 4½ Litre", "Continental GT", "Continental GT Speed", "Continental GT V8", 
@@ -274,7 +280,11 @@ public class VehiculoService {
 						"Kappa", "Lybra", "Thesis", "Y", "Ypsilon", "Zeta", "Phedra", 
 						"Musa", "Voyager", "Delta Integrale", "Stratos", "Montecarlo", "Rally 037"));
 		
-		coches.put("Land Rover", null);
+		coches.put("Land Rover",
+				List.of("Defender", "Defender 90", "Defender 110", "Defender 130", 
+						"Discovery", "Discovery Sport", "Freelander", "Freelander 2", 
+						"Range Rover", "Range Rover Sport", "Range Rover Evoque", 
+						"Range Rover Velar", "Series I", "Series II", "Series III"));
 		
 		coches.put("Lexus",
 				List.of("IS", "ES", "GS", "LS", "RX", "NX", "UX", "GX", "LX", "RC", "LC", "LC Convertible", 
@@ -292,9 +302,15 @@ public class VehiculoService {
 						"Mini Convertible", "Mini Roadster", "Mini Coupe", "Mini Countryman", 
 						"Mini Paceman", "Mini Electric", "Aceman", "John Cooper Works"));
 		
-		coches.put("Mitsubishi", null);
+		coches.put("Mitsubishi",
+				List.of("Lancer", "Lancer Evolution", "Eclipse", "Eclipse Cross", "Outlander", 
+						"Outlander PHEV", "ASX", "Pajero", "Pajero Sport", "Montero", "Montero Sport", 
+						"Colt", "Space Star", "Mirage", "Galant", "Grandis", "Carisma", "3000GT", 
+						"Endeavor", "RVR", "i-MiEV", "Xpander", "Delica"));
 		
-		coches.put("Morgan", null);
+		coches.put("Morgan",
+				List.of("4/4", "Plus 4", "Plus 6", "Plus 8", "Roadster", "3-Wheeler", "Super 3", 
+						"Aero 8", "Aero SuperSports", "Aero Coupé", "Eva GT"));
 		
 		coches.put("Opel",
 				List.of("4 PS", "Kadett", "Olympia", "Kapitan", "Rekord", "Commodore", "Manta", "GT", 
@@ -313,18 +329,30 @@ public class VehiculoService {
 						"Taycan Cross Turismo", "Taycan Sport Turismo", "Mission E", "Macan EV", 
 						"Cayenne Coupe", "Panamera Sport Turismo"));
 		
-		coches.put("Skoda", null);
+		coches.put("Skoda",
+				List.of("Fabia", "Scala", "Octavia", "Superb", "Kamiq", "Karoq", "Kodiaq", 
+						"Enyaq", "Enyaq Coupé", "Citigo", "Roomster", "Rapid", "Yeti", 
+						"Felicia", "Favorit", "120", "105", "Estelle", "Forman", "S100", "S110"));
 		
 		coches.put("Smart",
 				List.of("City-Coupe", "Fortwo", "Forfour", "Roadster", "Crossblade", 
 						"Fortwo Electric Drive", "Forfour Electric Drive", "EQ Fortwo", 
 						"EQ Forfour", "Hashtag 1", "Hashtag 3"));
 		
-		coches.put("Ssangyong", null);
+		coches.put("SsangYong",
+				List.of("Tivoli", "Tivoli Grand", "Korando", "Korando e-Motion", "Rexton", "Rexton Sports", 
+						"Rexton Sports Khan", "Musso", "Actyon", "Actyon Sports", "Kyron", "Rodius", 
+						"Stavic", "XLV", "Chairman", "Istana"));
 		
-		coches.put("Subaru", null);
+		coches.put("Subaru",
+				List.of("Impreza", "WRX", "WRX STI", "Legacy", "Outback", "Forester", "Crosstrek", 
+						"XV", "BRZ", "Ascent", "Levorg", "Solterra", "Baja", "Justy", "Rex", 
+						"Tribeca", "Alcyone SVX", "Sambar", "Pleo", "Lucra"));
 		
-		coches.put("Suzuki", null);
+		coches.put("Suzuki",
+				List.of("Swift", "Ignis", "Vitara", "S-Cross", "Jimny", "Baleno", "Across", 
+						"Swace", "Alto", "Celerio", "Splash", "SX4", "SX4 S-Cross", "Liana", 
+						"Grand Vitara", "Kizashi", "Wagon R", "XL7", "Ertiga", "Carry"));
 		
 		coches.put("Tata",
 				List.of("Telcoline", "Sierra", "Estate", "Sumo", "Indica", "Indigo", "Safari", 
