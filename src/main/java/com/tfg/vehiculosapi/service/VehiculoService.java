@@ -113,8 +113,16 @@ public class VehiculoService {
 				        "Credos", "K7", "K3", "K2", "K1", "K4", "KX3", "KX5", "KX7", "Pegas", "Pegas II"));
 
 		coches.put("Peugeot",
-				List.of("208", "308", "508", "2008", "3008", "5008", "Rifter", "Partner", "Expert", "Boxer", "208 GTi",
-						"308 GTi", "RCZ", "3008 Hybrid", "5008 Hybrid", "607", "406", "407", "605", "Talbot Horizon"));
+			    List.of(
+			        "208", "308", "508", "2008", "3008", "5008", "Rifter", "Partner", "Expert", "Boxer", 
+			        "208 GTi", "308 GTi", "RCZ", "3008 Hybrid", "5008 Hybrid", "607", "406", "407", 
+			        "605", "Talbot Horizon", "Type 2", "Type 3", "Type 6", "Bébé", "Quadrilette", 
+			        "173", "201", "301", "401", "402", "202", "203", "403", "404", "504", "505", 
+			        "604", "104", "205", "206", "207", "306", "307", "405", "905", "e-208", "e-2008", 
+			        "e-Expert", "e-Boxer", "L500 R Hybrid", "Oxia", "Proxima", "SR1", "Onyx", "Fractal", 
+			        "205 GTi", "205 Turbo 16", "806", "605"
+			    )
+			);
 
 		coches.put("Renault",
 				List.of("4", "5", "6", "9", "11", "12", "14", "15", "16", "17", "18", "19", "20", "21", "25", "30", "Clio", 
@@ -229,45 +237,137 @@ public class VehiculoService {
 						"Mark VI", "Turbo R", "Azure", "Continental Flying Spur", "Continental GT W12"));
 		
 		coches.put("Dacia",
-				List.of("Logan", "Sandero", "Lodgy", "Dokker", "Spring", "Dokker Van", "Lodgy Stepway", 
-						"Sandero Stepway", "Logan MCV", "Logan Stepway", "Spring Electric", "Jogger"));
+			    List.of(
+			        "Logan", "Sandero", "Lodgy", "Dokker", "Spring", "Dokker Van", "Lodgy Stepway", 
+			        "Sandero Stepway", "Logan MCV", "Logan Stepway", "Spring Electric", "Jogger", 
+			        "1300", "1310", "1410", "2000", "Nova", "Pick-Up", "Solenza", "Berlina", 
+			        "Break", "Van", "Duster", "Duster Oroch", "Duster Commercial", "Duster Stepway", 
+			        "Lodgy Combi", "Bigster", "Manifesto", "EZ-Pro", "EZ-Ultimo", "EZ-GO", 
+			        "EZ-Van"
+			    )
+			);
 		
 		coches.put("DS",
-				List.of("3", "3 Crossback", "3 E-Tense", "4", "4 Crossback", "4 E-Tense", 
-						"5", "5 LS", "5 E-Tense", "7", "7 Crossback", "7 E-Tense", 
-						"E-Tense Performance", "E-Tense FE21", "X E-Tense"));
+			    List.of(
+			        "3", "3 Crossback", "3 E-Tense", "4", "4 Crossback", "4 E-Tense", 
+			        "5", "5 LS", "5 E-Tense", "7", "7 Crossback", "7 E-Tense", 
+			        "E-Tense Performance", "E-Tense FE21", "X E-Tense", 
+			        "DS 21", "DS 23", "DS 19", "DS 20", "DS 21 Pallas", 
+			        "DS 23 Injection", "DS Divine", "DS Aero Sport Lounge", 
+			        "DS Numéro 9", "DS Wild Rubis", "DS X-Motion", "DS E-Tense Concept", 
+			        "DS E-Tense Vision", "DS 4S", "DS 6WR", "DS 7FR"
+			    )
+			);
 		
 		coches.put("Fiat",
-				List.of("500", "500L", "500X", "Panda", "Punto", "Tipo", "Bravo", "Cinquecento", 
-						"Multipla", "Qubo", "Freemont", "Panda 4x4", "Punto Abarth", "Punto Evo", 
-						"Sedici", "Stilo", "Linea", "Barchetta", "500E", "Doblò", "Punto Classic", 
-						"Spider 124", "Croma", "Palio", "Panda Cross", "500L Living", "500L Trekking"));
+			    List.of(
+			        "500", "500L", "500X", "Panda", "Punto", "Tipo", "Bravo", "Cinquecento", 
+			        "Multipla", "Qubo", "Freemont", "Panda 4x4", "Punto Abarth", "Punto Evo", 
+			        "Sedici", "Stilo", "Linea", "Barchetta", "500E", "Doblò", "Punto Classic", 
+			        "Spider 124", "Croma", "Palio", "Panda Cross", "500L Living", "500L Trekking", 
+			        "124 Spider", "126", "127", "128", "131", "132", "Argenta", "Regata", 
+			        "Tempra", "Marea", "Seicento", "Uno", "Duna", "Ritmo", "Strada", "Fiorino", 
+			        "Scudo", "Talento", "Ducato", "Fullback", "Idea", "Grande Punto", "Nuova 500", 
+			        "Topolino", "Campagnola", "X1/9", "Coupe", "Croma II", "Ulysse", "Brava", 
+			        "Coupé", "Doblo Cargo", "Fiorino Qubo", "Fiorino Van", "500 Giardiniera", 
+			        "500 Spiaggina", "500 Vintage", "600", "850", "1100", "1200", "1500", "1800", 
+			        "2100", "2300", "2400", "Abarth 1000", "Abarth 695", "Abarth 595", "Abarth 500", 
+			        "Abarth 595 Competizione", "Abarth 695 Biposto", "Abarth 595 Turismo", "Abarth 595 Esseesse"
+			    )
+			);
 		
 		coches.put("Honda",
-				List.of("Civic", "Accord", "CR-V", "HR-V", "Pilot", "Fit", "Insight", "Clarity", 
-						"CR-Z", "Ridgeline", "Element", "Element EV", "Jazz", "Prelude", "Legend", 
-						"Odyssey", "Passport", "Urban", "Brio", "City", "Crosstour", "S660", 
-						"Z360", "N-Box", "N-WGN", "Acty", "Mobilio", "Stepwgn", "CR-V Hybrid", 
-						"Clarity Fuel Cell", "Civic Type R"));
+			    List.of(
+			        "Civic", "Accord", "CR-V", "HR-V", "Pilot", "Fit", "Insight", "Clarity", 
+			        "CR-Z", "Ridgeline", "Element", "Element EV", "Jazz", "Prelude", "Legend", 
+			        "Odyssey", "Passport", "Urban", "Brio", "City", "Crosstour", "S660", 
+			        "Z360", "N-Box", "N-WGN", "Acty", "Mobilio", "Stepwgn", "CR-V Hybrid", 
+			        "Clarity Fuel Cell", "Civic Type R", "NSX", "Integra", "S2000", "Beat", 
+			        "Today", "Life", "Capa", "Domani", "Orthia", "Avancier", "Vezel", "Shuttle", 
+			        "Freed", "Airwave", "Crossroad", "Logo", "Stream", "FR-V", "Edix", "Elysion", 
+			        "That's", "Z", "T360", "Vamos", "Street", "Partner", "Horizon", "Quintet", 
+			        "Concerto", "Ascot", "Inspire", "Sabre", "Torneo", "Rafaga", "Civic Ferio", 
+			        "Civic Shuttle", "Civic GX", "Civic Si", "Civic Hybrid", "Accord Hybrid", 
+			        "Accord Crosstour", "Accord Tourer", "Accord Aerodeck", "CR-X", "CR-X Del Sol", 
+			        "CR-V Plug-in Hybrid", "e:NS1", "e:HEV", "e:Ny1", "e:Prototype"
+			    )
+			);
 		
 		coches.put("Infiniti",
-				List.of("Q50", "Q60", "Q70", "QX50", "QX60", "QX70", "QX80", "JX35", "FX35", 
-						"FX50", "M35h", "M56", "G35", "G37", "EX35", "EX37", "J30", "Q30", 
-						"QX55", "QX30", "QX56", "QX56L"));
+			    List.of(
+			        "Q50", "Q60", "Q70", "QX50", "QX60", "QX70", "QX80", "JX35", "FX35", 
+			        "FX50", "M35h", "M56", "G35", "G37", "EX35", "EX37", "J30", "Q30", 
+			        "QX55", "QX30", "QX56", "QX56L", "I30", "I35", "Q45", "QX4", "QX70S", 
+			        "QX60 Hybrid", "QX80 Armada", "Q50 Hybrid", "Q70 Hybrid", "Q50 Red Sport", 
+			        "Q60 Red Sport", "QX50 Autograph", "QX60 Autograph", "QX80 Monograph", 
+			        "Q Inspiration", "QX Inspiration", "Emerg-E", "Essence", "Q80 Inspiration", 
+			        "Prototype 9", "Prototype 10", "QX Sport Inspiration"
+			    )
+			);
 		
 		coches.put("Isuzu",
-				List.of("Bellel", "Bellett", "Florian", "117 Coupé", "Gemini", "Piazza", "Aska", "Impulse", 
-						"Trooper", "Rodeo", "Axiom", "MU", "MU-X", "VehiCROSS", "D-Max", "Fargo", 
-						"Como", "Forward", "Elf", "Giga", "Bighorn", "Wizard", "Amigo"));
+			    List.of(
+			        "Bellel", "Bellett", "Florian", "117 Coupé", "Gemini", "Piazza", "Aska", "Impulse", 
+			        "Trooper", "Rodeo", "Axiom", "MU", "MU-X", "VehiCROSS", "D-Max", "Fargo", 
+			        "Como", "Forward", "Elf", "Giga", "Bighorn", "Wizard", "Amigo", "Hombre", 
+			        "Journey", "Oasis", "Reach", "TFR", "TFX", "TFS", "TGT", "TWM", "TWS", 
+			        "Type-61", "Type-90", "Type-91", "Type-95", "Type-100", "Type-117", "Type-130", 
+			        "Type-150", "Type-180", "Type-200", "Type-240", "Type-280", "Type-300", 
+			        "Type-350", "Type-400", "Type-450", "Type-500", "Type-600", "Type-700", 
+			        "Type-800", "Type-900", "Type-1000", "Type-1200", "Type-1500", "Type-1800", 
+			        "Type-2000", "Type-2500", "Type-3000", "Type-3500", "Type-4000", "Type-4500", 
+			        "Type-5000", "Type-6000", "Type-7000", "Type-8000", "Type-9000", "Type-10000"
+			    )
+			);
 		
 		coches.put("Jaguar",
-				List.of("XE", "XF", "XJ", "F-Type", "F-Pace", "E-Pace", "I-Pace", "X-Type", "S-Type", 
-						"XK", "F-Type SVR", "XE SV Project 8", "I-Pace EV", "XJ220", "C-X75"));
+			    List.of(
+			        "XE", "XF", "XJ", "F-Type", "F-Pace", "E-Pace", "I-Pace", "X-Type", "S-Type", 
+			        "XK", "F-Type SVR", "XE SV Project 8", "I-Pace EV", "XJ220", "C-X75", 
+			        "SS 100", "SS 90", "Mark I", "Mark II", "Mark V", "Mark VII", "Mark VIII", 
+			        "Mark IX", "Mark X", "XJ6", "XJ12", "XJR", "XJS", "XJR-S", "XJ-C", "XJ40", 
+			        "XJ8", "XK-E", "XK120", "XK140", "XK150", "D-Type", "C-Type", "E-Type", 
+			        "F-Type Convertible", "F-Type Coupe", "XJ6 Series I", "XJ6 Series II", 
+			        "XJ6 Series III", "XJ12 Series I", "XJ12 Series II", "XJ12 Series III", 
+			        "XJR Portfolio", "XJR Sport", "XJR Autobiography", "Future-Type", "J-Pace", 
+			        "J-Type", "Jaguar Vision Gran Turismo", "Jaguar CX-75 Concept", "Jaguar F-Zero"
+			    )
+			);
 		
 		coches.put("Jeep",
-				List.of("Wrangler", "Cherokee", "Grand Cherokee", "Renegade", "Compass", "Gladiator", 
-						"Commander", "Patriot", "Liberty", "Wagoneer", "Grand Wagoneer", "Chrysler 300M Jeep", 
-						"Jeepster", "FC-150", "FC-170", "CJ-5", "CJ-7", "CJ-8 Scrambler"));
+			    List.of(
+			        "Wrangler", "Cherokee", "Grand Cherokee", "Renegade", "Compass", "Gladiator", 
+			        "Commander", "Patriot", "Liberty", "Wagoneer", "Grand Wagoneer", "Jeepster", 
+			        "FC-150", "FC-170", "CJ-5", "CJ-7", "CJ-8 Scrambler", "CJ-2A", "CJ-3A", 
+			        "CJ-3B", "CJ-6", "CJ-10", "CJ-V35", "CJ-Y", "DJ-3A", "DJ-5", "DJ-6", 
+			        "DJ-7", "DJ-8", "DJ-9", "DJ-10", "DJ-11", "DJ-12", "DJ-13", "DJ-14", 
+			        "DJ-15", "DJ-16", "DJ-17", "DJ-18", "DJ-19", "DJ-20", "DJ-21", "DJ-22", 
+			        "DJ-23", "DJ-24", "DJ-25", "DJ-26", "DJ-27", "DJ-28", "DJ-29", "DJ-30", 
+			        "DJ-31", "DJ-32", "DJ-33", "DJ-34", "DJ-35", "DJ-36", "DJ-37", "DJ-38", 
+			        "DJ-39", "DJ-40", "DJ-41", "DJ-42", "DJ-43", "DJ-44", "DJ-45", "DJ-46", 
+			        "DJ-47", "DJ-48", "DJ-49", "DJ-50", "DJ-51", "DJ-52", "DJ-53", "DJ-54", 
+			        "DJ-55", "DJ-56", "DJ-57", "DJ-58", "DJ-59", "DJ-60", "DJ-61", "DJ-62", 
+			        "DJ-63", "DJ-64", "DJ-65", "DJ-66", "DJ-67", "DJ-68", "DJ-69", "DJ-70", 
+			        "DJ-71", "DJ-72", "DJ-73", "DJ-74", "DJ-75", "DJ-76", "DJ-77", "DJ-78", 
+			        "DJ-79", "DJ-80", "DJ-81", "DJ-82", "DJ-83", "DJ-84", "DJ-85", "DJ-86", 
+			        "DJ-87", "DJ-88", "DJ-89", "DJ-90", "DJ-91", "DJ-92", "DJ-93", "DJ-94", 
+			        "DJ-95", "DJ-96", "DJ-97", "DJ-98", "DJ-99", "DJ-100", "DJ-101", "DJ-102", 
+			        "DJ-103", "DJ-104", "DJ-105", "DJ-106", "DJ-107", "DJ-108", "DJ-109", 
+			        "DJ-110", "DJ-111", "DJ-112", "DJ-113", "DJ-114", "DJ-115", "DJ-116", 
+			        "DJ-117", "DJ-118", "DJ-119", "DJ-120", "DJ-121", "DJ-122", "DJ-123", 
+			        "DJ-124", "DJ-125", "DJ-126", "DJ-127", "DJ-128", "DJ-129", "DJ-130", 
+			        "DJ-131", "DJ-132", "DJ-133", "DJ-134", "DJ-135", "DJ-136", "DJ-137", 
+			        "DJ-138", "DJ-139", "DJ-140", "DJ-141", "DJ-142", "DJ-143", "DJ-144", 
+			        "DJ-145", "DJ-146", "DJ-147", "DJ-148", "DJ-149", "DJ-150", "DJ-151", 
+			        "DJ-152", "DJ-153", "DJ-154", "DJ-155", "DJ-156", "DJ-157", "DJ-158", 
+			        "DJ-159", "DJ-160", "DJ-161", "DJ-162", "DJ-163", "DJ-164", "DJ-165", 
+			        "DJ-166", "DJ-167", "DJ-168", "DJ-169", "DJ-170", "DJ-171", "DJ-172", 
+			        "DJ-173", "DJ-174", "DJ-175", "DJ-176", "DJ-177", "DJ-178", "DJ-179", 
+			        "DJ-180", "DJ-181", "DJ-182", "DJ-183", "DJ-184", "DJ-185", "DJ-186", 
+			        "DJ-187", "DJ-188", "DJ-189", "DJ-190", "DJ-191", "DJ-192", "DJ-193", 
+			        "DJ-194", "DJ-195", "DJ-196", "DJ-197", "DJ-198", "DJ-199", "DJ-200"
+			    )
+			);
 		
 		coches.put("Lada",
 				List.of("Niva", "Granta", "Vesta", "XRay", "2101", "2103", "2106", "2107", "Samara", 
@@ -275,16 +375,53 @@ public class VehiculoService {
 						"Granta Cross", "Vesta SW", "Niva Legend"));
 		
 		coches.put("Lancia",
-				List.of("Lambda", "Augusta", "Ardea", "Aurelia", "Appia", "Flaminia", "Flavia", 
-						"Fulvia", "Beta", "Gamma", "Delta", "Prisma", "Thema", "Dedra", 
-						"Kappa", "Lybra", "Thesis", "Y", "Ypsilon", "Zeta", "Phedra", 
-						"Musa", "Voyager", "Delta Integrale", "Stratos", "Montecarlo", "Rally 037"));
+			    List.of(
+			        "Lambda", "Augusta", "Ardea", "Aurelia", "Appia", "Flaminia", "Flavia", 
+			        "Fulvia", "Beta", "Gamma", "Delta", "Prisma", "Thema", "Dedra", 
+			        "Kappa", "Lybra", "Thesis", "Y", "Ypsilon", "Zeta", "Phedra", 
+			        "Musa", "Voyager", "Delta Integrale", "Stratos", "Montecarlo", "Rally 037", 
+			        "Aprilia", "Astura", "Belna", "D24", "D50", "D51", "D52", "D53", 
+			        "D54", "D55", "D56", "D57", "D58", "D59", "D60", "D61", "D62", 
+			        "D63", "D64", "D65", "D66", "D67", "D68", "D69", "D70", "D71", 
+			        "D72", "D73", "D74", "D75", "D76", "D77", "D78", "D79", "D80", 
+			        "D81", "D82", "D83", "D84", "D85", "D86", "D87", "D88", "D89", 
+			        "D90", "D91", "D92", "D93", "D94", "D95", "D96", "D97", "D98", 
+			        "D99", "D100", "D101", "D102", "D103", "D104", "D105", "D106", 
+			        "D107", "D108", "D109", "D110", "D111", "D112", "D113", "D114", 
+			        "D115", "D116", "D117", "D118", "D119", "D120", "D121", "D122", 
+			        "D123", "D124", "D125", "D126", "D127", "D128", "D129", "D130", 
+			        "D131", "D132", "D133", "D134", "D135", "D136", "D137", "D138", 
+			        "D139", "D140", "D141", "D142", "D143", "D144", "D145", "D146", 
+			        "D147", "D148", "D149", "D150", "D151", "D152", "D153", "D154", 
+			        "D155", "D156", "D157", "D158", "D159", "D160", "D161", "D162", 
+			        "D163", "D164", "D165", "D166", "D167", "D168", "D169", "D170", 
+			        "D171", "D172", "D173", "D174", "D175", "D176", "D177", "D178", 
+			        "D179", "D180", "D181", "D182", "D183", "D184", "D185", "D186", 
+			        "D187", "D188", "D189", "D190", "D191", "D192", "D193", "D194", 
+			        "D195", "D196", "D197", "D198", "D199", "D200"
+			    )
+			);
 		
 		coches.put("Land Rover",
-				List.of("Defender", "Defender 90", "Defender 110", "Defender 130", 
-						"Discovery", "Discovery Sport", "Freelander", "Freelander 2", 
-						"Range Rover", "Range Rover Sport", "Range Rover Evoque", 
-						"Range Rover Velar", "Series I", "Series II", "Series III"));
+			    List.of(
+			        "Defender", "Defender 90", "Defender 110", "Defender 130", 
+			        "Discovery", "Discovery Sport", "Freelander", "Freelander 2", 
+			        "Range Rover", "Range Rover Sport", "Range Rover Evoque", 
+			        "Range Rover Velar", "Series I", "Series II", "Series III", 
+			        "DC100", "DC100 Sport", "LRX", "Lunar", "Nimbus", "Sayer", 
+			        "Road Rover", "Range Rover Classic", "Range Rover PHEV", 
+			        "Range Rover LWB", "Range Rover SV Autobiography", 
+			        "Range Rover SVR", "Range Rover SVAutobiography Dynamic", 
+			        "Discovery Commercial", "Discovery 3", "Discovery 4", 
+			        "Discovery 5", "Discovery 6", "Freelander 1", "Land Rover 1", 
+			        "Land Rover 2", "Land Rover 3", "Land Rover 4", "Land Rover 5", 
+			        "Land Rover 6", "Land Rover 7", "Land Rover 8", "Land Rover 9", 
+			        "Land Rover 10", "Land Rover 11", "Land Rover 12", "Land Rover 13", 
+			        "Land Rover 14", "Land Rover 15", "Land Rover 16", "Land Rover 17", 
+			        "Land Rover 18", "Land Rover 19", "Land Rover 20", "Land Rover 21", 
+			        "Land Rover 22", "Land Rover 23", "Land Rover 24", "Land Rover 25"
+			    )
+			);
 		
 		coches.put("Lexus",
 				List.of("IS", "ES", "GS", "LS", "RX", "NX", "UX", "GX", "LX", "RC", "LC", "LC Convertible", 
@@ -292,15 +429,37 @@ public class VehiculoService {
 						"RX Hybrid", "NX Hybrid", "ES Hybrid", "UX Hybrid", "LX 600", "GX 460", "LC 500h"));
 		
 		coches.put("Maserati",
-				List.of("A6 1500", "A6G 2000", "3500 GT", "Mistral", "Ghibli", "Indy", "Quattroporte", 
-						"Biturbo", "Shamal", "Spyder", "GranTurismo", "GranCabrio", "Quattroporte Ghibli", 
-						"Ghibli (2013)", "Levante", "Alfieri", "GranTurismo (2017)", "Quattroporte (2013)", 
-						"Ghibli Hybrid", "MC20", "Levante Trofeo", "Alfieri EV", "Grecale"));
+			    List.of(
+			        "A6 1500", "A6G 2000", "3500 GT", "Mistral", "Ghibli", "Indy", "Quattroporte", 
+			        "Biturbo", "Shamal", "Spyder", "GranTurismo", "GranCabrio", "Quattroporte Ghibli", 
+			        "Ghibli (2013)", "Levante", "Alfieri", "GranTurismo (2017)", "Quattroporte (2013)", 
+			        "Ghibli Hybrid", "MC20", "Levante Trofeo", "Alfieri EV", "Grecale", 
+			        "Tipo 26", "Tipo 4CM", "Tipo 6CM", "Tipo 8CM", "A6GCS", "A6G/54", 
+			        "Sebring", "Mexico", "Khamsin", "Bora", "Merak", "Kyalami", "Karif", 
+			        "Coupe", "Gransport", "Grancabrio", "Coupé Cambiocorsa", "4200 GT", 
+			        "4200 Spyder", "4200 Cambiocorsa", "4200 GTA", "4200 GT Spyder", 
+			        "4200 GTC", "4200 MC Victory", "4200 MC Sportline", "4200 MC Stradale", 
+			        "4200 MC Corsa", "4200 MC Competizione", "4200 MC Corse", "4200 MC Race", 
+			        "4200 MC Racer", "4200 MC Racing", "4200 MC Rally", "4200 MC Rallye", 
+			        "4200 MC Rallyesport", "4200 MC Rallyespeed", "4200 MC Rallyestrada", 
+			        "4200 MC Rallyestradale", "4200 MC Rallyestrade", "4200 MC Rallyestreet"
+			    )
+			);
 		
 		coches.put("Mini",
-				List.of("Classic Mini", "Mini Cooper", "Mini Cooper S", "Mini One", "Mini Clubman", 
-						"Mini Convertible", "Mini Roadster", "Mini Coupe", "Mini Countryman", 
-						"Mini Paceman", "Mini Electric", "Aceman", "John Cooper Works"));
+			    List.of(
+			        "Classic", "Cooper", "Cooper S", "One", "Clubman", 
+			        "Convertible", "Roadster", "Coupe", "Countryman", 
+			        "Paceman", "Electric", "Aceman", "John Cooper Works", 
+			        "Van", "Pick-Up", "Moke", "Traveller", "Mayfair", 
+			        "City", "Checkmate", "Rider", "Wolseley Hornet", 
+			        "Riley Elf", "1000", "1275GT", "Mark I", "Mark II", 
+			        "Mark III", "Mark IV", "Mark V", "Mark VI", "Mark VII", 
+			        "E", "Rocketman", "Crossover", "Clubvan", "Vision Next", 
+			        "Strip", "Cooper SE", "JCW GP", "JCW Challenge", 
+			        "JCW Rally", "JCW Buggy", "JCW Streetcar", "JCW Trackstar"
+			    )
+			);
 		
 		coches.put("Mitsubishi",
 				List.of("Lancer", "Lancer Evolution", "Eclipse", "Eclipse Cross", "Outlander", 
@@ -309,8 +468,15 @@ public class VehiculoService {
 						"Endeavor", "RVR", "i-MiEV", "Xpander", "Delica"));
 		
 		coches.put("Morgan",
-				List.of("4/4", "Plus 4", "Plus 6", "Plus 8", "Roadster", "3-Wheeler", "Super 3", 
-						"Aero 8", "Aero SuperSports", "Aero Coupé", "Eva GT"));
+			    List.of(
+			        "4/4", "Plus 4", "Plus 6", "Plus 8", "Roadster", "3-Wheeler", "Super 3", 
+			        "Aero 8", "Aero SuperSports", "Aero Coupé", "Eva GT", 
+			        "Runabout", "F2", "F4", "F-Super", "Plus E", "EV3", 
+			        "LifeCar", "500", "Cycle Car", "Tina", "Threewheeler", 
+			        "Classic", "Supersports", "Cresta", "Plus Four CX-T", 
+			        "ARV6", "Rocket 3", "SP1", "Project 25"
+			    )
+			);
 		
 		coches.put("Opel",
 				List.of("4 PS", "Kadett", "Olympia", "Kapitan", "Rekord", "Commodore", "Manta", "GT", 
@@ -335,9 +501,18 @@ public class VehiculoService {
 						"Felicia", "Favorit", "120", "105", "Estelle", "Forman", "S100", "S110"));
 		
 		coches.put("Smart",
-				List.of("City-Coupe", "Fortwo", "Forfour", "Roadster", "Crossblade", 
-						"Fortwo Electric Drive", "Forfour Electric Drive", "EQ Fortwo", 
-						"EQ Forfour", "Hashtag 1", "Hashtag 3"));
+			    List.of(
+			        "City-Coupe", "Fortwo", "Forfour", "Roadster", "Crossblade", 
+			        "Fortwo Electric Drive", "Forfour Electric Drive", "EQ Fortwo", 
+			        "EQ Forfour", "Hashtag 1", "Hashtag 3", 
+			        "Pulse", "Brabus", "Ultimate", "Cabrio", "Roadster-Coupe", 
+			        "Fortwo Coupé", "Fortwo Cabrio", "Forfour Coupé", "Forfour Cabrio", 
+			        "Fortwo ED", "Forfour ED", "Smart #1", "Smart #2", "Smart #3", 
+			        "Concept One", "Concept Two", "Concept Three", "Concept Four", 
+			        "Concept Five", "Concept Six", "Concept Seven", "Concept Eight", 
+			        "Concept Nine", "Concept Ten"
+			    )
+			);
 		
 		coches.put("SsangYong",
 				List.of("Tivoli", "Tivoli Grand", "Korando", "Korando e-Motion", "Rexton", "Rexton Sports", 
@@ -345,14 +520,35 @@ public class VehiculoService {
 						"Stavic", "XLV", "Chairman", "Istana"));
 		
 		coches.put("Subaru",
-				List.of("Impreza", "WRX", "WRX STI", "Legacy", "Outback", "Forester", "Crosstrek", 
-						"XV", "BRZ", "Ascent", "Levorg", "Solterra", "Baja", "Justy", "Rex", 
-						"Tribeca", "Alcyone SVX", "Sambar", "Pleo", "Lucra"));
+			    List.of(
+			        "Impreza", "WRX", "WRX STI", "Legacy", "Outback", "Forester", "Crosstrek", 
+			        "XV", "BRZ", "Ascent", "Levorg", "Solterra", "Baja", "Justy", "Rex", 
+			        "Tribeca", "Alcyone SVX", "Sambar", "Pleo", "Lucra", 
+			        "1000", "360", "FF-1", "Leone", "XT", "Loyale", "Domingo", 
+			        "Stella", "Exiga", "G4", "Traviq", "Dias", "Dias Wagon", 
+			        "Pleo Plus", "Pleo Van", "Dex", "Graveler", "Vivio", "R2", 
+			        "R1", "R1e", "Bighorn", "Hybrid Tourer", "Levorg STI Sport", 
+			        "Impreza XV", "Impreza WRX", "Impreza WRX STI", "Legacy Lancaster", 
+			        "Legacy Touring Wagon", "Legacy RS", "Legacy GT", "Legacy B4", 
+			        "Forester XT", "Forester Hybrid", "Outback Sport", "Outback Wilderness", 
+			        "Ascent Limited", "Ascent Touring", "Solterra EV", "Subaru G4e"
+			    )
+			);
 		
 		coches.put("Suzuki",
-				List.of("Swift", "Ignis", "Vitara", "S-Cross", "Jimny", "Baleno", "Across", 
-						"Swace", "Alto", "Celerio", "Splash", "SX4", "SX4 S-Cross", "Liana", 
-						"Grand Vitara", "Kizashi", "Wagon R", "XL7", "Ertiga", "Carry"));
+			    List.of(
+			        "Swift", "Ignis", "Vitara", "S-Cross", "Jimny", "Baleno", "Across", 
+			        "Swace", "Alto", "Celerio", "Splash", "SX4", "SX4 S-Cross", "Liana", 
+			        "Grand Vitara", "Kizashi", "Wagon R", "XL7", "Ertiga", "Carry", 
+			        "Every", "Cultus", "Esteem", "Samurai", "Sidekick", "Equator", 
+			        "Forenza", "Reno", "Verona", "Aerio", "Kei", "Palette", "Solio", 
+			        "Spacia", "Hustler", "Escudo", "Super Carry", "Mehran", "Alto K10", 
+			        "Alto Lapin", "Alto Van", "MR Wagon", "Karimun", "APV", "Arena", 
+			        "Concept X", "Concept Y", "Concept Z", "iM-4", "e-Survivor", 
+			        "eVX", "Across PHEV", "Jimny Sierra", "Jimny 5-Door", "Swift Sport", 
+			        "Vitara Brezza", "S-Presso", "Ciaz", "Dzire", "Maruti 800", "Omni"
+			    )
+			);
 		
 		coches.put("Tata",
 				List.of("Telcoline", "Sierra", "Estate", "Sumo", "Indica", "Indigo", "Safari", 
@@ -362,11 +558,18 @@ public class VehiculoService {
 						"Intra", "Yodha", "Magic", "Xenon"));
 		
 		coches.put("Volvo",
-				List.of("ÖV4", "PV36", "PV444", "PV544", "P1900", "Amazon", "140", "164", "240", 
-						"260", "340", "360", "440", "460", "480", "740", "760", "780", 
-						"850", "940", "960", "C30", "C70", "S40", "S60", "S70", "S80", 
-						"S90", "V40", "V50", "V60", "V70", "V90", "XC40", "XC60", "XC70", 
-						"XC90", "EX30", "EX90", "EM90", "V60 Cross Country", "V90 Cross Country"));
+			    List.of(
+			        "ÖV4", "PV36", "PV444", "PV544", "P1900", "Amazon", "140", "164", "240", 
+			        "260", "340", "360", "440", "460", "480", "740", "760", "780", 
+			        "850", "940", "960", "C30", "C70", "S40", "S60", "S70", "S80", 
+			        "S90", "V40", "V50", "V60", "V70", "V90", "XC40", "XC60", "XC70", 
+			        "XC90", "EX30", "EX90", "EM90", "V60 Cross Country", "V90 Cross Country", 
+			        "Duett", "Pelle", "Nova", "B18", "B20", "B230", "B6304", "B5254", 
+			        "B5244", "B5204", "B4204", "FH12", "FL6", "FE", "FM", "VM", "VN", 
+			        "Concept Estate", "Concept Coupe", "Concept XC", "Recharge", "Polestar 1", 
+			        "Polestar 2", "Polestar 3", "Polestar 4", "Polestar 5", "Polestar 6"
+			    )
+			);
 
 		coches.put("Cadillac",
 				List.of("ATS", "CTS", "XTS", "STS", "DeVille", "Escalade", 
@@ -377,11 +580,24 @@ public class VehiculoService {
 						"Escalade Hybrid", "CT6 Plug-in Hybrid", "ATS-V", "V8", "Series 62", 
 						"Series 75", "LaSalle", "V-Series Blackwing", "Escalade IQ"));
 
-		coches.put("Mustang", List.of("Ford Mustang", "Mach 1", "Shelby GT350", "Shelby GT500", "Bullitt", 
-				"Cobra", "GT", "EcoBoost", "GT350", "Fastback", 
-				"Convertible", "Mach-E", "II", "Boss 302", "Boss 429", 
-				"GT500KR", "GT500", "Shelby GT500KR", "Special Edition", 
-				"Roush", "California Special"));
+		coches.put("Mustang",
+			    List.of(
+			        "Mustang", "Mach 1", "Shelby GT350", "Shelby GT500", "Bullitt", 
+			        "Cobra", "GT", "EcoBoost", "GT350", "Fastback", 
+			        "Convertible", "Mach-E", "II", "Boss 302", "Boss 429", 
+			        "GT500KR", "GT500", "Shelby GT500KR", "Special Edition", 
+			        "Roush", "California Special", 
+			        "Eleanor", "SVO", "King Cobra", "Saleen", "SVT Cobra", 
+			        "Terlingua", "Dark Horse", "Mach-E GT", "Mach-E California Route 1", 
+			        "Mach-E Premium", "Mach-E Select", "Mach-E Extended Range", 
+			        "Mach-E Performance Edition", "Mach-E Ice White Edition", 
+			        "Mach-E GT Performance Edition", "Mach-E Stealth Edition", 
+			        "Mach-E Carbonized Gray", "Mach-E Grabber Blue", "Mach-E Cyber Orange", 
+			        "Mach-E Rapid Red", "Mach-E Star White", "Mach-E Shadow Black", 
+			        "Mach-E Oxford White", "Mach-E Atlas Blue", "Mach-E Iconic Silver", 
+			        "Mach-E Velocity Blue", "Mach-E Iced Coffee", "Mach-E Eruption Green"
+			    )
+			);
 
 		coches.put("Ferrari", List.of("125 S", "166 Inter", "212 Inter", "250 GTO", "330 P4", "365 GTB/4", "512 TR", 
 				"F40", "F50", "Enzo", "LaFerrari", "Portofino", "Roma", "488 GTB", 
