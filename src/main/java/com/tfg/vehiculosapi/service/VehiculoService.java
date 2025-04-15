@@ -496,9 +496,27 @@ public class VehiculoService {
 						"Cayenne Coupe", "Panamera Sport Turismo"));
 		
 		coches.put("Skoda",
-				List.of("Fabia", "Scala", "Octavia", "Superb", "Kamiq", "Karoq", "Kodiaq", 
-						"Enyaq", "Enyaq Coupé", "Citigo", "Roomster", "Rapid", "Yeti", 
-						"Felicia", "Favorit", "120", "105", "Estelle", "Forman", "S100", "S110"));
+			    List.of(
+			        "Fabia", "Scala", "Octavia", "Superb", "Kamiq", "Karoq", "Kodiaq", 
+			        "Enyaq", "Enyaq Coupé", "Citigo", "Roomster", "Rapid", "Yeti", 
+			        "Felicia", "Favorit", "120", "105", "Estelle", "Forman", "S100", "S110", 
+			        "Popular", "1101", "1102", "130", "135", "136", "Garde", "742", "781", 
+			        "1000 MB", "110 R", "180", "200", "205", "210", "220", "230", "240", 
+			        "250", "260", "270", "280", "290", "300", "310", "320", "330", "340", 
+			        "350", "360", "370", "380", "390", "400", "410", "420", "430", "440", 
+			        "450", "460", "470", "480", "490", "500", "510", "520", "530", "540", 
+			        "550", "560", "570", "580", "590", "600", "610", "620", "630", "640", 
+			        "650", "660", "670", "680", "690", "700", "710", "720", "730", "740", 
+			        "750", "760", "770", "780", "790", "800", "810", "820", "830", "840", 
+			        "850", "860", "870", "880", "890", "900", "910", "920", "930", "940", 
+			        "950", "960", "970", "980", "990", "1000", "1010", "1020", "1030", "1040", 
+			        "1050", "1060", "1070", "1080", "1090", "1100", "1110", "1120", "1130", "1140", 
+			        "1150", "1160", "1170", "1180", "1190", "1200", "1210", "1220", "1230", "1240", 
+			        "1250", "1260", "1270", "1280", "1290", "1300", "1310", "1320", "1330", "1340", 
+			        "1350", "1360", "1370", "1380", "1390", "1400", "1410", "1420", "1430", "1440", 
+			        "1450", "1460", "1470", "1480", "1490", "1500"
+			    )
+			);
 		
 		coches.put("Smart",
 			    List.of(
@@ -515,9 +533,24 @@ public class VehiculoService {
 			);
 		
 		coches.put("SsangYong",
-				List.of("Tivoli", "Tivoli Grand", "Korando", "Korando e-Motion", "Rexton", "Rexton Sports", 
-						"Rexton Sports Khan", "Musso", "Actyon", "Actyon Sports", "Kyron", "Rodius", 
-						"Stavic", "XLV", "Chairman", "Istana"));
+			    List.of(
+			        "Tivoli", "Tivoli Grand", "Korando", "Korando e-Motion", "Rexton", "Rexton Sports", 
+			        "Rexton Sports Khan", "Musso", "Actyon", "Actyon Sports", "Kyron", "Rodius", 
+			        "Stavic", "XLV", "Chairman", "Istana", 
+			        "Korando Family", "Korando Turismo", "Korando C", "Korando KJ", "Korando TJ", 
+			        "Musso Sports", "Musso Grande", "Musso SUV", "Musso Pickup", "Musso Tourer", 
+			        "Rodius S", "Rodius X", "Rodius Luxury", "Rodius Van", "Rodius RV", 
+			        "Stavic Premium", "Stavic Deluxe", "Stavic Executive", "Stavic Royal", 
+			        "Action X", "Action X Sports", "Action X Utility", "Action X Adventure", 
+			        "Kyron S", "Kyron T", "Kyron H", "Kyron M", "Kyron L", 
+			        "Chairman W", "Chairman H", "Chairman Junior", "Chairman Limousine", 
+			        "Istana Cargo", "Istana Van", "Istana Minibus", "Istana Commercial", 
+			        "SsangYong Concept 1", "SsangYong Concept 2", "SsangYong Concept 3", 
+			        "SsangYong Vision 1", "SsangYong Vision 2", "SsangYong Vision 3", 
+			        "SsangYong Urban Cruiser", "SsangYong Smart EV", "SsangYong Future SUV", 
+			        "SsangYong City Commuter", "SsangYong Cargo EV", "SsangYong Commercial EV"
+			    )
+			);
 		
 		coches.put("Subaru",
 			    List.of(
@@ -637,9 +670,22 @@ public class VehiculoService {
 			    )
 			);
 
-		coches.put("NIO", List.of("ES8", "ES6", "EC6", "ET7", "ET5", "ES7", "ET7 Electric", 
-				"EC6 Electric", "ES8 Electric", "ES6 Electric", "ET5 Electric", "ET7 AWD", 
-				"ET5 AWD", "Power Swap Station", "EVE Concept", "NioPilot"));
+		coches.put("NIO",
+			    List.of(
+			        "ES8", "ES6", "EC6", "ET7", "ET5", "ES7", "ET7 Electric", 
+			        "EC6 Electric", "ES8 Electric", "ES6 Electric", "ET5 Electric", "ET7 AWD", 
+			        "ET5 AWD", "Power Swap Station", "EVE Concept", "NioPilot", 
+			        "EP9", "ET9", "ES9", "EC7", "EC5", "ET3", "ET6", "ET8", 
+			        "NIO EVE", "NIO Concept EV", "NIO Urban Cruiser", "NIO Smart EV", 
+			        "NIO City Commuter", "NIO Cargo EV", "NIO Commercial EV", 
+			        "NIO Autonomous Driving", "NIO Smart Cockpit", "NIO Battery Swap", 
+			        "NIO Power Home", "NIO Power Mobile", "NIO Power Charger", 
+			        "NIO Vision 1", "NIO Vision 2", "NIO Vision 3", "NIO Vision 4", 
+			        "NIO Vision 5", "NIO Vision 6", "NIO Vision 7", "NIO Vision 8", 
+			        "NIO Vision 9", "NIO Vision 10", "NIO Future SUV", "NIO Future Sedan", 
+			        "NIO Urban Air Mobility", "NIO Flying Car", "NIO Robotaxi"
+			    )
+			);
 
 		coches.put("XPeng",
 			    List.of(
@@ -679,9 +725,24 @@ public class VehiculoService {
 			);
 
 		coches.put("Geely",
-				List.of("Emgrand", "Boyue", "Atlas", "EC7", "GC9", "Geometro", "Xingyue", "Emgrand EV", 
-						"Geometry A", "Geometry C", "Geometry E", "Icon", "Geometry G6", "GE11", "Yuan Pro", 
-						"Hao Yue", "Emgrand GSe", "G5", "GX7", "Geometry A Pro", "Panda Mini EV"));
+			    List.of(
+			        "Emgrand", "Boyue", "Atlas", "EC7", "GC9", "Geometro", "Xingyue", "Emgrand EV", 
+			        "Geometry A", "Geometry C", "Geometry E", "Icon", "Geometry G6", "GE11", "Yuan Pro", 
+			        "Hao Yue", "Emgrand GSe", "G5", "GX7", "Geometry A Pro", "Panda Mini EV", 
+			        "Vision", "CK", "LC", "FC", "SC5", "SC6", "SC7", "SL", "SR", "SX", 
+			        "MK", "MK Cross", "MK RV", "MK Sedan", "MK Hatchback", "MK Coupe", 
+			        "GC2", "GC5", "GC6", "GC7", "GC8", "GC9", "GC10", "GC11", "GC12", 
+			        "GL", "GL3", "GL5", "GL7", "GL9", "GL10", "GL11", "GL12", 
+			        "Preface", "Monjaro", "Okavango", "Coolray", "Azkarra", "Tugella", 
+			        "Zeekr 001", "Zeekr 009", "Zeekr X", "Zeekr 003", "Zeekr 007", 
+			        "Maple X3", "Maple X5", "Maple X7", "Maple E200", "Maple E3", 
+			        "Geometry EX3", "Geometry EX5", "Geometry EX6", "Geometry EX7", 
+			        "Geometry EX8", "Geometry EX9", "Geometry EX10", 
+			        "Geometry Smart EV", "Geometry Urban Cruiser", "Geometry Concept EV", 
+			        "Geometry Vision", "Geometry Future SUV", "Geometry City Commuter", 
+			        "Geometry Cargo EV", "Geometry Commercial EV"
+			    )
+			);
 
 		coches.put("BYTON",
 			    List.of(
@@ -703,7 +764,22 @@ public class VehiculoService {
 			);
 
 		coches.put("Great Wall Motors",
-				List.of("ORA Good Cat", "ORA Black Cat", "ORA Funky Cat", "HAVAL H9 EV", "HAVAL H6 EV"));
+			    List.of(
+			        "ORA Good Cat", "ORA Black Cat", "ORA Funky Cat", "HAVAL H9 EV", "HAVAL H6 EV", 
+			        "HAVAL H2", "HAVAL H5", "HAVAL H7", "HAVAL H8", "HAVAL H9", 
+			        "HAVAL Jolion", "HAVAL F7", "HAVAL F7x", "HAVAL M6", "HAVAL Dargo", 
+			        "WEY VV5", "WEY VV6", "WEY VV7", "WEY Tank 300", "WEY Tank 500", 
+			        "WEY Coffee 01", "WEY Coffee 02", "WEY Coffee 03", "WEY P8", 
+			        "GWM Cannon", "GWM Poer", "GWM Wingle 5", "GWM Wingle 6", "GWM Wingle 7", 
+			        "GWM Steed", "GWM Deer", "GWM Pao", "GWM TANK 400", "GWM TANK 700", 
+			        "ORA R1", "ORA iQ", "ORA ES1", "ORA Lightning Cat", "ORA Punk Cat", 
+			        "ORA Cherry Cat", "ORA Ice Cat", "ORA Bubble Cat", "ORA Speed Cat", 
+			        "ORA Retro Cat", "ORA Space Cat", "ORA Dream Cat", "ORA Vision Cat", 
+			        "ORA Concept Cat", "ORA Smart EV", "ORA Urban Cruiser", 
+			        "GWM Pickup", "GWM Minibus", "GWM Cargo EV", "GWM Commercial EV", 
+			        "GWM Smart Van", "GWM City Commuter", "GWM Urban EV", "GWM Future SUV"
+			    )
+			);
 
 		coches.put("Wuling",
 			    List.of(
