@@ -1392,8 +1392,18 @@ public class VehiculoService {
 						"Bullet Trials Works Replica 350", "Himalayan BS6"));
 		
 		motos.put("Qooder",
-				List.of("Qooder", "Qooder QV3", "Qooder QV4", "Qooder Qooder", "Qooder Oxygen", 
-						"Qooder e-Qooder", "Qooder XQooder", "Qooder Nuvion"));
+			    List.of(
+			        "Qooder", "Qooder QV3", "Qooder QV4", "Qooder Oxygen", 
+			        "Qooder e-Qooder", "Qooder XQooder", "Qooder Nuvion", 
+			        "Qooder Urban", "Qooder City", "Qooder Adventure", 
+			        "Qooder Hybrid", "Qooder Pro", "Qooder Sport", 
+			        "Qooder Touring", "Qooder Cargo", "Qooder Utility", 
+			        "Qooder Concept 1", "Qooder Concept 2", "Qooder Vision", 
+			        "Qooder Future", "Qooder Smart", "Qooder Electric", 
+			        "Qooder Urban EV", "Qooder City EV", "Qooder Adventure EV", 
+			        "Qooder Cargo EV", "Qooder Utility EV"
+			    )
+			);
 		
 		motos.put("SYM",
 				List.of("Jet 4", "Jet 4R", "Jet 14", "Jet 14 125", "Jet 14 150", "Jet 14 200", 
