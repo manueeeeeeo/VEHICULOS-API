@@ -619,33 +619,128 @@ public class VehiculoService {
 						"Gallardo Superleggera", "Gallardo LP570-4", "Aventador S", "Aventador SVJ", 
 						"Huracán Spyder", "Huracán Performante", "Huracán STO", "Urus"));
 
-		coches.put("BYD", List.of("Tang EV", "Song EV", "Qin EV", "Yuan EV", "e6", "T3", "F3DM", "S6", "E6 Plus",
-				"Han EV", "Atto 3", "Dolphin", "Seagull"));
+		coches.put("BYD",
+			    List.of(
+			        "Tang EV", "Song EV", "Qin EV", "Yuan EV", "e6", "T3", "F3DM", "S6", 
+			        "E6 Plus", "Han EV", "Atto 3", "Dolphin", "Seagull", 
+			        "F3", "L3", "G3", "F0", "M6", "e5", "e2", "e1", "S1", 
+			        "S2", "S3", "S5", "S8", "M3", "M5", "M7", "L6", "L8", 
+			        "T5", "T6", "T7", "T9", "T10", "T11", "T12", "T13", "T14", 
+			        "T15", "T16", "T17", "T18", "T19", "T20", "T21", "T22", 
+			        "Tang DM", "Song DM", "Qin DM", "Yuan DM", "Song Pro", 
+			        "Song Max", "Qin Plus", "Yuan Plus", "Tang Pro", "Tang Max", 
+			        "Han DM", "Han PHEV", "Ocean X", "Ocean R", "Ocean S", 
+			        "Ocean E", "Ocean F", "Ocean G", "Ocean H", "Ocean K", 
+			        "Ocean L", "Ocean M", "Ocean N", "Ocean O", "Ocean P", 
+			        "Ocean Q", "Ocean R", "Ocean S", "Ocean T", "Ocean U", 
+			        "Ocean V", "Ocean W", "Ocean X", "Ocean Y", "Ocean Z"
+			    )
+			);
 
 		coches.put("NIO", List.of("ES8", "ES6", "EC6", "ET7", "ET5", "ES7", "ET7 Electric", 
 				"EC6 Electric", "ES8 Electric", "ES6 Electric", "ET5 Electric", "ET7 AWD", 
 				"ET5 AWD", "Power Swap Station", "EVE Concept", "NioPilot"));
 
-		coches.put("XPeng", List.of("XPeng G3", "XPeng P7", "XPeng P5", "XPeng G3i", "XPeng Xmart OS", "XPeng P7 Electric", "XPeng G3 Electric", 
-				"XPeng P5 Electric", "XPeng G3i Electric", "XPeng P7 Wing", "XPeng Xpeng City"));
+		coches.put("XPeng",
+			    List.of(
+			        "XPeng G3", "XPeng P7", "XPeng P5", "XPeng G3i", "XPeng Xmart OS", 
+			        "XPeng P7 Electric", "XPeng G3 Electric", "XPeng P5 Electric", 
+			        "XPeng G3i Electric", "XPeng P7 Wing", "XPeng City", 
+			        "XPeng G9", "XPeng X2", "XPeng X3", "XPeng X4", "XPeng X5", 
+			        "XPeng X6", "XPeng X7", "XPeng X8", "XPeng X9", "XPeng X10", 
+			        "XPeng H1", "XPeng H2", "XPeng H3", "XPeng H4", "XPeng H5", 
+			        "XPeng H6", "XPeng H7", "XPeng H8", "XPeng H9", "XPeng H10", 
+			        "XPeng M1", "XPeng M2", "XPeng M3", "XPeng M4", "XPeng M5", 
+			        "XPeng M6", "XPeng M7", "XPeng M8", "XPeng M9", "XPeng M10", 
+			        "XPeng Robotaxi", "XPeng Flying Car", "XPeng AeroHT", 
+			        "XPeng Smart Cockpit", "XPeng Autonomous Driving", 
+			        "XPeng Urban Air Mobility", "XPeng Concept 1", "XPeng Concept 2", 
+			        "XPeng Concept 3", "XPeng Concept 4", "XPeng Concept 5", 
+			        "XPeng Concept 6", "XPeng Concept 7", "XPeng Concept 8", 
+			        "XPeng Concept 9", "XPeng Concept 10"
+			    )
+			);
 
-		coches.put("Li Auto", List.of("Li Auto Li ONE", "Li Auto Li L7", "Li Auto Li L9", "Li Auto Li X", "Li Auto L9 Electric", 
-				"Li Auto Li ONE Electric", "Li Auto Li L7 Electric"));
+		coches.put("Li Auto",
+			    List.of(
+			        "Li ONE", "Li L7", "Li L9", "Li X", "Li L9 Electric", 
+			        "Li ONE Electric", "Li L7 Electric", 
+			        "Li L8", "Li L6", "Li M1", "Li M2", "Li M3", 
+			        "Li M4", "Li M5", "Li M6", "Li M7", "Li M8", 
+			        "Li M9", "Li M10", "Li S1", "Li S2", "Li S3", 
+			        "Li S4", "Li S5", "Li S6", "Li S7", "Li S8", 
+			        "Li S9", "Li S10", "Li Air", "Li Space", 
+			        "Li Concept 1", "Li Concept 2", "Li Concept 3", 
+			        "Li Concept 4", "Li Concept 5", "Li Concept 6", 
+			        "Li Concept 7", "Li Concept 8", "Li Concept 9", 
+			        "Li Concept 10", "Li Future SUV", "Li Future Sedan", 
+			        "Li Autonomous Driving", "Li Smart Cockpit", "Li EV Platform"
+			    )
+			);
 
 		coches.put("Geely",
 				List.of("Emgrand", "Boyue", "Atlas", "EC7", "GC9", "Geometro", "Xingyue", "Emgrand EV", 
 						"Geometry A", "Geometry C", "Geometry E", "Icon", "Geometry G6", "GE11", "Yuan Pro", 
 						"Hao Yue", "Emgrand GSe", "G5", "GX7", "Geometry A Pro", "Panda Mini EV"));
 
-		coches.put("BYTON", List.of("M-Byte", "K-Byte", "C-Byte", "E-Byte", "S-Byte", "SUV", 
-				"Concept", "M-Byte Electric", "K-Byte Electric"));
+		coches.put("BYTON",
+			    List.of(
+			        "M-Byte", "K-Byte", "C-Byte", "E-Byte", "S-Byte", "SUV", 
+			        "Concept", "M-Byte Electric", "K-Byte Electric", 
+			        "BYTON Concept SUV", "BYTON Concept Sedan", "BYTON Concept Coupe", 
+			        "BYTON X1", "BYTON X2", "BYTON X3", "BYTON X4", "BYTON X5", 
+			        "BYTON X6", "BYTON X7", "BYTON X8", "BYTON X9", "BYTON X10", 
+			        "BYTON L1", "BYTON L2", "BYTON L3", "BYTON L4", "BYTON L5", 
+			        "BYTON L6", "BYTON L7", "BYTON L8", "BYTON L9", "BYTON L10", 
+			        "BYTON Smart Cockpit", "BYTON Autonomous Driving", 
+			        "BYTON EV Platform", "BYTON Future Mobility", 
+			        "BYTON Urban Commuter", "BYTON City Cruiser", 
+			        "BYTON Vision 1", "BYTON Vision 2", "BYTON Vision 3", 
+			        "BYTON Vision 4", "BYTON Vision 5", "BYTON Vision 6", 
+			        "BYTON Vision 7", "BYTON Vision 8", "BYTON Vision 9", 
+			        "BYTON Vision 10"
+			    )
+			);
 
 		coches.put("Great Wall Motors",
 				List.of("ORA Good Cat", "ORA Black Cat", "ORA Funky Cat", "HAVAL H9 EV", "HAVAL H6 EV"));
 
-		coches.put("Wuling", List.of("Wuling Hongguang Mini EV", "Wuling Baojun E100", "Wuling E200"));
+		coches.put("Wuling",
+			    List.of(
+			        "Hongguang Mini EV", "Baojun E100", "E200", 
+			        "Hongguang S3", "Hongguang S1", "Hongguang Plus", 
+			        "Hongguang V8", "Hongguang LZW6376", "Rongguang", 
+			        "Zhiguang", "Sunshine", "Victory", "Star", 
+			        "Baojun 530", "Baojun 310", "Baojun 730", 
+			        "Baojun RS-5", "Baojun RC-6", "Baojun RM-5", 
+			        "Baojun RV-8", "Baojun E300", "Baojun KiWi EV", 
+			        "Wuling Nano EV", "Wuling Zhengji", "Wuling Victory EV", 
+			        "Wuling Air EV", "Wuling Almaz", "Wuling Confero", 
+			        "Wuling Formo", "Wuling Cortez", "Wuling Alia", 
+			        "Wuling Futura", "Wuling Sunshine EV", "Wuling Star EV", 
+			        "Wuling Concept EV", "Wuling Urban Cruiser", 
+			        "Wuling Smart Van", "Wuling Cargo EV", "Wuling MPV", 
+			        "Wuling Pickup", "Wuling Minibus", "Wuling Commercial EV"
+			    )
+			);
 
-		coches.put("SAIC Motor", List.of("MG ZS EV", "MG Marvel R", "MG4 Electric", "Roewe Ei5", "Roewe RX5 EV"));
+		coches.put("SAIC Motor",
+			    List.of(
+			        "MG ZS EV", "MG Marvel R", "MG4 Electric", "Roewe Ei5", "Roewe RX5 EV", 
+			        "MG HS", "MG RX8", "MG GT", "MG6", "MG3", "MG5", "MG7", 
+			        "Roewe i6", "Roewe 350", "Roewe 550", "Roewe 750", "Roewe 950", 
+			        "Roewe eRX5", "Roewe iMAX8", "Roewe RX8", "Roewe RX3", "Roewe RX9", 
+			        "Maxus EUNIQ 5", "Maxus EUNIQ 6", "Maxus EUNIQ 7", "Maxus MIFA 9", 
+			        "Maxus G10", "Maxus G20", "Maxus G50", "Maxus T60", "Maxus T70", 
+			        "Maxus V80", "Maxus V90", "Maxus EV30", "Maxus EV80", "Maxus EV90", 
+			        "MG Cyberster", "MG CyberMorph", "MG RX5", "MG ASHS", 
+			        "Roewe Vision-i", "Roewe Concept-i", "Roewe MARVEL X", 
+			        "Roewe MARVEL X Pro", "Roewe MARVEL 8", "Roewe MARVEL 9", 
+			        "Maxus Concept M", "Maxus Concept V", "Maxus Concept T", 
+			        "SAIC IMAX", "SAIC IMAX EV", "SAIC LCV", "SAIC MPV", 
+			        "SAIC Commercial EV", "SAIC Smart EV", "SAIC Urban Cruiser"
+			    )
+			);
 
 		coches.put("Tianjin FAW Xiali", List.of("Tianjin FAW Xiali 1010", "Tianjin FAW Xiali 1041", "Tianjin FAW Xiali 1061", 
 				"Tianjin FAW Xiali 1081", "Tianjin FAW Xiali 1091", "Tianjin FAW Xiali T173", 
