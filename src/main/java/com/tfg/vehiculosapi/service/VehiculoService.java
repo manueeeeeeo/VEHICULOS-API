@@ -156,10 +156,30 @@ public class VehiculoService {
 				        "Colorado", "HHR", "Uplander", "Captiva", "Aveo", "Agile", "Cruze", "Volt", "Onix", "Bolt", "Trax", "Traverse", "Orlando", 
 				        "Spin", "Prisma", "Niva"));
 
-		coches.put("Mazda", List.of("2", "3", "6", "5", "MX-5", "CX-3", "CX-30", "CX-5", 
-				"CX-7", "CX-9", "CX-60", "CX-70", "CX-80", "CX-90", "BT-50", "MX-30", 
-				"RX-7", "RX-8", "121", "323", "626", "929", "Serie B Pickup", "Millenia", 
-				"Allegro", "Cosmo"));
+		coches.put("Mazda",
+			    List.of(
+			        "2", "3", "6", "5", "MX-5", "CX-3", "CX-30", "CX-5", 
+			        "CX-7", "CX-9", "CX-60", "CX-70", "CX-80", "CX-90", "BT-50", "MX-30", 
+			        "RX-7", "RX-8", "121", "323", "626", "929", "Serie B Pickup", "Millenia", 
+			        "Allegro", "Cosmo", 
+			        "1000", "1300", "1500", "1600", "1800", "2000", "2100", "2200", 
+			        "3100", "3300", "3400", "3500", "3600", "3700", "3800", "3900", 
+			        "4000", "4100", "4200", "4300", "4400", "4500", "4600", "4700", 
+			        "4800", "4900", "5000", "5100", "5200", "5300", "5400", "5500", 
+			        "5600", "5700", "5800", "5900", "6000", "6100", "6200", "6300", 
+			        "6400", "6500", "6600", "6700", "6800", "6900", "7000", "7100", 
+			        "7200", "7300", "7400", "7500", "7600", "7700", "7800", "7900", 
+			        "8000", "8100", "8200", "8300", "8400", "8500", "8600", "8700", 
+			        "8800", "8900", "9000", "9100", "9200", "9300", "9400", "9500", 
+			        "9600", "9700", "9800", "9900", "10000", 
+			        "B-Series", "E-Series", "F-Series", "G-Series", "H-Series", "L-Series", 
+			        "MPV", "Navajo", "Protege", "Protege5", "Tribute", "Verisa", "Xedos 6", 
+			        "Xedos 9", "Carol", "Demio", "Flair", "Scrum", "Proceed", "Proceed Levante", 
+			        "RX-2", "RX-3", "RX-4", "RX-5", "RX-6", "RX-9", "Rotary Pickup", 
+			        "MX-3", "MX-6", "MX-8", "Premacy", "Sentia", "Titan", "Roadpacer", 
+			        "Revue", "Rustler", "Savanna", "Spiano", "Unser", "Vantrend", "Voltz"
+			    )
+			);
 
 		coches.put("Seat", List.of("600", "850", "124", "1430", "127", "128", "131", "132", "133", 
 				"1430", "1500", "1600", "1800", "2000", "850 Sport Coupé", "124 Sport Coupé", 
@@ -216,25 +236,91 @@ public class VehiculoService {
 						"Cloud II", "Cloud III"));
 		
 		coches.put("Abarth",
-				List.of("595", "595 Competizione", "595 Turismo", "695 Biposto", "695 Competizione", 
-						"695 Rivale", "124 Spider", "500", "500C", "500X", "Punto Evo Abarth", 
-						"Grande Punto Abarth", "500 Abarth", "500L", "500X Abarth"));
+			    List.of(
+			        "595", "595 Competizione", "595 Turismo", "695 Biposto", "695 Competizione", 
+			        "695 Rivale", "124 Spider", "500", "500C", "500X", "Punto Evo Abarth", 
+			        "Grande Punto Abarth", "500 Abarth", "500L", "500X Abarth", 
+			        "1000", "1300", "1600", "2000", "2400", "750", "850", "850 TC", 
+			        "1000 GT", "1300 GT", "205", "207", "208", "209", "210", "211", 
+			        "212", "213", "214", "215", "216", "217", "218", "219", "220", 
+			        "221", "222", "223", "224", "225", "226", "227", "228", "229", 
+			        "230", "231", "232", "233", "234", "235", "236", "237", "238", 
+			        "239", "240", "241", "242", "243", "244", "245", "246", "247", 
+			        "248", "249", "250", "251", "252", "253", "254", "255", "256", 
+			        "257", "258", "259", "260", 
+			        "A112", "A112 Abarth", "Autotela 1100", "Simca 1300", "Fiat 124 Abarth", 
+			        "Fiat 131 Abarth", "Fiat Ritmo Abarth", "Fiat Uno Abarth", "Fiat Panda Abarth", 
+			        "Abarth 600", "Abarth 1000 SP", "Abarth 205A", "Abarth 207A", "Abarth OT 1600", 
+			        "Abarth OT 2000", "Abarth 1000 Berlina", "Abarth 1300", "Abarth 2000", 
+			        "Abarth 2400", "Abarth 3000", "Abarth 3500", "Abarth 4000", "Abarth 5000"
+			    )
+			);
 		
 		coches.put("Alfa Romeo",
-				List.of("Giulia", "Giulietta", "Stelvio", "Tonale", "33 Stradale", "8C Competizione", 
-						"4C", "MiTo", "Brera", "Spider", "GT", "159", "156", "147", "145", "146", 
-						"75", "90", "Alfetta", "GTV", "Montreal", "Sud", "33", "164", "166"));
+			    List.of(
+			        "Giulia", "Giulietta", "Stelvio", "Tonale", "33 Stradale", "8C Competizione", 
+			        "4C", "MiTo", "Brera", "Spider", "GT", "159", "156", "147", "145", "146", 
+			        "75", "90", "Alfetta", "GTV", "Montreal", "Sud", "33", "164", "166", 
+			        "2000", "2600", "1900", "6C", "8C", "RL", "RM", "P2", "P3", "Tipo B", 
+			        "Tipo C", "Tipo 158", "Tipo 159", "Tipo 33", "Tipo 33/2", "Tipo 33/3", 
+			        "Tipo 33TT12", "Tipo 33SC", "SZ", "RZ", "Junior Zagato", "GTA", "GTV6", 
+			        "Alfasud Sprint", "Arna", "Duetto", "2000 Spider Veloce", "2600 Spider", 
+			        "4C Spider", "8C Spider", "Disco Volante", "Carabo", "Navajo", "Caimano", 
+			        "Iguana", "Proteo", "Scighera", "Nuvola", "Visconti", "Kamal", "Bertone", 
+			        "Giulietta Sprint", "Giulietta Spider", "Giulia Sprint GT", "Giulia Super", 
+			        "Giulia TZ", "Giulia GTA", "Giulia Sprint Speciale", "Fiat 132 Alfa Romeo", 
+			        "Fiat Ritmo Abarth", "Fiat Uno Abarth", "Fiat Panda Abarth"
+			    )
+			);
 		
 		coches.put("Aston Martin",
-				List.of("DB5", "DB6", "DB7", "DB9", "DB11", "DB12", "DBS", "DBS Superleggera", 
-						"V8 Vantage", "V12 Vantage", "Vantage", "Vanquish", "Virage", "Lagonda", 
-						"Rapide", "Cygnet", "One-77", "Valkyrie", "Valhalla", "Victor", "Vulcan"));
+			    List.of(
+			        "DB5", "DB6", "DB7", "DB9", "DB11", "DB12", "DBS", "DBS Superleggera", 
+			        "V8 Vantage", "V12 Vantage", "Vantage", "Vanquish", "Virage", "Lagonda", 
+			        "Rapide", "Cygnet", "One-77", "Valkyrie", "Valhalla", "Victor", "Vulcan", 
+			        "DB2", "DB3", "DB4", "DBR1", "DBR2", "DBR3", "DBR4", "DBR5", "DBR9", 
+			        "DBS V12", "DB10", "DBX", "DBX707", "AMR One", "AMR21", "AMR22", 
+			        "Atom", "Bulldog", "CC100", "DP214", "DP215", "DP100", "DP212", 
+			        "Lagonda Taraf", "Lagonda Vision Concept", "Lagonda All-Terrain", 
+			        "Nieuport", "RHAM/1", "RHAM/2", "RHAM/3", "Ulster", "V8 Zagato", 
+			        "V8 Vantage Zagato", "V8 Volante", "V8 Coupe", "V8 Saloon", "V8 Shooting Brake", 
+			        "V12 Speedster", "V12 Zagato", "V12 Vanquish Zagato", "Vantage GT8", 
+			        "Vantage GT12", "Vantage GT4", "Vantage N430", "Vantage S", "Vantage AMR", 
+			        "Vanquish Zagato", "Vanquish Volante", "Vanquish Shooting Brake", 
+			        "Virage Volante", "Virage Coupe", "Zagato Centenary", "Zagato Heritage", 
+			        "Zagato Tribute", "Zagato Future", "Zagato Vision"
+			    )
+			);
 		
 		coches.put("Bentley",
-				List.of("Blower 4½ Litre", "Continental GT", "Continental GT Speed", "Continental GT V8", 
-						"Flying Spur", "Flying Spur V8", "Mulsanne", "Mulsanne Speed", 
-						"Bentayga", "Bentayga Speed", "Bentayga Hybrid", "Arnage", "Brooklands", 
-						"Mark VI", "Turbo R", "Azure", "Continental Flying Spur", "Continental GT W12"));
+			    List.of(
+			        "Blower 4½ Litre", "Continental GT", "Continental GT Speed", "Continental GT V8", 
+			        "Flying Spur", "Flying Spur V8", "Mulsanne", "Mulsanne Speed", 
+			        "Bentayga", "Bentayga Speed", "Bentayga Hybrid", "Arnage", "Brooklands", 
+			        "Mark VI", "Turbo R", "Azure", "Continental Flying Spur", "Continental GT W12", 
+			        "3 Litre", "4 Litre", "6 Litre", "8 Litre", "S1", "S2", "S3", 
+			        "T-Series", "R-Type", "R-Type Continental", "Continental S", "Continental T", 
+			        "Continental SC", "Continental GTC", "Continental Supersports", "Continental GT Convertible", 
+			        "Continental GTC Speed", "Continental GTC V8", "Continental GT V8 S", 
+			        "Continental GT Mulliner", "Continental GT Mulliner Convertible", "Continental GT Z", 
+			        "Bentayga EWB", "Bentayga Azure", "Bentayga S", "Bentayga Odyssean", 
+			        "Bentayga First Edition", "Bentayga Hybrid Extended Range", "Bentayga PHEV", 
+			        "Azure Coupe", "Azure Convertible", "Azure Saloon", "Azure LWB", 
+			        "Azure R", "Azure T", "Azure Turbo", "Azure Turbo R", 
+			        "Azure Turbo RL", "Azure Turbo RS", "Azure Turbo RT", 
+			        "Azure Turbo RW", "Azure Turbo RX", "Azure Turbo RZ", 
+			        "Azure Turbo RY", "Azure Turbo RZ", "Azure Turbo RA", 
+			        "Azure Turbo RB", "Azure Turbo RC", "Azure Turbo RD", 
+			        "Azure Turbo RE", "Azure Turbo RF", "Azure Turbo RG", 
+			        "Azure Turbo RH", "Azure Turbo RI", "Azure Turbo RJ", 
+			        "Azure Turbo RK", "Azure Turbo RL", "Azure Turbo RM", 
+			        "Azure Turbo RN", "Azure Turbo RO", "Azure Turbo RP", 
+			        "Azure Turbo RQ", "Azure Turbo RR", "Azure Turbo RS", 
+			        "Azure Turbo RT", "Azure Turbo RU", "Azure Turbo RV", 
+			        "Azure Turbo RW", "Azure Turbo RX", "Azure Turbo RY", 
+			        "Azure Turbo RZ"
+			    )
+			);
 		
 		coches.put("Dacia",
 			    List.of(
@@ -255,7 +341,21 @@ public class VehiculoService {
 			        "DS 21", "DS 23", "DS 19", "DS 20", "DS 21 Pallas", 
 			        "DS 23 Injection", "DS Divine", "DS Aero Sport Lounge", 
 			        "DS Numéro 9", "DS Wild Rubis", "DS X-Motion", "DS E-Tense Concept", 
-			        "DS E-Tense Vision", "DS 4S", "DS 6WR", "DS 7FR"
+			        "DS E-Tense Vision", "DS 4S", "DS 6WR", "DS 7FR", 
+			        "DS 3 Café Racer", "DS 3 Inès de la Fressange", "DS 3 Dark Side", 
+			        "DS 3 Rivoli", "DS 3 Opera", "DS 3 Performance Line", 
+			        "DS 4 Urbain", "DS 4 Chic", "DS 4 Rivoli", "DS 4 Performance", 
+			        "DS 5 Hybrid4", "DS 5 Lounge", "DS 5 Prestige", "DS 5 So Chic", 
+			        "DS 7 CROSSBACK La Premiere", "DS 7 CROSSBACK Grand Chic", 
+			        "DS 7 CROSSBACK Rivoli", "DS 7 CROSSBACK Opera", "DS 7 CROSSBACK E-Tense 4x4", 
+			        "DS 7 CROSSBACK Monte Carlo", "DS 7 CROSSBACK Bastille", 
+			        "DS 7 CROSSBACK Performance Line", "DS 7 CROSSBACK Louvre", 
+			        "DS 9", "DS 9 E-Tense", "DS 9 Opera", "DS 9 Rivoli", 
+			        "DS 9 Grand Chic", "DS 9 La Premiere", "DS 9 Performance Line", 
+			        "DS X E-Tense Concept", "DS Aero Sport Lounge Concept", 
+			        "DS Numéro 10", "DS Numéro 11", "DS Numéro 12", "DS Numéro 13", 
+			        "DS Numéro 14", "DS Numéro 15", "DS Numéro 16", "DS Numéro 17", 
+			        "DS Numéro 18", "DS Numéro 19", "DS Numéro 20"
 			    )
 			);
 		
