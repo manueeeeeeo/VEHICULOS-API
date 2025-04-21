@@ -957,8 +957,21 @@ public class VehiculoService {
 		motos.put("Zontes", List.of("G1-125", "G1-125 X", "U1-125", "GK125", "R310", "T310", "X310", "GK350", "Z2-350",
 				"Z3-350", "Z4-350", "V310", "M310", "E125", "C125", "E350", "Mantis 125", "Scrambler 125"));
 		
-		motos.put("CFMOTO", List.of("125NK", "300NK", "300SR", "650NK", "650MT", "650GT", "700CL-X Heritage",
-				"700CL-X Sport", "700CL-X Adventure", "800MT", "Papio 125", "300GT-E", "300CL-X"));
+		motos.put("CFMOTO",
+			    List.of(
+			        "125NK", "300NK", "300SR", "650NK", "650MT", "650GT", "700CL-X Heritage", 
+			        "700CL-X Sport", "700CL-X Adventure", "800MT", "Papio 125", "300GT-E", "300CL-X", 
+			        "150NK", "150SR", "250NK", "250SR", "250TR", "450NK", "450MT", "450GT", 
+			        "500NK", "500MT", "500GT", "650CL-X", "650 Adventure", "650 Sport", 
+			        "800MT Touring", "800MT Adventure", "800GT", "800NK", "800X", 
+			        "CFORCE 400", "CFORCE 450", "CFORCE 500", "CFORCE 600", "CFORCE 800", 
+			        "ZFORCE 800", "ZFORCE 1000", "UFORCE 800", "UFORCE 1000", 
+			        "CFMOTO Concept 1", "CFMOTO Concept 2", "CFMOTO Vision", 
+			        "CFMOTO Urban Cruiser", "CFMOTO City Commuter", "CFMOTO Adventure", 
+			        "CFMOTO Cargo EV", "CFMOTO Commercial EV", "CFMOTO Smart EV", 
+			        "CFMOTO Future EV", "CFMOTO Hybrid", "CFMOTO Electric Cruiser"
+			    )
+			);
 		
 		motos.put("QJ Motor", List.of("SRK 125", "SRV 125", "SRK 250", "SRV 250", "SRK 350", "SRV 350", "SRT 500",
 				"SRK 500", "SRV 500", "SRT 700", "SRK 700", "SRV 700", "SRK 1000", "SRV 1000", "SRT 1000"));
@@ -1401,10 +1414,19 @@ public class VehiculoService {
 						"Predator 50", "Predator 100", "Variant", "Revolution 50", "Revolution 125"));
 		
 		motos.put("Brixton",
-				List.of("Crossfire 125", "Crossfire 125 XS", "Crossfire 250", "Crossfire 500", "Crossfire 500 X", 
-						"Crossfire 500 XC", "Cromwell 125", "Cromwell 250", "Cromwell 500", 
-						"Felsberg 125", "Felsberg 250", "Felsberg 500", "Rayburn 125", 
-						"Sunray 125", "BX 125", "BX 125 R", "BX 125 X", "Glanville 250 X"));
+			    List.of(
+			        "Crossfire 125", "Crossfire 125 XS", "Crossfire 250", "Crossfire 500", "Crossfire 500 X", 
+			        "Crossfire 500 XC", "Cromwell 125", "Cromwell 250", "Cromwell 500", 
+			        "Felsberg 125", "Felsberg 250", "Felsberg 500", "Rayburn 125", 
+			        "Sunray 125", "BX 125", "BX 125 R", "BX 125 X", "Glanville 250 X", 
+			        "BX 150", "BX 150 R", "BX 150 X", "BX 250", "BX 250 R", "BX 250 X", 
+			        "BX 500", "BX 500 R", "BX 500 X", "BX Adventure", "BX Scrambler", 
+			        "BX Cafe Racer", "BX Street", "BX Urban Cruiser", "BX City Commuter", 
+			        "BX Cargo", "BX Commercial", "BX Electric", "BX Hybrid", 
+			        "BX Concept 1", "BX Concept 2", "BX Vision", "BX Future EV", 
+			        "BX Smart EV", "BX Urban EV", "BX Adventure EV", "BX Cargo EV"
+			    )
+			);
 		
 		motos.put("Daelim",
 				List.of("Daystar 125", "Daystar 250", "Daystar VL 125", "Roadwin 125", "Roadwin R 125", 
