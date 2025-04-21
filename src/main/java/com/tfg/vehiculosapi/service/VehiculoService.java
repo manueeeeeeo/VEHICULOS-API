@@ -470,9 +470,22 @@ public class VehiculoService {
 			);
 		
 		coches.put("Lada",
-				List.of("Niva", "Granta", "Vesta", "XRay", "2101", "2103", "2106", "2107", "Samara", 
-						"Priora", "Largus", "Kalina", "4x4", "Niva Travel", "Vesta Cross", "XRay Cross", 
-						"Granta Cross", "Vesta SW", "Niva Legend"));
+			    List.of(
+			        "Niva", "Granta", "Vesta", "XRay", "2101", "2103", "2106", "2107", "Samara", 
+			        "Priora", "Largus", "Kalina", "4x4", "Niva Travel", "Vesta Cross", "XRay Cross", 
+			        "Granta Cross", "Vesta SW", "Niva Legend", 
+			        "2102", "2104", "2105", "2108", "2109", "2110", "2111", "2112", "2113", 
+			        "2114", "2115", "2116", "2117", "2118", "2119", "2120", "2121", "2123", 
+			        "2129", "2131", "2170", "2190", "2192", "2194", "2329", "2335", "2351", 
+			        "Revolution", "Oka", "Riva", "Nova", "Signa", "Bogdan", "Caspian", 
+			        "Kuban", "Volga Siber", "Aurus Senat", "Aurus Komendant", "Aurus Arsenal", 
+			        "Aurus Limo", "Aurus Cortez", "Aurus Vagon", "Aurus Vision", 
+			        "Lada Urban", "Lada City", "Lada Family", "Lada Adventure", 
+			        "Lada Cargo", "Lada Commercial", "Lada Future SUV", "Lada Smart EV", 
+			        "Lada Concept 1", "Lada Concept 2", "Lada Concept 3", "Lada Vision", 
+			        "Lada X", "Lada Y", "Lada Z", "Lada Urban Cruiser"
+			    )
+			);
 		
 		coches.put("Lancia",
 			    List.of(
@@ -524,9 +537,19 @@ public class VehiculoService {
 			);
 		
 		coches.put("Lexus",
-				List.of("IS", "ES", "GS", "LS", "RX", "NX", "UX", "GX", "LX", "RC", "LC", "LC Convertible", 
-						"RX L", "NX F Sport", "RX F Sport", "ES F Sport", "IS F", "LS F", "CT", "RC F", 
-						"RX Hybrid", "NX Hybrid", "ES Hybrid", "UX Hybrid", "LX 600", "GX 460", "LC 500h"));
+			    List.of(
+			        "IS", "ES", "GS", "LS", "RX", "NX", "UX", "GX", "LX", "RC", "LC", "LC Convertible", 
+			        "RX L", "NX F Sport", "RX F Sport", "ES F Sport", "IS F", "LS F", "CT", "RC F", 
+			        "RX Hybrid", "NX Hybrid", "ES Hybrid", "UX Hybrid", "LX 600", "GX 460", "LC 500h", 
+			        "SC", "SC 300", "SC 400", "SC 430", "HS 250h", "LFA", "LF-A", "LF-1 Limitless", 
+			        "LF-30 Electrified", "LF-Z Electrified", "LF-C", "LF-C2", "LF-CC", "LF-LC", 
+			        "LF-NX", "LF-SA", "LF-FC", "LF-X", "LF-Xh", "LF-Ch", "LF-Gh", "LF-Ah", 
+			        "LM", "LM 350", "LM 500h", "RZ", "RZ 450e", "Electrified SUV", "Electrified Sedan", 
+			        "Electrified Coupe", "Electrified Roadster", "Electrified Van", "Electrified Truck", 
+			        "Electrified Concept", "Electrified Vision", "Electrified Future", "Electrified Urban", 
+			        "Electrified City", "Electrified Adventure", "Electrified Cargo", "Electrified Commercial"
+			    )
+			);
 		
 		coches.put("Maserati",
 			    List.of(
