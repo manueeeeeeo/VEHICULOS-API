@@ -954,8 +954,22 @@ public class VehiculoService {
 
 		
 		// Declaro todas las marcas de motos junto con sus modelos
-		motos.put("Zontes", List.of("G1-125", "G1-125 X", "U1-125", "GK125", "R310", "T310", "X310", "GK350", "Z2-350",
-				"Z3-350", "Z4-350", "V310", "M310", "E125", "C125", "E350", "Mantis 125", "Scrambler 125"));
+		motos.put("Zontes",
+			    List.of(
+			        "G1-125", "G1-125 X", "U1-125", "GK125", "R310", "T310", "X310", "GK350", "Z2-350",
+			        "Z3-350", "Z4-350", "V310", "M310", "E125", "C125", "E350", "Mantis 125", "Scrambler 125",
+			        "G1-150", "G1-150 X", "U1-150", "GK150", "R350", "T350", "X350", "Z1-350", 
+			        "Z5-350", "Z6-350", "V350", "M350", "E150", "C150", "E500", 
+			        "Mantis 150", "Scrambler 150", "Adventure 310", "Adventure 350", 
+			        "Cafe Racer 310", "Cafe Racer 350", "Street 310", "Street 350", 
+			        "Urban Cruiser 310", "Urban Cruiser 350", "City Commuter 125", 
+			        "City Commuter 150", "Cargo EV 125", "Cargo EV 150", 
+			        "Commercial EV 310", "Commercial EV 350", "Smart EV 125", 
+			        "Smart EV 150", "Smart EV 310", "Smart EV 350", 
+			        "Zontes Concept 1", "Zontes Concept 2", "Zontes Vision", 
+			        "Zontes Future EV", "Zontes Urban EV", "Zontes Adventure EV"
+			    )
+			);
 		
 		motos.put("CFMOTO",
 			    List.of(
@@ -973,15 +987,46 @@ public class VehiculoService {
 			    )
 			);
 		
-		motos.put("QJ Motor", List.of("SRK 125", "SRV 125", "SRK 250", "SRV 250", "SRK 350", "SRV 350", "SRT 500",
-				"SRK 500", "SRV 500", "SRT 700", "SRK 700", "SRV 700", "SRK 1000", "SRV 1000", "SRT 1000"));
+		motos.put("QJ Motor",
+			    List.of(
+			        "SRK 125", "SRV 125", "SRK 250", "SRV 250", "SRK 350", "SRV 350", "SRT 500",
+			        "SRK 500", "SRV 500", "SRT 700", "SRK 700", "SRV 700", "SRK 1000", "SRV 1000", "SRT 1000", 
+			        "SRK 150", "SRV 150", "SRK 400", "SRV 400", "SRT 400", 
+			        "SRK 600", "SRV 600", "SRT 600", "SRK 800", "SRV 800", "SRT 800", 
+			        "SRK Adventure", "SRV Adventure", "SRT Adventure", 
+			        "SRK Scrambler", "SRV Scrambler", "SRT Scrambler", 
+			        "SRK Cafe Racer", "SRV Cafe Racer", "SRT Cafe Racer", 
+			        "SRK Street", "SRV Street", "SRT Street", 
+			        "SRK Urban Cruiser", "SRV Urban Cruiser", "SRT Urban Cruiser", 
+			        "SRK City Commuter", "SRV City Commuter", "SRT City Commuter", 
+			        "SRK Cargo EV", "SRV Cargo EV", "SRT Cargo EV", 
+			        "SRK Commercial EV", "SRV Commercial EV", "SRT Commercial EV", 
+			        "SRK Smart EV", "SRV Smart EV", "SRT Smart EV", 
+			        "SRK Hybrid", "SRV Hybrid", "SRT Hybrid", 
+			        "QJ Concept 1", "QJ Concept 2", "QJ Vision", 
+			        "QJ Future EV", "QJ Urban EV", "QJ Adventure EV"
+			    )
+			);
 		
 		motos.put("Voge",
-				List.of("300R", "300AC", "300ACX", "300DS", "300GY", 
-						"350AC", "500R", "500DS", "500AC", "500ACX", 
-						"525R", "525DSX", "650DS", "650DSX", 
-						"900DS", "900DSX", "SR1 ADV", "SR4 Max", 
-						"CU 525", "CU 300", "CU 125"));
+			    List.of(
+			        "300R", "300AC", "300ACX", "300DS", "300GY", 
+			        "350AC", "500R", "500DS", "500AC", "500ACX", 
+			        "525R", "525DSX", "650DS", "650DSX", 
+			        "900DS", "900DSX", "SR1 ADV", "SR4 Max", 
+			        "CU 525", "CU 300", "CU 125", 
+			        "150R", "150AC", "200R", "200AC", "250R", "250AC", 
+			        "250DS", "250GY", "300NK", "300RR", "300ADV", 
+			        "350DS", "350GY", "400R", "400AC", "400DS", 
+			        "450R", "450DS", "450AC", "450GY", 
+			        "700DS", "700DSX", "700ADV", "700R", "700AC", 
+			        "800DS", "800DSX", "800ADV", "800R", "800AC", 
+			        "Voge Concept 1", "Voge Concept 2", "Voge Vision", 
+			        "Voge Urban Cruiser", "Voge City Commuter", 
+			        "Voge Adventure", "Voge Cargo EV", "Voge Commercial EV", 
+			        "Voge Smart EV", "Voge Future EV", "Voge Hybrid"
+			    )
+			);
 		
 		motos.put("Benelli",
 				List.of("TNT 125", "TNT 135", "TNT 150", "TNT 300", "TNT 302S", "TNT 600", 
@@ -1300,12 +1345,21 @@ public class VehiculoService {
 						"Mash 250 Enduro", "Mash 400 Scrambler", "Mash 650 Scrambler"));
 		
 		motos.put("Lambretta",
-				List.of("M", "A", "B", "C", "D", "LD", "E", "F", "J", "J50", "Li 125", "Li 150", "Li 175", 
-						"Li Special", "TV 175", "TV 200", "GP 125", "GP 150", "GP 200", "SX 150", "SX 200", 
-						"V50", "V125", "V200", "G325", "G350", "LN 125", "LN 150", "LN 151", "Pato", 
-						"Centomila", "Serveta Li 150", "Serveta Jet 200", "Grand Prix", "Super Star", 
-						"Special 125", "Special 150", "Special 200", "V-Special 50", "V-Special 125", 
-						"V-Special 200", "X300", "G-Special 300"));
+			    List.of(
+			        "M", "A", "B", "C", "D", "LD", "E", "F", "J", "J50", "Li 125", "Li 150", "Li 175", 
+			        "Li Special", "TV 175", "TV 200", "GP 125", "GP 150", "GP 200", "SX 150", "SX 200", 
+			        "V50", "V125", "V200", "G325", "G350", "LN 125", "LN 150", "LN 151", "Pato", 
+			        "Centomila", "Serveta Li 150", "Serveta Jet 200", "Grand Prix", "Super Star", 
+			        "Special 125", "Special 150", "Special 200", "V-Special 50", "V-Special 125", 
+			        "V-Special 200", "X300", "G-Special 300", 
+			        "DL", "DL 125", "DL 150", "DL 200", "DLE", "DLE 125", "DLE 150", "DLE 200", 
+			        "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10", 
+			        "Lambretta Concept 1", "Lambretta Concept 2", "Lambretta Vision", 
+			        "Lambretta Urban EV", "Lambretta City Commuter", "Lambretta Adventure", 
+			        "Lambretta Cargo EV", "Lambretta Commercial EV", "Lambretta Smart EV", 
+			        "Lambretta Future EV", "Lambretta Hybrid", "Lambretta Electric Cruiser"
+			    )
+			);
 		
 		motos.put("Keeway",
 				List.of("RKF 125", "RKR 125", "K-Light 125", "K-Light 200", "Superlight 125", 
