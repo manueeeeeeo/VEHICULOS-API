@@ -338,24 +338,24 @@ public class VehiculoService {
 			        "3", "3 Crossback", "3 E-Tense", "4", "4 Crossback", "4 E-Tense", 
 			        "5", "5 LS", "5 E-Tense", "7", "7 Crossback", "7 E-Tense", 
 			        "E-Tense Performance", "E-Tense FE21", "X E-Tense", 
-			        "DS 21", "DS 23", "DS 19", "DS 20", "DS 21 Pallas", 
-			        "DS 23 Injection", "DS Divine", "DS Aero Sport Lounge", 
-			        "DS Numéro 9", "DS Wild Rubis", "DS X-Motion", "DS E-Tense Concept", 
-			        "DS E-Tense Vision", "DS 4S", "DS 6WR", "DS 7FR", 
-			        "DS 3 Café Racer", "DS 3 Inès de la Fressange", "DS 3 Dark Side", 
-			        "DS 3 Rivoli", "DS 3 Opera", "DS 3 Performance Line", 
-			        "DS 4 Urbain", "DS 4 Chic", "DS 4 Rivoli", "DS 4 Performance", 
-			        "DS 5 Hybrid4", "DS 5 Lounge", "DS 5 Prestige", "DS 5 So Chic", 
-			        "DS 7 CROSSBACK La Premiere", "DS 7 CROSSBACK Grand Chic", 
-			        "DS 7 CROSSBACK Rivoli", "DS 7 CROSSBACK Opera", "DS 7 CROSSBACK E-Tense 4x4", 
-			        "DS 7 CROSSBACK Monte Carlo", "DS 7 CROSSBACK Bastille", 
-			        "DS 7 CROSSBACK Performance Line", "DS 7 CROSSBACK Louvre", 
-			        "DS 9", "DS 9 E-Tense", "DS 9 Opera", "DS 9 Rivoli", 
-			        "DS 9 Grand Chic", "DS 9 La Premiere", "DS 9 Performance Line", 
-			        "DS X E-Tense Concept", "DS Aero Sport Lounge Concept", 
-			        "DS Numéro 10", "DS Numéro 11", "DS Numéro 12", "DS Numéro 13", 
-			        "DS Numéro 14", "DS Numéro 15", "DS Numéro 16", "DS Numéro 17", 
-			        "DS Numéro 18", "DS Numéro 19", "DS Numéro 20"
+			        "21", "23", "19", "20", "21 Pallas", 
+			        "23 Injection", "Divine", "Aero Sport Lounge", 
+			        "Numéro 9", "Wild Rubis", "X-Motion", "E-Tense Concept", 
+			        "E-Tense Vision", "4S", "6WR", "7FR", 
+			        "3 Café Racer", "3 Inès de la Fressange", "3 Dark Side", 
+			        "3 Rivoli", "3 Opera", "3 Performance Line", 
+			        "4 Urbain", "4 Chic", "4 Rivoli", "4 Performance", 
+			        "5 Hybrid4", "5 Lounge", "5 Prestige", "5 So Chic", 
+			        "7 CROSSBACK La Premiere", "7 CROSSBACK Grand Chic", 
+			        "7 CROSSBACK Rivoli", "7 CROSSBACK Opera", "7 CROSSBACK E-Tense 4x4", 
+			        "7 CROSSBACK Monte Carlo", "7 CROSSBACK Bastille", 
+			        "7 CROSSBACK Performance Line", "7 CROSSBACK Louvre", 
+			        "9", "DS 9 E-Tense", "9 Opera", "9 Rivoli", 
+			        "9 Grand Chic", "9 La Premiere", "9 Performance Line", 
+			        "X E-Tense Concept", "Aero Sport Lounge Concept", 
+			        "Numéro 10", "Numéro 11", "Numéro 12", "Numéro 13", 
+			        "Numéro 14", "Numéro 15", "Numéro 16", "Numéro 17", 
+			        "Numéro 18", "Numéro 19", "Numéro 20"
 			    )
 			);
 		
@@ -480,10 +480,10 @@ public class VehiculoService {
 			        "Revolution", "Oka", "Riva", "Nova", "Signa", "Bogdan", "Caspian", 
 			        "Kuban", "Volga Siber", "Aurus Senat", "Aurus Komendant", "Aurus Arsenal", 
 			        "Aurus Limo", "Aurus Cortez", "Aurus Vagon", "Aurus Vision", 
-			        "Lada Urban", "Lada City", "Lada Family", "Lada Adventure", 
-			        "Lada Cargo", "Lada Commercial", "Lada Future SUV", "Lada Smart EV", 
-			        "Lada Concept 1", "Lada Concept 2", "Lada Concept 3", "Lada Vision", 
-			        "Lada X", "Lada Y", "Lada Z", "Lada Urban Cruiser"
+			        "Urban", "City", "Family", "Adventure", 
+			        "Cargo", "Commercial", "Future SUV", "Smart EV", 
+			        "Concept 1", "Concept 2", "Concept 3", "Vision", 
+			        "X", "Y", "Z", "Urban Cruiser"
 			    )
 			);
 		
@@ -527,12 +527,12 @@ public class VehiculoService {
 			        "Range Rover SVR", "Range Rover SVAutobiography Dynamic", 
 			        "Discovery Commercial", "Discovery 3", "Discovery 4", 
 			        "Discovery 5", "Discovery 6", "Freelander 1", "Land Rover 1", 
-			        "Land Rover 2", "Land Rover 3", "Land Rover 4", "Land Rover 5", 
-			        "Land Rover 6", "Land Rover 7", "Land Rover 8", "Land Rover 9", 
-			        "Land Rover 10", "Land Rover 11", "Land Rover 12", "Land Rover 13", 
-			        "Land Rover 14", "Land Rover 15", "Land Rover 16", "Land Rover 17", 
-			        "Land Rover 18", "Land Rover 19", "Land Rover 20", "Land Rover 21", 
-			        "Land Rover 22", "Land Rover 23", "Land Rover 24", "Land Rover 25"
+			        "2", "3", "4", "5", 
+			        "6", "7", "8", "9", 
+			        "10", "11", "12", "13", 
+			        "14", "15", "16", "17", 
+			        "18", "19", "20", "21", 
+			        "22", "23", "24", "25"
 			    )
 			);
 		
@@ -585,10 +585,40 @@ public class VehiculoService {
 			);
 		
 		coches.put("Mitsubishi",
-				List.of("Lancer", "Lancer Evolution", "Eclipse", "Eclipse Cross", "Outlander", 
-						"Outlander PHEV", "ASX", "Pajero", "Pajero Sport", "Montero", "Montero Sport", 
-						"Colt", "Space Star", "Mirage", "Galant", "Grandis", "Carisma", "3000GT", 
-						"Endeavor", "RVR", "i-MiEV", "Xpander", "Delica"));
+			    List.of(
+			        "Lancer", "Lancer Evolution", "Eclipse", "Eclipse Cross", "Outlander", 
+			        "Outlander PHEV", "ASX", "Pajero", "Pajero Sport", "Montero", "Montero Sport", 
+			        "Colt", "Space Star", "Mirage", "Galant", "Grandis", "Carisma", "3000GT", 
+			        "Endeavor", "RVR", "i-MiEV", "Xpander", "Delica", 
+			        "Lancer EX", "Lancer Wagon", "Lancer Cedia", "Lancer Celeste", 
+			        "Lancer Fiore", "Lancer GSR", "Lancer VR-4", "Lancer GLXi", 
+			        "Eclipse Spyder", "Eclipse GSX", "Eclipse GT", "Eclipse SE", 
+			        "Outlander Sport", "Outlander XL", "Outlander Hybrid", 
+			        "Pajero Mini", "Pajero iO", "Pajero Pinin", "Pajero Evolution", 
+			        "Pajero Junior", "Pajero Long", "Pajero Dakar", "Pajero TR4", 
+			        "Montero Raider", "Montero Limited", "Montero XLS", 
+			        "Colt Galant", "Colt Vista", "Colt Lancer", "Colt Mirage", 
+			        "Colt Tredia", "Colt CZC", "Colt CZT", "Colt CZ2", 
+			        "Space Gear", "Space Wagon", "Space Runner", "Space Jet", 
+			        "Mirage Dingo", "Mirage G4", "Mirage Cyborg", "Mirage Asti", 
+			        "Galant VR-4", "Galant Sigma", "Galant Fortis", "Galant AMG", 
+			        "Grandis Aero", "Grandis GT", "Grandis Sport", 
+			        "Carisma GDI", "Carisma GT", "Carisma Aero", 
+			        "3000GT VR-4", "3000GT SL", "3000GT Spyder", 
+			        "Endeavor LS", "Endeavor XLS", "Endeavor SE", 
+			        "RVR Turbo", "RVR GDI", "RVR Aero", "RVR Cross", 
+			        "i-MiEV Evolution", "i-MiEV Sport", "i-MiEV City", 
+			        "Xpander Cross", "Xpander Sport", "Xpander Urban", 
+			        "Delica D:5", "Delica Space Gear", "Delica Star Wagon", 
+			        "Delica Cargo", "Delica Van", "Delica Minicab", 
+			        "Minica", "Minica Skipper", "Minica Toppo", "Minica Truck", 
+			        "Fuso", "Canter", "Triton", "Strada", "Chariot", "Sigma", 
+			        "FTO", "Diamante", "Debonair", "Emeraude", "Libero", 
+			        "Jeep J10", "Jeep J20", "Jeep J30", "Jeep J40", 
+			        "Concept XR-PHEV", "Concept GC-PHEV", "Concept e-Evolution", 
+			        "Concept Mi-Tech", "Concept Engelberg Tourer"
+			    )
+			);
 		
 		coches.put("Morgan",
 			    List.of(
@@ -597,7 +627,24 @@ public class VehiculoService {
 			        "Runabout", "F2", "F4", "F-Super", "Plus E", "EV3", 
 			        "LifeCar", "500", "Cycle Car", "Tina", "Threewheeler", 
 			        "Classic", "Supersports", "Cresta", "Plus Four CX-T", 
-			        "ARV6", "Rocket 3", "SP1", "Project 25"
+			        "ARV6", "Rocket 3", "SP1", "Project 25", 
+			        "1909 Runabout", "1910 Grand Prix", "1911 Aero", "1913 Tandem", 
+			        "1920 Sports", "1925 Super Sports", "1930 F-Type", "1932 De Luxe", 
+			        "1935 F2", "1937 F4", "1938 F-Super", "1948 4/4", 
+			        "1950 Plus 4", "1952 Plus 4 Drophead", "1954 Plus 4 Competition", 
+			        "1955 Plus 4 Supersports", "1959 Plus 4 Rally", "1960 Plus 4 Estate", 
+			        "1962 Plus 4 Series V", "1963 Plus 4 Series VI", 
+			        "1965 Plus 4 Series VII", "1968 Plus 4 Series VIII", 
+			        "1970 Plus 8", "1972 Plus 8 GTR", "1975 Plus 8 Competition", 
+			        "1980 Plus 8 Turbo", "1985 Plus 8 Limited Edition", 
+			        "1990 Plus 8 Anniversary", "1995 Plus 8 Sport", 
+			        "2000 Aero 8 Prototype", "2005 AeroMax", "2008 Aero Supersports", 
+			        "2010 Aero Coupé", "2012 Eva GT Concept", "2015 EV3 Concept", 
+			        "2018 Plus Six", "2020 Super 3 Concept", "2022 Project 25", 
+			        "Classic 3 Wheeler", "Threewheeler V-Twin", 
+			        "Threewheeler Electric", "Future EV", 
+			        "Urban Cruiser", "Adventure EV", 
+			        "Cargo EV", "Commercial EV"
 			    )
 			);
 		
@@ -799,51 +846,51 @@ public class VehiculoService {
 			        "EC6 Electric", "ES8 Electric", "ES6 Electric", "ET5 Electric", "ET7 AWD", 
 			        "ET5 AWD", "Power Swap Station", "EVE Concept", "NioPilot", 
 			        "EP9", "ET9", "ES9", "EC7", "EC5", "ET3", "ET6", "ET8", 
-			        "NIO EVE", "NIO Concept EV", "NIO Urban Cruiser", "NIO Smart EV", 
-			        "NIO City Commuter", "NIO Cargo EV", "NIO Commercial EV", 
-			        "NIO Autonomous Driving", "NIO Smart Cockpit", "NIO Battery Swap", 
-			        "NIO Power Home", "NIO Power Mobile", "NIO Power Charger", 
-			        "NIO Vision 1", "NIO Vision 2", "NIO Vision 3", "NIO Vision 4", 
-			        "NIO Vision 5", "NIO Vision 6", "NIO Vision 7", "NIO Vision 8", 
-			        "NIO Vision 9", "NIO Vision 10", "NIO Future SUV", "NIO Future Sedan", 
-			        "NIO Urban Air Mobility", "NIO Flying Car", "NIO Robotaxi"
+			        "EVE", "Concept EV", "Urban Cruiser", "Smart EV", 
+			        "City Commuter", "NIO Cargo EV", "Commercial EV", 
+			        "Autonomous Driving", "Smart Cockpit", "Battery Swap", 
+			        "Power Home", "Power Mobile", "Power Charger", 
+			        "Vision 1", "Vision 2", "Vision 3", "Vision 4", 
+			        "Vision 5", "Vision 6", "Vision 7", "Vision 8", 
+			        "Vision 9", "Vision 10", "Future SUV", "Future Sedan", 
+			        "Urban Air Mobility", "Flying Car", "Robotaxi"
 			    )
 			);
 
 		coches.put("XPeng",
 			    List.of(
-			        "XPeng G3", "XPeng P7", "XPeng P5", "XPeng G3i", "XPeng Xmart OS", 
-			        "XPeng P7 Electric", "XPeng G3 Electric", "XPeng P5 Electric", 
-			        "XPeng G3i Electric", "XPeng P7 Wing", "XPeng City", 
-			        "XPeng G9", "XPeng X2", "XPeng X3", "XPeng X4", "XPeng X5", 
-			        "XPeng X6", "XPeng X7", "XPeng X8", "XPeng X9", "XPeng X10", 
-			        "XPeng H1", "XPeng H2", "XPeng H3", "XPeng H4", "XPeng H5", 
-			        "XPeng H6", "XPeng H7", "XPeng H8", "XPeng H9", "XPeng H10", 
-			        "XPeng M1", "XPeng M2", "XPeng M3", "XPeng M4", "XPeng M5", 
-			        "XPeng M6", "XPeng M7", "XPeng M8", "XPeng M9", "XPeng M10", 
-			        "XPeng Robotaxi", "XPeng Flying Car", "XPeng AeroHT", 
-			        "XPeng Smart Cockpit", "XPeng Autonomous Driving", 
-			        "XPeng Urban Air Mobility", "XPeng Concept 1", "XPeng Concept 2", 
-			        "XPeng Concept 3", "XPeng Concept 4", "XPeng Concept 5", 
-			        "XPeng Concept 6", "XPeng Concept 7", "XPeng Concept 8", 
-			        "XPeng Concept 9", "XPeng Concept 10"
+			        "G3", "P7", "P5", "G3i", "Xmart OS", 
+			        "P7 Electric", "G3 Electric", "P5 Electric", 
+			        "G3i Electric", "P7 Wing", "City", 
+			        "G9", "X2", "X3", "X4", "X5", 
+			        "X6", "X7", "X8", "X9", "X10", 
+			        "H1", "H2", "H3", "H4", "H5", 
+			        "H6", "H7", "H8", "H9", "H10", 
+			        "M1", "M2", "M3", "M4", "M5", 
+			        "M6", "M7", "M8", "M9", "M10", 
+			        "Robotaxi", "Flying Car", "AeroHT", 
+			        "Smart Cockpit", "Autonomous Driving", 
+			        "Urban Air Mobility", "Concept 1", "Concept 2", 
+			        "Concept 3", "Concept 4", "Concept 5", 
+			        "Concept 6", "Concept 7", "Concept 8", 
+			        "Concept 9", "Concept 10"
 			    )
 			);
 
 		coches.put("Li Auto",
 			    List.of(
-			        "Li ONE", "Li L7", "Li L9", "Li X", "Li L9 Electric", 
-			        "Li ONE Electric", "Li L7 Electric", 
-			        "Li L8", "Li L6", "Li M1", "Li M2", "Li M3", 
-			        "Li M4", "Li M5", "Li M6", "Li M7", "Li M8", 
-			        "Li M9", "Li M10", "Li S1", "Li S2", "Li S3", 
-			        "Li S4", "Li S5", "Li S6", "Li S7", "Li S8", 
-			        "Li S9", "Li S10", "Li Air", "Li Space", 
-			        "Li Concept 1", "Li Concept 2", "Li Concept 3", 
-			        "Li Concept 4", "Li Concept 5", "Li Concept 6", 
-			        "Li Concept 7", "Li Concept 8", "Li Concept 9", 
-			        "Li Concept 10", "Li Future SUV", "Li Future Sedan", 
-			        "Li Autonomous Driving", "Li Smart Cockpit", "Li EV Platform"
+			        "ONE", "L7", "L9", "X", "L9 Electric", 
+			        "ONE Electric", "L7 Electric", 
+			        "L8", "L6", "M1", "M2", "M3", 
+			        "M4", "M5", "M6", "M7", "M8", 
+			        "M9", "M10", "S1", "S2", "S3", 
+			        "S4", "S5", "S6", "S7", "S8", 
+			        "S9", "S10", "Air", "Space", 
+			        "Concept 1", "Concept 2", "Concept 3", 
+			        "Concept 4", "Concept 5", "Concept 6", 
+			        "Concept 7", "Concept 8", "Concept 9", 
+			        "Concept 10", "Future SUV", "Future Sedan", 
+			        "Autonomous Driving", "Smart Cockpit", "EV Platform"
 			    )
 			);
 
@@ -871,18 +918,18 @@ public class VehiculoService {
 			    List.of(
 			        "M-Byte", "K-Byte", "C-Byte", "E-Byte", "S-Byte", "SUV", 
 			        "Concept", "M-Byte Electric", "K-Byte Electric", 
-			        "BYTON Concept SUV", "BYTON Concept Sedan", "BYTON Concept Coupe", 
-			        "BYTON X1", "BYTON X2", "BYTON X3", "BYTON X4", "BYTON X5", 
-			        "BYTON X6", "BYTON X7", "BYTON X8", "BYTON X9", "BYTON X10", 
-			        "BYTON L1", "BYTON L2", "BYTON L3", "BYTON L4", "BYTON L5", 
-			        "BYTON L6", "BYTON L7", "BYTON L8", "BYTON L9", "BYTON L10", 
-			        "BYTON Smart Cockpit", "BYTON Autonomous Driving", 
-			        "BYTON EV Platform", "BYTON Future Mobility", 
-			        "BYTON Urban Commuter", "BYTON City Cruiser", 
-			        "BYTON Vision 1", "BYTON Vision 2", "BYTON Vision 3", 
-			        "BYTON Vision 4", "BYTON Vision 5", "BYTON Vision 6", 
-			        "BYTON Vision 7", "BYTON Vision 8", "BYTON Vision 9", 
-			        "BYTON Vision 10"
+			        "Concept SUV", "Concept Sedan", "Concept Coupe", 
+			        "X1", "X2", "X3", "X4", "X5", 
+			        "X6", "X7", "X8", "X9", "X10", 
+			        "L1", "L2", "L3", "L4", "L5", 
+			        "L6", "L7", "L8", "L9", "L10", 
+			        "Smart Cockpit", "Autonomous Driving", 
+			        "EV Platform", "Future Mobility", 
+			        "Urban Commuter", "City Cruiser", 
+			        "Vision 1", "Vision 2", "Vision 3", 
+			        "Vision 4", "Vision 5", "Vision 6", 
+			        "Vision 7", "Vision 8", "Vision 9", 
+			        "Vision 10"
 			    )
 			);
 
@@ -913,13 +960,13 @@ public class VehiculoService {
 			        "Baojun 530", "Baojun 310", "Baojun 730", 
 			        "Baojun RS-5", "Baojun RC-6", "Baojun RM-5", 
 			        "Baojun RV-8", "Baojun E300", "Baojun KiWi EV", 
-			        "Wuling Nano EV", "Wuling Zhengji", "Wuling Victory EV", 
-			        "Wuling Air EV", "Wuling Almaz", "Wuling Confero", 
-			        "Wuling Formo", "Wuling Cortez", "Wuling Alia", 
-			        "Wuling Futura", "Wuling Sunshine EV", "Wuling Star EV", 
-			        "Wuling Concept EV", "Wuling Urban Cruiser", 
-			        "Wuling Smart Van", "Wuling Cargo EV", "Wuling MPV", 
-			        "Wuling Pickup", "Wuling Minibus", "Wuling Commercial EV"
+			        "Nano EV", "Zhengji", "Victory EV", 
+			        "Air EV", "Almaz", "Confero", 
+			        "Formo", "Cortez", "Alia", 
+			        "Futura", "Sunshine EV", "Star EV", 
+			        "Concept EV", "Urban Cruiser", 
+			        "Smart Van", "Cargo EV", "MPV", 
+			        "Pickup", "Minibus", "Commercial EV"
 			    )
 			);
 
@@ -941,16 +988,16 @@ public class VehiculoService {
 			    )
 			);
 
-		coches.put("Tianjin FAW Xiali", List.of("Tianjin FAW Xiali 1010", "Tianjin FAW Xiali 1041", "Tianjin FAW Xiali 1061", 
-				"Tianjin FAW Xiali 1081", "Tianjin FAW Xiali 1091", "Tianjin FAW Xiali T173", 
-				"Tianjin FAW Xiali Xiali 2000", "Tianjin FAW Xiali Xiali 3000", "Tianjin FAW Xiali Xiali A11", 
-				"Tianjin FAW Xiali Xiali A21", "Tianjin FAW Xiali Xiali A22", "Tianjin FAW Xiali Xiali E30", 
-				"Tianjin FAW Xiali E50", "Tianjin FAW Xiali E60", "Tianjin FAW Xiali E80", "Tianjin FAW Xiali E90", 
-				"Tianjin FAW Xiali V5", "Tianjin FAW Xiali V6", "Tianjin FAW Xiali V7", "Tianjin FAW Xiali V8", 
-				"Tianjin FAW Xiali S11", "Tianjin FAW Xiali S12", "Tianjin FAW Xiali M7", "Tianjin FAW Xiali M8", 
-				"Tianjin FAW Xiali Jetta", "Tianjin FAW Xiali T71", "Tianjin FAW Xiali T81", "Tianjin FAW Xiali T91", 
-				"Tianjin FAW Xiali XEV", "Tianjin FAW Xiali T6", "Tianjin FAW Xiali T8", "Tianjin FAW Xiali E70", 
-				"Tianjin FAW Xiali X6"));
+		coches.put("Tianjin FAW Xiali", List.of("1010", "1041", "1061", 
+				"1081", "1091", "T173", 
+				"Xiali 2000", "3000", "A11", 
+				"Xiali A21", "A22", "Xiali E30", 
+				"E50", "Tianjin FAW Xiali E60", "E80", "E90", 
+				"V5", "V6", "V7", "V8", 
+				"S11", "S12", "M7", "M8", 
+				"Jetta", "T71", "T81", "T91", 
+				"XEV", "T6", "T8", "E70", 
+				"X6"));
 
 		
 		// Declaro todas las marcas de motos junto con sus modelos
@@ -980,10 +1027,10 @@ public class VehiculoService {
 			        "800MT Touring", "800MT Adventure", "800GT", "800NK", "800X", 
 			        "CFORCE 400", "CFORCE 450", "CFORCE 500", "CFORCE 600", "CFORCE 800", 
 			        "ZFORCE 800", "ZFORCE 1000", "UFORCE 800", "UFORCE 1000", 
-			        "CFMOTO Concept 1", "CFMOTO Concept 2", "CFMOTO Vision", 
-			        "CFMOTO Urban Cruiser", "CFMOTO City Commuter", "CFMOTO Adventure", 
-			        "CFMOTO Cargo EV", "CFMOTO Commercial EV", "CFMOTO Smart EV", 
-			        "CFMOTO Future EV", "CFMOTO Hybrid", "CFMOTO Electric Cruiser"
+			        "Concept 1", "Concept 2", "Vision", 
+			        "Urban Cruiser", "CFMOTO City Commuter", "Adventure", 
+			        "Cargo EV", "Commercial EV", "Smart EV", 
+			        "Future EV", "Hybrid", "Electric Cruiser"
 			    )
 			);
 		
@@ -1021,10 +1068,10 @@ public class VehiculoService {
 			        "450R", "450DS", "450AC", "450GY", 
 			        "700DS", "700DSX", "700ADV", "700R", "700AC", 
 			        "800DS", "800DSX", "800ADV", "800R", "800AC", 
-			        "Voge Concept 1", "Voge Concept 2", "Voge Vision", 
-			        "Voge Urban Cruiser", "Voge City Commuter", 
-			        "Voge Adventure", "Voge Cargo EV", "Voge Commercial EV", 
-			        "Voge Smart EV", "Voge Future EV", "Voge Hybrid"
+			        "Concept 1", "Concept 2", "Vision", 
+			        "Urban Cruiser", "City Commuter", 
+			        "Adventure", "Cargo EV", "Commercial EV", 
+			        "Smart EV", "Future EV", "Hybrid"
 			    )
 			);
 		
@@ -1246,59 +1293,59 @@ public class VehiculoService {
 				List.of("Vespa 50", "Vespa 125", "Vespa 150", "Vespa 200", "Vespa 300", 
 						"Vespa Sprint 50", "Vespa Sprint 125", "Vespa Sprint 150", "Vespa GTS 125", 
 						"Vespa GTS 300", "Vespa GTS 300 HPE", "Vespa Elettrica", "Liberty 50", 
-						"Liberty 125", "Liberty 150", "Liberty 200", "Piaggio Beverly 125", 
-						"Piaggio Beverly 300", "Piaggio Beverly 350", "Piaggio MP3 250", 
-						"Piaggio MP3 300", "Piaggio MP3 500", "Piaggio Zip 50", "Piaggio Zip 100", 
-						"Piaggio Fly 50", "Piaggio Fly 125", "Piaggio Fly 150", "Piaggio Medley 125", 
-						"Piaggio Medley 150", "Piaggio Medley 300", "Piaggio X10 125", "Piaggio X10 350", 
-						"Piaggio X10 500", "Piaggio BV350", "Piaggio BV500", "Piaggio Typhoon 50", 
-						"Piaggio Typhoon 125", "Piaggio Typhoon 150", "Piaggio Liberty S 50", "Piaggio Liberty S 125", 
-						"Piaggio Zip S 50", "Piaggio Zip S 100", "Piaggio TPH 50", "Piaggio TPH 125", 
-						"Piaggio Beverly SportTouring 300", "Piaggio Beverly 400", "Piaggio MP3 Yourban 300", 
-						"Piaggio MP3 Yourban 500", "Piaggio Biker 125", "Piaggio Fly 150 CC", "Piaggio Ape 50"));
+						"Liberty 125", "Liberty 150", "Liberty 200", "Beverly 125", 
+						"Beverly 300", "Beverly 350", "Piaggio MP3 250", 
+						"MP3 300", "MP3 500", "Zip 50", "Zip 100", 
+						"Fly 50", "Fly 125", "Fly 150", "Medley 125", 
+						"Medley 150", "Medley 300", "X10 125", "X10 350", 
+						"X10 500", "BV350", "BV500", "Typhoon 50", 
+						"Typhoon 125", "Typhoon 150", "Liberty S 50", "Liberty S 125", 
+						"Zip S 50", "Zip S 100", "TPH 50", "TPH 125", 
+						"Beverly SportTouring 300", "Beverly 400", "MP3 Yourban 300", 
+						"MP3 Yourban 500", "Biker 125", "Fly 150 CC", "Ape 50"));
 		
 		motos.put("Peugeot",
-				List.of("Peugeot Django 50", "Peugeot Django 125", "Peugeot Django 150", "Peugeot Tweet 50", 
-						"Peugeot Tweet 100", "Peugeot Tweet 125", "Peugeot Citystar 50", "Peugeot Citystar 125", 
-						"Peugeot Citystar 200", "Peugeot Speedfight 50", "Peugeot Speedfight 100", "Peugeot Speedfight 125", 
-						"Peugeot Ludix 50", "Peugeot Ludix 100", "Peugeot Ludix 125", "Peugeot Vivacity 50", 
-						"Peugeot Vivacity 100", "Peugeot Vivacity 125", "Peugeot Satelis 125", "Peugeot Satelis 300", 
-						"Peugeot Metropolis 400", "Peugeot Metropolis 500", "Peugeot Kisbee 50", "Peugeot Kisbee 100", 
-						"Peugeot Kisbee 125", "Peugeot Tweet 50 4T", "Peugeot Traveller 50", "Peugeot Traveller 100", 
-						"Peugeot Traveller 125", "Peugeot Pulsion 125", "Peugeot Pulsion 300", "Peugeot Belville 125", 
-						"Peugeot Belville 200", "Peugeot XR7", "Peugeot XR8", "Peugeot RCX 50", "Peugeot RCX 100", 
-						"Peugeot RCX 125"));
+				List.of("Django 50", "Django 125", "Django 150", "Tweet 50", 
+						"Tweet 100", "Tweet 125", "Citystar 50", "Citystar 125", 
+						"Citystar 200", "Speedfight 50", "Speedfight 100", "Speedfight 125", 
+						"Ludix 50", "Ludix 100", "Ludix 125", "Vivacity 50", 
+						"Vivacity 100", "Vivacity 125", "Satelis 125", "Satelis 300", 
+						"Metropolis 400", "Metropolis 500", "Kisbee 50", "Kisbee 100", 
+						"Kisbee 125", "Tweet 50 4T", "Traveller 50", "Traveller 100", 
+						"Traveller 125", "Pulsion 125", "Pulsion 300", "Belville 125", 
+						"Belville 200", "XR7", "XR8", "RCX 50", "RCX 100", 
+						"RCX 125"));
 		
 		motos.put("Montesa",
 				List.of("Cota 4RT", "Cota 301RR", "Cota 300RR", "Cota 260", "Cota 125", 
 						"Cota 4RT 260", "Cota 300", "Cota 200", "Cota 349", "Cota 348", 
 						"Cota 247", "Cota 247RR", "Cota 247 Mk1", "Cota 247 Mk2", "Cota 247 Mk3", 
 						"Cota 315R", "Cota 315", "Cota 350", "Cota 350RR", "Cota 280", 
-						"Cota 280RR", "Cota 175", "Cota 125RR", "Montesa 4RT 260", "Montesa 4RT 300", 
-						"Cota 4RT 125", "Montesa 315R", "Montesa 350", "Montesa 280", 
-						"Cota 300RR 4RT", "Cota 301RR 4RT", "Montesa 4RT Racing", "Montesa Cota 360", 
-						"Montesa Cota 247", "Montesa Cota 248", "Montesa 360", "Montesa 123", 
-						"Montesa 350 V1", "Montesa 350 V2"));
+						"Cota 280RR", "Cota 175", "Cota 125RR", "4RT 260", "4RT 300", 
+						"Cota 4RT 125", "315R", "350", "280", 
+						"Cota 300RR 4RT", "Cota 301RR 4RT", "4RT Racing", "Cota 360", 
+						"Cota 247", "Cota 248", "360", "123", 
+						"350 V1", "350 V2"));
 		
 		motos.put("MITT",
-				List.of("MITT 125 GPR", "MITT 125 RR", "MITT 125 GP", "MITT 125 X", "MITT 125 Scrambler", 
-						"MITT 125 Cafe Racer", "MITT 125 Cruiser", "MITT 150 GPR", "MITT 150 RR", 
-						"MITT 150 X", "MITT 150 GP", "MITT 300 GPR", "MITT 300 RR", "MITT 300 X", 
-						"MITT 300 GP", "MITT 500 GPR", "MITT 500 RR", "MITT 500 X", "MITT 500 GP", 
-						"MITT 650 X", "MITT 650 GP", "MITT 650 RR", "MITT 650 Scrambler", 
-						"MITT 650 Cruiser", "MITT 500 Cafe Racer", "MITT 125 Enduro", "MITT 250 Enduro", 
-						"MITT 500 Enduro", "MITT 125 Street Fighter", "MITT 150 Street Fighter", 
-						"MITT 300 Street Fighter", "MITT 500 Street Fighter"));
+				List.of("125 GPR", "125 RR", "125 GP", "125 X", "125 Scrambler", 
+						"125 Cafe Racer", "125 Cruiser", "150 GPR", "150 RR", 
+						"150 X", "150 GP", "300 GPR", "300 RR", "300 X", 
+						"300 GP", "500 GPR", "500 RR", "500 X", "500 GP", 
+						"650 X", "650 GP", "650 RR", "650 Scrambler", 
+						"650 Cruiser", "500 Cafe Racer", "125 Enduro", "250 Enduro", 
+						"500 Enduro", "125 Street Fighter", "150 Street Fighter", 
+						"300 Street Fighter", "500 Street Fighter"));
 		
 		motos.put("Mondial",
-				List.of("Mondial 50", "Mondial 125", "Mondial 200", "Mondial HPS 125", "Mondial HPS 300", 
-						"Mondial HPS 500", "Mondial SMX 125", "Mondial SMX 250", "Mondial SMX 500", 
-						"Mondial Sport 50", "Mondial Sport 125", "Mondial Cafe Racer 125", "Mondial Café Racer 250", 
-						"Mondial Pagani 125", "Mondial Pagani 200", "Mondial Pagani 300", "Mondial Torpedo 125", 
-						"Mondial Torpedo 150", "Mondial V2 125", "Mondial V2 250", "Mondial V2 300", 
-						"Mondial V2 500", "Mondial CR 125", "Mondial CR 250", "Mondial CR 500", 
-						"Mondial 125 Sport", "Mondial 250 Sport", "Mondial 500 Sport", "Mondial V2 Sport", 
-						"Mondial 50 E5", "Mondial 125 E5", "Mondial 250 E5", "Mondial 300 E5"));
+				List.of("50", "125", "200", "HPS 125", "HPS 300", 
+						"HPS 500", "SMX 125", "SMX 250", "SMX 500", 
+						"Sport 50", "Sport 125", "Cafe Racer 125", "Café Racer 250", 
+						"Pagani 125", "Pagani 200", "Pagani 300", "Torpedo 125", 
+						"Torpedo 150", "V2 125", "V2 250", "V2 300", 
+						"V2 500", "CR 125", "CR 250", "CR 500", 
+						"125 Sport", "250 Sport", "500 Sport", "V2 Sport", 
+						"50 E5", "125 E5", "250 E5", "300 E5"));
 		
 		motos.put("Malaguti",
 				List.of("Madison 125", "Madison 150", "Madison 250", "F12 50", "F12 100", 
@@ -1314,35 +1361,35 @@ public class VehiculoService {
 						"Reptile 500", "Spyder 125", "Spyder 150", "Spyder 200"));
 		
 		motos.put("Macbor",
-				List.of("Macbor 50", "Macbor 125", "Macbor 250", "Macbor 500", "Macbor X-Ride 125", 
-						"Macbor X-Ride 250", "Macbor X-Ride 500", "Macbor Scrambler 125", "Macbor Scrambler 250", 
-						"Macbor Scrambler 500", "Macbor Cafe Racer 125", "Macbor Cafe Racer 250", 
-						"Macbor Cafe Racer 500", "Macbor Roadster 125", "Macbor Roadster 250", "Macbor Roadster 500", 
-						"Macbor Enduro 125", "Macbor Enduro 250", "Macbor Enduro 500", "Macbor Adventure 125", 
-						"Macbor Adventure 250", "Macbor Adventure 500", "Macbor Trail 125", "Macbor Trail 250", 
-						"Macbor Trail 500", "Macbor Custom 125", "Macbor Custom 250", "Macbor Custom 500", 
-						"Macbor Urban 125", "Macbor Urban 250", "Macbor Urban 500", "Macbor X-Trail 250", 
-						"Macbor X-Trail 500", "Macbor Supermoto 125", "Macbor Supermoto 250", "Macbor Supermoto 500"));
+				List.of("50", "125", "250", "500", "X-Ride 125", 
+						"X-Ride 250", "X-Ride 500", "Scrambler 125", "Scrambler 250", 
+						"Scrambler 500", "Cafe Racer 125", "Cafe Racer 250", 
+						"Cafe Racer 500", "Roadster 125", "Roadster 250", "Roadster 500", 
+						"Enduro 125", "Enduro 250", "Enduro 500", "Adventure 125", 
+						"Adventure 250", "Adventure 500", "Trail 125", "Trail 250", 
+						"Trail 500", "Custom 125", "Custom 250", "Custom 500", 
+						"Urban 125", "Urban 250", "Urban 500", "X-Trail 250", 
+						"X-Trail 500", "Supermoto 125", "Macbor Supermoto 250", "Macbor Supermoto 500"));
 		
 		motos.put("MH",
-				List.of("MH 50", "MH 125", "MH 250", "MH 125 Enduro", "MH 125 Sport", "MH 125 Cafe Racer", 
-						"MH 125 Scrambler", "MH 250 Enduro", "MH 250 Sport", "MH 250 Scrambler", 
-						"MH 400", "MH 650", "MH 125 R", "MH 250 R", "MH 125 X", "MH 250 X", 
-						"MH 250 C", "MH 125 C", "MH 500", "MH 150", "MH 300", "MH 650 Cafe Racer", 
-						"MH 250 Cafe Racer", "MH 125 Cruiser", "MH 250 Cruiser", "MH Supermotard 125", 
-						"MH Supermotard 250", "MH Scrambler 125", "MH Scrambler 250", "MH Enduro 125", 
-						"MH Enduro 250", "MH Enduro 500"));
+				List.of("50", "125", "250", "125 Enduro", "125 Sport", "125 Cafe Racer", 
+						"125 Scrambler", "250 Enduro", "250 Sport", "250 Scrambler", 
+						"400", "650", "125 R", "250 R", "125 X", "250 X", 
+						"250 C", "125 C", "500", "150", "300", "650 Cafe Racer", 
+						"250 Cafe Racer", "125 Cruiser", "250 Cruiser", "Supermotard 125", 
+						"Supermotard 250", "Scrambler 125", "Scrambler 250", "Enduro 125", 
+						"Enduro 250", "Enduro 500"));
 		
 		motos.put("Mash",
-				List.of("Mash Seventy 50", "Mash Seventy 125", "Mash Seventy 250", "Mash Dirt 50", 
-						"Mash Dirt 125", "Mash Dirt 250", "Mash Five Hundred", "Mash Scrambler 50", 
-						"Mash Scrambler 125", "Mash Scrambler 250", "Mash Roadstar 125", "Mash Roadstar 250", 
-						"Mash Cafe Racer 125", "Mash Cafe Racer 250", "Mash X-Ride 125", "Mash X-Ride 250", 
-						"Mash Black Seven 125", "Mash Black Seven 250", "Mash Brat 125", "Mash Brat 250", 
-						"Mash Heritage 125", "Mash Heritage 250", "Mash TT40 125", "Mash TT40 250", 
-						"Mash Spirit 125", "Mash Spirit 250", "Mash Seventy 125 Limited Edition", 
-						"Mash Seventy 250 Limited Edition", "Mash 400", "Mash 650", "Mash 125 Enduro", 
-						"Mash 250 Enduro", "Mash 400 Scrambler", "Mash 650 Scrambler"));
+				List.of("Seventy 50", "Seventy 125", "Seventy 250", "Dirt 50", 
+						"Dirt 125", "Dirt 250", "Five Hundred", "Scrambler 50", 
+						"Scrambler 125", "Scrambler 250", "Roadstar 125", "Roadstar 250", 
+						"Cafe Racer 125", "Cafe Racer 250", "X-Ride 125", "X-Ride 250", 
+						"Black Seven 125", "Black Seven 250", "Brat 125", "Brat 250", 
+						"Heritage 125", "Heritage 250", "TT40 125", "TT40 250", 
+						"Spirit 125", "Spirit 250", "Seventy 125 Limited Edition", 
+						"Seventy 250 Limited Edition", "400", "650", "125 Enduro", 
+						"250 Enduro", "400 Scrambler", "650 Scrambler"));
 		
 		motos.put("Lambretta",
 			    List.of(
@@ -1354,10 +1401,10 @@ public class VehiculoService {
 			        "V-Special 200", "X300", "G-Special 300", 
 			        "DL", "DL 125", "DL 150", "DL 200", "DLE", "DLE 125", "DLE 150", "DLE 200", 
 			        "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10", 
-			        "Lambretta Concept 1", "Lambretta Concept 2", "Lambretta Vision", 
-			        "Lambretta Urban EV", "Lambretta City Commuter", "Lambretta Adventure", 
-			        "Lambretta Cargo EV", "Lambretta Commercial EV", "Lambretta Smart EV", 
-			        "Lambretta Future EV", "Lambretta Hybrid", "Lambretta Electric Cruiser"
+			        "Concept 1", "Concept 2", "Vision", 
+			        "Urban EV", "City Commuter", "Adventure", 
+			        "Cargo EV", "Commercial EV", "Smart EV", 
+			        "Future EV", "Hybrid", "Electric Cruiser"
 			    )
 			);
 		
@@ -1592,15 +1639,15 @@ public class VehiculoService {
 		
 		motos.put("Qooder",
 			    List.of(
-			        "Qooder", "Qooder QV3", "Qooder QV4", "Qooder Oxygen", 
-			        "Qooder e-Qooder", "Qooder XQooder", "Qooder Nuvion", 
-			        "Qooder Urban", "Qooder City", "Qooder Adventure", 
-			        "Qooder Hybrid", "Qooder Pro", "Qooder Sport", 
-			        "Qooder Touring", "Qooder Cargo", "Qooder Utility", 
-			        "Qooder Concept 1", "Qooder Concept 2", "Qooder Vision", 
-			        "Qooder Future", "Qooder Smart", "Qooder Electric", 
-			        "Qooder Urban EV", "Qooder City EV", "Qooder Adventure EV", 
-			        "Qooder Cargo EV", "Qooder Utility EV"
+			        "QV3", "QV4", "Oxygen", 
+			        "e-Qooder", "XQooder", "Nuvion", 
+			        "Urban", "City", "Adventure", 
+			        "Hybrid", "Pro", "Sport", 
+			        "Touring", "Cargo", "Utility", 
+			        "Concept 1", "Concept 2", "Vision", 
+			        "Future", "Smart", "Electric", 
+			        "Urban EV", "City EV", "Adventure EV", 
+			        "Cargo EV", "Utility EV"
 			    )
 			);
 		
